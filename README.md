@@ -40,20 +40,37 @@ manual.config.yml                   ← manual metadata + ordered docId list
 dist/                               ← gitignored output (HTML, PDF, register.csv)
 ```
 
-## Numbering scheme (`ELB` prefix, PLAN.md §3.1)
+## Numbering scheme (`OMK-<TYPE>-<DEPT>-####`, PLAN v2 §3.1)
 
 | Category | Prefix | Example |
 |---|---|---|
-| Bound manual | `ELB-MAN` | `ELB-MAN-001` |
-| Standard operating procedure | `ELB-SOP` | `ELB-SOP-027` |
-| Policy | `ELB-POL` | `ELB-POL-009` |
-| Form (fillable) | `ELB-FORM` | `ELB-FORM-001` |
-| Log / worksheet | `ELB-LOG` | `ELB-LOG-008` |
-| Appendix | `ELB-APP` | `ELB-APP-A` |
+| Bound manual | `OMK-MAN-EMB` | `OMK-MAN-EMB-0001` |
+| Standard operating procedure | `OMK-SOP-EMB` | `OMK-SOP-EMB-0024` (ICSI) |
+| Policy | `OMK-POL-EMB` | `OMK-POL-EMB-0006` (consent) |
+| Form (fillable) | `OMK-FORM-EMB` | `OMK-FORM-EMB-0053` |
+| Log / worksheet | `OMK-LOG-EMB` | `OMK-LOG-EMB-0052` |
+| Appendix | `OMK-APP-EMB` | `OMK-APP-EMB-A` |
 
-IDs are assigned by **category sequence**, never by manual chapter order, so
-inserting a document never renumbers existing ones. Manual order lives in
-`manual.config.yml`.
+Dept is a single `EMB` for the whole lab. IDs are assigned by **type+dept
+register sequence**, never by manual chapter order, so inserting a document
+never renumbers existing ones. Manual order lives in `manual.config.yml`.
+The prior `ELB-*` scheme was migrated to `OMK-*` (see `MIGRATION.md`).
+
+## Ingesting a TFP source document
+
+Most clinical SOPs are **transformed from the TFP corpus** (PLAN v2 §8), not
+authored from scratch. Place the `.docx` in `source/tfp/` (gitignored — see
+`source/README.md`) and run:
+
+```bash
+npm run ingest -- --file "TFP ICSI SOP.docx" --as OMK-SOP-EMB-0024 --title "Intracytoplasmic Sperm Injection (ICSI)"
+```
+
+This writes the draft `content/sops/OMK-SOP-EMB-0024.md` (status Draft) and a
+`OMK-SOP-EMB-0024.transform.md` report of every stripped/flagged line. Clinical
+values, dish layouts, media, timings and witnessing steps are kept verbatim;
+Q-Pulse/HFEA/donor/surrogacy/multi-site framing is stripped or flagged. Review
+the report and complete front-matter before issue. **Nothing auto-publishes.**
 
 ## Authoring a new document
 
