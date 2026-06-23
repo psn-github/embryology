@@ -5,6 +5,7 @@
   "description": "Oxford Medical Kuwait — Embryology Laboratory controlled-document suite (Markdown source of truth → branded A4 PDF).",
   "type": "module",
   "scripts": {
+    "ingest": "node scripts/ingest.mjs",
     "lint": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
     "build:doc": "node scripts/render.mjs",
@@ -22,8 +23,11 @@
     "markdown-it-attrs": "^4.3.1"
   },
   "devDependencies": {
+    "mammoth": "^1.12.0",
     "pagedjs": "^0.4.3",
     "pagedjs-cli": "^0.4.3",
-    "puppeteer": "^23.0.0"
+    "puppeteer": "^23.0.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2"
   }
 }
