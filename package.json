@@ -1,0 +1,28 @@
+{
+  "name": "oxford-medical-embryology-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Oxford Medical Kuwait — Embryology Laboratory controlled-document suite (Markdown source of truth → branded A4 PDF).",
+  "type": "module",
+  "scripts": {
+    "lint": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "build:doc": "node scripts/render.mjs",
+    "build:manual": "node scripts/manual.mjs",
+    "build:register": "node scripts/register.mjs",
+    "build:docx": "node scripts/docx.mjs",
+    "watch": "node scripts/watch.mjs"
+  },
+  "author": "Oxford Medical Kuwait — Embryology Laboratory",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.3.1"
+  },
+  "devDependencies": {
+    "puppeteer": "^23.0.0",
+    "pagedjs-cli": "^0.4.3"
+  }
+}

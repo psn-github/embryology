@@ -1,0 +1,44 @@
+<!-- House SOP / Policy / Log / Appendix template (PLAN.md §3.3, §4).
+     Furniture is injected by scripts/lib/render-html.mjs. -->
+<article class="document {{bodyClass}}" {{{anchor}}}>
+
+  <!-- Running header element (placed in @top by brand.css) -->
+  <div class="running-header" role="presentation">
+    <span class="rh-logo">
+      <!-- TODO(brand): replace with Logo_01_RGB horizontal lockup -->
+      <img src="{{{logoHref}}}" alt="Oxford Medical" class="rh-logo-img" />
+    </span>
+    <span class="rh-doc">
+      <span class="rh-title">{{title}}</span>
+      <span class="rh-id">{{docId}}</span>
+    </span>
+  </div>
+
+  <!-- Running footer element -->
+  <div class="running-footer" role="presentation">
+    {{docId}} · v{{version}} · Effective {{effectiveDate}} ·
+    <span class="rf-controlled">CONTROLLED DOCUMENT — printed copies are uncontrolled unless stamped</span>
+  </div>
+
+  <!-- Watermark (DRAFT / SUPERSEDED) -->
+  <div class="watermark" aria-hidden="true">{{watermarkText}}</div>
+
+  <!-- First-page title + metadata block -->
+  <header class="doc-titleblock">
+    <p class="doc-eyebrow">{{site}} · {{department}}</p>
+    <h1 class="doc-title">{{title}}</h1>
+    <p class="doc-id-line">{{docId}}</p>
+    {{{metadataTable}}}
+    {{{changeHistory}}}
+  </header>
+
+  <!-- Authored body (fixed section order per §4) -->
+  <main class="doc-body">
+    {{{body}}}
+  </main>
+
+  <!-- Authorisation / signature block -->
+  <footer class="doc-signoff">
+    {{{signatureBlock}}}
+  </footer>
+</article>

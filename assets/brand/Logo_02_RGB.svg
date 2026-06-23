@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PLACEHOLDER — Oxford Medical vertical logo (manual cover).
+     TODO(brand): replace with the official Logo_02_RGB.svg from the Oxford
+     Medical v2.3 brand pack. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Oxford Medical (placeholder)">
+  <rect x="0" y="0" width="200" height="200" fill="none" stroke="#908375" stroke-dasharray="5 4" stroke-width="1"/>
+  <circle cx="100" cy="78" r="38" fill="none" stroke="#7A736A" stroke-width="2.5"/>
+  <text x="100" y="148" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#2B2620">Oxford</text>
+  <text x="100" y="172" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#2B2620">Medical</text>
+  <text x="100" y="190" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8" letter-spacing="2" fill="#908375">KUWAIT — PLACEHOLDER</text>
+</svg>

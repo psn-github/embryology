@@ -1,0 +1,80 @@
+# Bound-manual front-matter + ordered list of docIds (PLAN.md §6, §3.1).
+# Manual ordering is controlled HERE, independently of category sequence
+# numbering — inserting a new SOP never renumbers existing documents.
+
+docId: ELB-MAN-001
+title: Embryology Laboratory Manual
+subtitle: Standard Operating Procedures, Policies, Forms & Logs
+site: Oxford Medical Kuwait — Bneid Al-Qar
+version: "1.0"
+status: Draft
+effectiveDate: 2026-07-01
+approvedBy: Prof Scott M Nelson, Medical Director
+
+# Order in which documents appear in the bound manual. Grouped by domain
+# (PLAN.md §5). Any content file not listed here is appended at the end.
+order:
+  # A. Quality & governance
+  - ELB-SOP-001
+  - ELB-SOP-002
+  - ELB-SOP-003
+  - ELB-SOP-004
+  - ELB-SOP-005
+  - ELB-SOP-006
+  - ELB-SOP-007
+  # B. Laboratory environment & safety
+  - ELB-SOP-008
+  - ELB-SOP-009
+  - ELB-SOP-010
+  - ELB-SOP-011
+  - ELB-SOP-012
+  - ELB-SOP-013
+  - ELB-SOP-014
+  - ELB-SOP-015
+  # C. Identification, labelling & traceability
+  - ELB-SOP-016
+  - ELB-SOP-017
+  # D. Andrology
+  - ELB-SOP-018
+  - ELB-SOP-019
+  - ELB-SOP-020
+  - ELB-SOP-021
+  - ELB-SOP-022
+  - ELB-SOP-023
+  # E. Oocyte & embryo procedures
+  - ELB-SOP-024
+  - ELB-SOP-025
+  - ELB-SOP-026
+  - ELB-SOP-027
+  - ELB-SOP-028
+  - ELB-SOP-029
+  - ELB-SOP-030
+  - ELB-SOP-031
+  - ELB-SOP-032
+  # F. Cryobiology
+  - ELB-SOP-033
+  - ELB-SOP-034
+  - ELB-SOP-035
+  - ELB-SOP-036
+  - ELB-SOP-037
+  # G. Equipment & monitoring
+  - ELB-SOP-038
+  - ELB-SOP-039
+  - ELB-SOP-040
+  - ELB-SOP-041
+  - ELB-SOP-042
+  - ELB-SOP-043
+  - ELB-SOP-044
+  # Policies
+  - ELB-POL-001
+  - ELB-POL-002
+  - ELB-POL-003
+  - ELB-POL-004
+  - ELB-POL-005
+  - ELB-POL-006
+  - ELB-POL-007
+  - ELB-POL-008
+  - ELB-POL-009
+  # Appendices
+  - ELB-APP-A
+  - ELB-APP-B
