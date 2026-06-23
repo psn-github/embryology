@@ -54,6 +54,8 @@ function metadataTable(d) {
     ["Reviewed by", d.reviewedBy || "—"],
     ["Approved by", d.approvedBy],
     ["Supersedes", d.supersedes || "—"],
+    ["TFP source", d.sourceDoc || "—"],
+    ["Witness system", d.witnessSystem || "—"],
     ["Guideline references", Array.isArray(d.guidelineRefs) ? d.guidelineRefs.join("; ") : (d.guidelineRefs || "—")],
     ["Related documents", Array.isArray(d.relatedDocuments) ? d.relatedDocuments.join(", ") : (d.relatedDocuments || "—")],
   ];
@@ -124,6 +126,8 @@ export function renderDocumentHtml(doc, opts = {}) {
     title: d.title,
     version: d.version,
     effectiveDate: d.effectiveDate,
+    nextReviewDate: d.nextReviewDate,
+    issuedBy: d.author || "—",
     status: d.status,
     site: d.site,
     department: d.department,
