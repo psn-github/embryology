@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="{{{cssHref}}}" />
+</head>
+<body class="manual">
+
+  <!-- Cover -->
+  <section class="manual-cover">
+    <img src="{{{coverLogoHref}}}" alt="Oxford Medical" class="cover-logo" />
+    <p class="cover-eyebrow">{{site}}</p>
+    <h1 class="cover-title">{{title}}</h1>
+    <p class="cover-sub">{{subtitle}}</p>
+    <dl class="cover-meta">
+      <div><dt>Document ID</dt><dd>{{docId}}</dd></div>
+      <div><dt>Version</dt><dd>{{version}}</dd></div>
+      <div><dt>Effective</dt><dd>{{effectiveDate}}</dd></div>
+      <div><dt>Approved by</dt><dd>{{approvedBy}}</dd></div>
+    </dl>
+    <p class="cover-controlled">CONTROLLED DOCUMENT — printed copies are uncontrolled unless stamped</p>
+  </section>
+
+  <!-- Table of contents -->
+  <section class="manual-toc">
+    <h2>Contents</h2>
+    {{{toc}}}
+  </section>
+
+  <!-- Document register -->
+  <section class="manual-register">
+    <h2>Document register</h2>
+    {{{register}}}
+  </section>
+
+  <!-- Concatenated documents -->
+  {{{documents}}}
+
+</body>
+</html>
