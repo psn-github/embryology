@@ -22,7 +22,8 @@
     "markdown-it-attrs": "^4.3.1"
   },
   "devDependencies": {
-    "puppeteer": "^23.0.0",
-    "pagedjs-cli": "^0.4.3"
+    "pagedjs": "^0.4.3",
+    "pagedjs-cli": "^0.4.3",
+    "puppeteer": "^23.0.0"
   }
 }
