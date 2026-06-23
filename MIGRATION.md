@@ -1,6 +1,13 @@
-# ELB → OMK migration mapping (for approval)
+# ELB → OMK migration mapping
 
-**Status: PROPOSED — awaiting Scott's approval before any `git mv` / rename.**
+**Status: EXECUTED (2026-06).** Approved with two decisions applied: dept code
+collapsed to a single **`EMB`** (andrology ids became `OMK-SOP-EMB-00xx`), and
+the **equipment/QC + identification/chain-of-custody** SOPs were **kept** as OMK
+gap docs (ids `OMK-SOP-EMB-0007/0008` and `0060–0067`, logs `0061–0064`) rather
+than retired. Renames done via `git mv` (history preserved); 58 ELB drafts with
+no v2 home retired; 30 TFP-sourced entries created as stubs pending ingest.
+
+_Original proposal below (kept for the audit trail)._
 Per PLAN v2 §5 (the new source of truth). The v2 register is leaner than the
 86-document ELB AI-draft suite and renumbers to `OMK-<TYPE>-<DEPT>-####`, so
 this is a **remap**, not a 1:1 rename. Every existing ELB doc falls into one of:
