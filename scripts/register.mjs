@@ -16,6 +16,7 @@ const COLUMNS = [
   ["effectiveDate", "Effective"],
   ["nextReviewDate", "Next review"],
   ["approvedBy", "Approver"],
+  ["sourceDoc", "TFP source"],
 ];
 
 function csvCell(v) {

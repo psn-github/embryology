@@ -1,80 +1,80 @@
-# Bound-manual front-matter + ordered list of docIds (PLAN.md §6, §3.1).
-# Manual ordering is controlled HERE, independently of category sequence
-# numbering — inserting a new SOP never renumbers existing documents.
+# Bound-manual front-matter + ordered docId list (PLAN v2 §6, §3.1).
+# OMK-<TYPE>-<DEPT>-#### scheme, single EMB dept. Manual ordering is controlled
+# here, independently of register sequence.
 
-docId: ELB-MAN-001
+docId: OMK-MAN-EMB-0001
 title: Embryology Laboratory Manual
 subtitle: Standard Operating Procedures, Policies, Forms & Logs
-site: Oxford Medical Kuwait — Bneid Al-Qar
+site: Oxford Medical Kuwait
 version: "1.0"
 status: Draft
 effectiveDate: 2026-07-01
 approvedBy: Prof Scott M Nelson, Medical Director
 
-# Order in which documents appear in the bound manual. Grouped by domain
-# (PLAN.md §5). Any content file not listed here is appended at the end.
 order:
   # A. Quality & governance
-  - ELB-SOP-001
-  - ELB-SOP-002
-  - ELB-SOP-003
-  - ELB-SOP-004
-  - ELB-SOP-005
-  - ELB-SOP-006
-  - ELB-SOP-007
-  # B. Laboratory environment & safety
-  - ELB-SOP-008
-  - ELB-SOP-009
-  - ELB-SOP-010
-  - ELB-SOP-011
-  - ELB-SOP-012
-  - ELB-SOP-013
-  - ELB-SOP-014
-  - ELB-SOP-015
-  # C. Identification, labelling & traceability
-  - ELB-SOP-016
-  - ELB-SOP-017
-  # D. Andrology
-  - ELB-SOP-018
-  - ELB-SOP-019
-  - ELB-SOP-020
-  - ELB-SOP-021
-  - ELB-SOP-022
-  - ELB-SOP-023
-  # E. Oocyte & embryo procedures
-  - ELB-SOP-024
-  - ELB-SOP-025
-  - ELB-SOP-026
-  - ELB-SOP-027
-  - ELB-SOP-028
-  - ELB-SOP-029
-  - ELB-SOP-030
-  - ELB-SOP-031
-  - ELB-SOP-032
-  # F. Cryobiology
-  - ELB-SOP-033
-  - ELB-SOP-034
-  - ELB-SOP-035
-  - ELB-SOP-036
-  - ELB-SOP-037
-  # G. Equipment & monitoring
-  - ELB-SOP-038
-  - ELB-SOP-039
-  - ELB-SOP-040
-  - ELB-SOP-041
-  - ELB-SOP-042
-  - ELB-SOP-043
-  - ELB-SOP-044
+  - OMK-POL-EMB-0001   # Laboratory Code of Conduct
+  - OMK-SOP-EMB-0002   # Witnessing (3 identifiers + RI Witness)
+  - OMK-SOP-EMB-0003   # Laboratory–patient communication
+  - OMK-SOP-EMB-0004   # Recordkeeping & documentation control
+  - OMK-SOP-EMB-0005   # Deviation / non-conformance & CAPA
+  - OMK-SOP-EMB-0006   # Training & competency
+  - OMK-SOP-EMB-0007   # Identification & labelling
+  - OMK-SOP-EMB-0008   # Chain of custody
   # Policies
-  - ELB-POL-001
-  - ELB-POL-002
-  - ELB-POL-003
-  - ELB-POL-004
-  - ELB-POL-005
-  - ELB-POL-006
-  - ELB-POL-007
-  - ELB-POL-008
-  - ELB-POL-009
+  - OMK-POL-EMB-0002   # Exposure control & hazard communication
+  - OMK-POL-EMB-0003   # Manufacturer recalls & product alerts
+  - OMK-POL-EMB-0004   # Adverse events
+  - OMK-POL-EMB-0005   # Patient confidentiality
+  - OMK-POL-EMB-0006   # Informed consent
+  - OMK-POL-EMB-0007   # Cryostorage security & access
+  # B. Andrology
+  - OMK-SOP-EMB-0010   # Diagnostic semen analysis & post-vasectomy
+  - OMK-SOP-EMB-0011   # Sperm preparation for treatment
+  - OMK-SOP-EMB-0012   # Sperm freezing — patient's own
+  - OMK-SOP-EMB-0013   # IUI
+  # C. Oocyte & embryo procedures
+  - OMK-SOP-EMB-0020   # Dish preparation
+  - OMK-SOP-EMB-0021   # TVOR
+  - OMK-SOP-EMB-0022   # Conventional IVF insemination
+  - OMK-SOP-EMB-0023   # Denudation
+  - OMK-SOP-EMB-0024   # ICSI (incl. AOA & HOST)
+  - OMK-SOP-EMB-0025   # Fertilisation assessment
+  - OMK-SOP-EMB-0026   # Time-lapse imaging
+  - OMK-SOP-EMB-0027   # Embryo & blastocyst grading
+  - OMK-SOP-EMB-0028   # Blastocyst grading EQA / competency
+  - OMK-SOP-EMB-0029   # Embryo transfer
+  - OMK-SOP-EMB-0030   # PGT & blastocyst biopsy
+  - OMK-SOP-EMB-0031   # Blastocyst biopsy — training
+  - OMK-SOP-EMB-0032   # Thaw–biopsy–refreeze
+  # D. Cryobiology
+  - OMK-SOP-EMB-0040   # Blastocyst vitrification
+  - OMK-SOP-EMB-0041   # Oocyte vitrification
+  - OMK-SOP-EMB-0042   # Blastocyst warming
+  - OMK-SOP-EMB-0043   # Oocyte warming
+  - OMK-SOP-EMB-0044   # Egg thaw (legacy)
+  - OMK-SOP-EMB-0045   # LN₂ storage, tank monitoring & cryosecurity
+  # E. Equipment & QC (kept)
+  - OMK-SOP-EMB-0060   # QC & equipment maintenance (overview)
+  - OMK-SOP-EMB-0061   # Temperature monitoring
+  - OMK-SOP-EMB-0062   # Incubator temperature & CO₂ checks
+  - OMK-SOP-EMB-0063   # Digital gas analyser use
+  - OMK-SOP-EMB-0064   # Thermometer calibration
+  - OMK-SOP-EMB-0065   # pH meter calibration & use
+  - OMK-SOP-EMB-0066   # CO₂ incubator operation
+  - OMK-SOP-EMB-0067   # Laminar flow hood operation
+  # F. Forms, logs & worksheets
+  - OMK-FORM-EMB-0014  # Semen production declaration (bilingual)
+  - OMK-FORM-EMB-0015  # Semen analysis / freeze / SSR worksheet
+  - OMK-FORM-EMB-0050  # Fresh cycle laboratory worksheet
+  - OMK-FORM-EMB-0051  # FER worksheet
+  - OMK-FORM-EMB-0053  # Cryopreservation consent (bilingual)
+  - OMK-FORM-EMB-0054  # Specimen disposition / election (bilingual)
+  - OMK-LOG-EMB-0052   # Embryo culture continuation sheet
+  - OMK-LOG-EMB-0061   # Incubator QC log
+  - OMK-LOG-EMB-0062   # Gas analyser QC log
+  - OMK-LOG-EMB-0063   # Calibration log
+  - OMK-LOG-EMB-0064   # LN₂ fill / tank monitoring log
   # Appendices
-  - ELB-APP-A
-  - ELB-APP-B
+  - OMK-APP-EMB-A      # Setpoint register
+  - OMK-APP-EMB-B      # Source & reference bibliography
