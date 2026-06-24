@@ -32,11 +32,11 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>13/02/2020</p></td><td colspan="2"><p>EmbryoGlue expiry dates added</p></td></tr><tr><td><p>3.0</p><p>4.0</p></td><td><p>11/08/2021</p><p>01/10/2021</p></td><td colspan="2"><p>Injected oocytes move into ES+ GTL post injection. Intermediary 40mm GTL dish can be used to collect injected oocytes into during the procedure. ES+ GTL dish requires a minimum of 6 hours equilibration in a gassed incubator. Recommendations added on pipetting fully hatched blastocysts.</p><p>Labelling of dishes/tubes updated to include the use of 3 identifiers. Thaw dish can have 6-9 x 40µl droplets, depending on how many oocytes/embryos or blastocysts are being thawed.</p></td></tr><tr><td><p>5.0</p><p>6.0</p></td><td><p>14/02/2022</p><p>30/03/2022</p></td><td colspan="2"><p>Date of opening to be noted on the bottle. Any additions to the media e.g. heparin added, also to be noted on the bottle. Timing of dish/tube preparation section expanded to include flexibility to prepare dishes/tubes on Saturday for Monday if no laboratory staff on site on Sunday.</p><p>Thaw biopsy refreeze embryos to be placed into an ES+ GTL dish. Staff not to discard empty/unused dishes without first checking whether they are required for patient use.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To outline the procedure for the preparation of culture dishes and tubes used in treatment. To ensure the correct media is used for gametes/embryos at the different stages of development. To prevent microbial contamination of culture dishes. To ensure dishes/tubes are correctly labelled.
 
-#### Scope
+## Scope
 
 The SOP is applicable to all embryologists and practitioners deemed competent to perform dish preparation. Including:
 
@@ -57,7 +57,7 @@ The SOP is applicable to all embryologists and practitioners deemed competent to
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 ES + Embryoscope Plus
 
@@ -73,7 +73,7 @@ FER Frozen Embryo Replacement
 
 SSR Surgical Sperm Retrieval
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -91,9 +91,9 @@ All Staff
 
 All staff re responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment Required:**
 
@@ -134,7 +134,7 @@ All staff re responsible for following the process laid out in this document, en
 -   Syringes for flushing (optional)
 -   Kwills for Loading Syringes for flushing (optional)
 
-##### 5.2 General Guidance
+### 5.2 General Guidance
 
 All dishes/tubes containing gametes or embryos must be labelled with the patient’s full name, clinic number and D.O.B. as standard (except tubes used for collection of follicular fluid at TVOR).
 
@@ -178,7 +178,7 @@ Validation of Vitrolife culture media demonstrates product stability of up to 14
 
 Prior to the disposal of any empty dishes, checks should be made to ensure that they are not required for patient treatment. It is the responsibility of the operator performing the procedure to ensure the correct dishes are available prior to commencement of the procedure. Empty dishes can be discarded without the need for a second witness.
 
-##### 5.3 G MOPS+ TVOR Centre Well Dishes, prepared p.m. on the day before TVOR
+### 5.3 G MOPS+ TVOR Centre Well Dishes, prepared p.m. on the day before TVOR
 
 Prepare 1 x G MOPS+ Centre Well Dishes per 6 follicles up to a maximum of three dishes (thereafter the dishes are rotated). Pipette 1ml of G MOPS+ into each dish and quickly overlay with 1ml of oil.
 
@@ -196,7 +196,7 @@ If flushing is required (≤3 follicles of ≥10mm at the point of trigger), pre
 
 Figure 1: GMOPS\+ TVOR Dish
 
-##### 5.4 GIVF+ 5 well dishes, prepared p.m. on the day before TVOR.
+### 5.4 GIVF+ 5 well dishes, prepared p.m. on the day before TVOR.
 
 **_ICSI_**
 
@@ -226,7 +226,7 @@ Culture up to 4 oocytes per drop. Place in a gassed incubator to equilibrate ove
 
 Figure 3: G1+ Post Denudation 40mm Dish
 
-##### 5.6 GTL Post ICSI Dishes/Thaw Biopsy Refreeze Dish
+### 5.6 GTL Post ICSI Dishes/Thaw Biopsy Refreeze Dish
 
 **5.6.1 Intermediary 40mm GTL Post ICSI dish, prepared the day before the TVOR, usage optional**
 
@@ -264,7 +264,7 @@ Figure 5: ES+ GTL Dish
 
 Prepare one ES+ GTL dish per Thaw Biopsy Refreeze case. Prepare as described above in 5.6.2
 
-##### 5.7 GMOPS+ 40mm Hyase Dishes, prepared a.m. the morning of the TVOR
+### 5.7 GMOPS+ 40mm Hyase Dishes, prepared a.m. the morning of the TVOR
 
 Prepare the Hyase by adding 0.9ml of GMOPS+ to the Hyase vial and gently inverting twice.
 
@@ -282,7 +282,7 @@ Drops
 
 Figure 6: GMOPS+ 40mm Hyase Dish
 
-##### 5.8 GMOPS+ ICSI Dish, prepared a.m. the morning of the TVOR
+### 5.8 GMOPS+ ICSI Dish, prepared a.m. the morning of the TVOR
 
 For each patient prepare 1 x ICSI dish per 4-6 oocytes up to a maximum of three dishes. Dishes are re-used for the same patient thereafter.
 
@@ -298,7 +298,7 @@ Overlay with 5-6mls of oil and warm in an ungassed incubator for a minimum of 1 
 
 Figure 7: ICSI Dish
 
-##### 5.9 GMOPS+ Lake ICSI Dishes, prepared a.m. the morning of the TVOR
+### 5.9 GMOPS+ Lake ICSI Dishes, prepared a.m. the morning of the TVOR
 
 For each patient prepare 1-2 x Lake dishes. Lake dishes are used for severe oligo/asthenozoospermic samples.
 
@@ -316,7 +316,7 @@ If Sperm Mobil is to be used add 2µl of Sperm Mobil to the strips of GMOPS+ whe
 
 Figure 8: Lake Dish Set-up
 
-##### 5.10 ES+ GTL Post Fertilisation Dish for IVF Cases, made p.m. day of TVOR
+### 5.10 ES+ GTL Post Fertilisation Dish for IVF Cases, made p.m. day of TVOR
 
 ICSI cases will have been placed in GTL post injection and can be cultured until Day 5 or 6 (depending on when the GTL dish was made) without the need for medium change.
 
@@ -330,7 +330,7 @@ For IVF cases, post fertilisation they must be moved into an ES+ GTL dish. As th
 
 Figure 9: ES+ GTL Dish
 
-##### 5.11 Post Thaw Dish, prepared p.m. day before the thaw
+### 5.11 Post Thaw Dish, prepared p.m. day before the thaw
 
 For oocyte thaws, prepare a 40mm G1+ dish to be used immediately post thaw (as seen in section 5.5). Following injection, move to an ES+ GTL dish (with or without the intermediary 40mm GTL dish). See section 5.6.
 
@@ -348,7 +348,7 @@ Figure 10: 40mm G2+ Dish
 
 _Note: Blastocysts that have been thawed for subsequent biopsy and refreeze are cultured in an ES+ dish (see 5.6.3)_
 
-##### 5.12 G2+ or Embryo Glue Centre Well Embryo Transfer Dish, media/dish prepared p.m. day before Embryo Transfer
+### 5.12 G2+ or Embryo Glue Centre Well Embryo Transfer Dish, media/dish prepared p.m. day before Embryo Transfer
 
 Prepare 1 x 1ml of Embryo Glue or G2+, depending upon the patient’s request, in a 5ml test tube. Additionally prepare 1 x 1ml G2+ in a 5ml test tube for rinsing the catheter.
 
@@ -366,7 +366,7 @@ Figure 11: Embryo Transfer Dish
 
 _Additional Note: An embryo transfer dish may be prepared with 1ml of G2+/EmbryoGlue overlaid with 1ml of oil if the above method is not practical due to the timings required/equipment available. The oil covered embryo transfer dish must be made the day before the embryo transfer and equilibrated in gassed incubator overnight._
 
-##### 5.13 GMOPS+ plus Heparin SSR Dishes, Centre well & 60mm Culture dishes, media prepared p.m. on the day before the SSR
+### 5.13 GMOPS+ plus Heparin SSR Dishes, Centre well & 60mm Culture dishes, media prepared p.m. on the day before the SSR
 
 Prepare 2 x 12.5mls of GMOPS+ with Heparin in 14mm test tubes per SSR and place into an ungassed incubator to warm overnight (20µl Heparin is added to each 12.5ml tube of GMOPS+).
 
@@ -376,7 +376,7 @@ Immediately prior to the SSR procedure, place the empty SSR dishes on a heated s
 
 Keep the dishes on the heated stage during the procedure.
 
-##### 5.14 GIVF+ Conical Tubes for Sperm Preparation, prepared p.m. of the day before TVOR
+### 5.14 GIVF+ Conical Tubes for Sperm Preparation, prepared p.m. of the day before TVOR
 
 Prepare 2 pre-labelled conical tubes with GIVF+, 1 x 2ml and 1 x 4ml. The 2ml is used for the first wash step and the 4ml is for the second 2.0ml wash and a further 1ml to resuspend the final sample ready for insemination (1ml). The final 1ml can be used to dilute the stock solution if required.
 
@@ -384,7 +384,7 @@ Equilibrate in a gassed incubator overnight.
 
 Puresperm100 is diluted with GIVF+ to a concentration of 80% & 40% and is used to make 80:40 density gradients. See Oxford Medical Kuwait Sperm Preparation SOP.
 
-##### 5.15 Pipetting Best Practice
+### 5.15 Pipetting Best Practice
 
 Do not carry all the patient’s oocytes/embryos in the pipette at any one time (only exception is when there is only one oocyte/embryo).
 
@@ -400,12 +400,12 @@ Do not carry the oocytes/embryos too close to the tip of the pipette.
 
 When handling fully hatched blastocysts, ensure a large pipette is used and a minimal amount of pressure is applied to the blastocyst. Handling must also be kept to a minimum. If the blastocyst is known to be hatched, alert the patient in advance of the increased risk of damage during handling.
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 Monitor incidence of contamination in dishes
 
 6-12 Monthly pH Assessment of GTL
 
-#### Monitoring
+## Monitoring
 
 A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP at least once annually. Any deviation will be discussed at team meetings.

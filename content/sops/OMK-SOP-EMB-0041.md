@@ -32,20 +32,20 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>ALL LABORATORY STAFF</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p></td><td><p>10/05/2020</p><p>01/10/2021</p><p>08/01/2023</p></td><td colspan="2"><p>Oil overlay added to dish (excluding Vitri 3)</p><p>Witnessing updated to include the use of three identifiers. Two droplets of Vitri 3 increased in size to 50µl in line with manufacturers guidelines</p><p>Section 6 extended to include additional KPI’s.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 
-#### Scope
+## Scope
 
 Applicable to all Embryologists and practitioners deemed competent to carry out vitrification of oocytes:
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 PPE Personal Protective Equipment
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -63,9 +63,9 @@ All Staff
 
 All staff re responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -87,7 +87,7 @@ All staff re responsible for following the process laid out in this document, en
 -   Oil
 -   RI Witness Tags
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to the vitrification procedure the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -99,7 +99,7 @@ Fill the Rapid I Cryobox and a dilvac with liquid nitrogen. Ensure appropriate P
 
 Ensure the heat sealer is closely situated and switched on.
 
-##### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
+### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
 
 
 Check the required Kuwait MoH forms have (or country specific equivalent) been completed providing consent to oocyte freezing.
@@ -109,7 +109,7 @@ Oocyte vitrification requires a second witness to be used alongside RI witness.
 For vitrification of the patients own oocytes, check the patient’s full name, clinic number and D.O.B. on the G1+ Post Denudation dish and vitrification dishes matches that on the laboratory notes and RI witness system. Check the patient’s full name, clinic number, D.O.B. and date of vitrification on the Rapid I straws and visi/cassette match that on the laboratory notes and RI witness system. Each straw must be labelled with the number of oocytes contained within. Approve these checks on the RI witness system and both operator and witness must sign for these checks.
 
 
-##### 5.4 Preparation of Dishes
+### 5.4 Preparation of Dishes
 
 Prepare the oocyte vitrification dishes 30-60 minutes prior to use (validate time period required locally) and allow to warm in an ungassed incubator to 37◦C. Prepare one oocyte vitrification dish per 3 Rapid I’s to be used. One ICSI dish is also required for every oocyte vitrification dish.
 
@@ -121,11 +121,11 @@ Vitri 3
 
 Figure 1: Vitrification dish set-up
 
-##### 5.4 Timing of Vitrification Procedure
+### 5.4 Timing of Vitrification Procedure
 
 Perform oocyte vitrification 3 hours post oocyte collection ± 30 minutes.
 
-##### 5.5 Cryoprotectant Exposure Times
+### 5.5 Cryoprotectant Exposure Times
 
 Vitrolife Rapid Vit Oocyte
 
@@ -135,7 +135,7 @@ Vitrolife Rapid Vit Oocyte
 
 **Vitri3:** Exposure time 35 seconds
 
-##### 5.6 Preparation for the Procedure
+### 5.6 Preparation for the Procedure
 
 Label sufficient Rapid I’s for the number of oocytes to be vitrified.
 
@@ -144,7 +144,7 @@ Label sufficient Rapid I’s for the number of oocytes to be vitrified.
 
 Enter the storage location(s) in IDEAs. Prepare a storage card if required.
 
-##### 5.7 Procedure
+### 5.7 Procedure
 
 Maintenance of a temperature of 37◦C is crucial during oocyte vitrification. Temperature can be maintained using either a heated stage or an ungassed G85/incubator.
 
@@ -178,7 +178,7 @@ Clear the flowhood of any used consumables. Use Oosafe spray to clean the flowho
 
 Complete the laboratory and witnessing records.
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 Oocyte Survival ≥90%
 
@@ -190,8 +190,8 @@ Good Blastocyst Formation Rate (A/B/C Day 5 or 6) ≥25%
 
 KPI’s with  oocytes are expected to meet the lower limits above. KPI’s with own oocytes may be lower depending on patient age, patient history.
 
-#### Monitoring
+## Monitoring
 
-#### A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP once annually.
+## A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP once annually.
 
-#### Each laboratory manager is responsible for monitoring the operator’s oocyte survival rates within their clinic. Any deviation will be discussed at team meetings or supervision meetings.
+## Each laboratory manager is responsible for monitoring the operator’s oocyte survival rates within their clinic. Any deviation will be discussed at team meetings or supervision meetings.

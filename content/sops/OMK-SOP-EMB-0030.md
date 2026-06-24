@@ -32,7 +32,7 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>06/10/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>25/03/2022</p></td><td colspan="2"><p>Consolidation and formatting throughout.</p><p>Removal of section 5.3 Kuwait MoH regulation</p><p>Removal of section 5.4 Clinical indications for PGT</p><p>5.2 PCR rack to have patient details (partner optional). bPCR tubes to be labelled with embryo number and patient initials.</p><p>5.3 Note that vitirification SOP non-conformance to be reported if &lt;C embryo biopsied and vitrified.</p><p>5.4 to check upcoming cases with IDEAs and preference for a nursing or clinical PGT co-ordinator.</p><p>5.6 Vitrification dish reference removed as covered in vitrification SOP. Update biopsy and tubing dish layout (PVP optional)</p><p>5.9 Assisted hatching section removed and mentioned in 5.4.</p><p>5.10 Laser opening size of 6-10µm replaced with 5-20µm. Removed statement that cryostraws must be labelled prior to biopsy. Included statement that embryo must be well separated throughout vitrification. Vitrification to be performed after biopsy or tubing.</p><p>5.11 Removed “tubing must be completed whilst in Vit solution 1”.</p><p>5.12 Referenced to laser manufacturer’s guidelines for recalibration. Added chilled rack, removed Eppendorf ice rack, added new tip or thorough rinsing should be used for each biopsy sample. Wash dish should not be placed directly on heated stage.</p><p>5.13 Thaw biopsy Refreeze blastocysts to be placed in a GTL ES+ dish same as other embryos for biopsy</p><p>5.15 Updated results including new mosaic reporting strategy and changed wording to not “advised”.</p><p>5.19 Updated Contact details</p><p>5.20 Removed (covered elsewhere, details in the reference literature)</p></td></tr><tr><td><p>3.0</p></td><td><p>29/07/2022</p></td><td colspan="2"><p>5.6 60mm dish replaced with flat bottomed dish. Prepare one biopsy and tubing dish per sample.</p><p>PVP drop size reduced from 15 to 10µl.</p><p>5.11 Preferential volume of 2.5-3µl of media added to tube.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 The primary objective of this SOP is to outline the biopsy procedure and associated techniques such as tubing and vitrification. Blastocyst biopsy for PGT analysis is the process whereby trophectoderm cells are removed from the blastocyst and subject to genetic analysis. The technique is used to provide a source of DNA for preimplantation genetic testing of embryos created in the IVF laboratory.
 
@@ -46,13 +46,13 @@ The purpose of PGT-M is to identify embryos with a particular haplotype, based u
 
 Only tests authorised by the Kuwait MoH may be used to genetically test embryos. In addition, it is not permitted to use information derived from genetic tests to select embryos of a particular sex for social reasons.
 
-#### Scope
+## Scope
 
 Applicable to all laboratory staff deemed competent to perform biopsy.
 
 PGD Labs (Kuwait) are not the nominated genetics providers for clinics in Kuwait. The provider is yet to be selected.
 
-#### Definitions
+## Definitions
 
 PGT Pre-implantation genetic testing
 
@@ -86,7 +86,7 @@ Polyploidy Extra copy(ies) of the entire chromosome complement.
 
 Segmental Duplication or deletion of a specific segment of, but not the whole, chromosome.
 
-#### Responsibilities
+## Responsibilities
 
 -   General Manager
 
@@ -106,9 +106,9 @@ Are responsible for following the process laid out in this document, ensure they
 
 1.  **Procedure**
 
-#### 5.1 Equipment & Consumables Required
+## 5.1 Equipment & Consumables Required
 
-###### Equipment/Consumables
+#### Equipment/Consumables
 
 -   Serological pipette
 -   Biopsy pipette
@@ -132,7 +132,7 @@ Are responsible for following the process laid out in this document, ensure they
 -   Micro centrifuge
 -   Ambi-plate
 
-###### Dishes/Media Required
+#### Dishes/Media Required
 
 -   -   Vitrolife ICSI dish
     -   Vitrolife 5 well dish
@@ -144,7 +144,7 @@ Are responsible for following the process laid out in this document, ensure they
     -   GMOPS+
     -   Oil
 
-#### 5.2 Equipment and consumables checks
+## 5.2 Equipment and consumables checks
 
 Prior to the start of the procedure the equipment to be used must be checked to ensure it is operating optimally:
 
@@ -157,11 +157,11 @@ Prior to the start of the procedure the equipment to be used must be checked to 
     -   Ensure that Cooper’s PCR rack is labelled with patient details.
     -   Ensure that Cooper’s PCR rack contains the relevant PCR tubes labelled with Cooper’s QR code sticker and the hand-written embryo number is clear.
 
-#### 5.3 Blastocysts suitable for trophectoderm biopsy:
+## 5.3 Blastocysts suitable for trophectoderm biopsy:
 
-#### All blastocysts grade C or above are suitable for biopsy. Embryos with lower score can be biopsied at embryologist’s discretion following full discussion with the patient.
+## All blastocysts grade C or above are suitable for biopsy. Embryos with lower score can be biopsied at embryologist’s discretion following full discussion with the patient.
 
-#### 5.4 Considerations and required paperwork before starting treatment
+## 5.4 Considerations and required paperwork before starting treatment
 
 Each laboratory is responsible for checking upcoming biopsy cycles using IDEAS and preferably in conjunction with a PGT-nurse/clinical co-ordinator. Relevant progress notes should be created on the patient file.
 
@@ -171,7 +171,7 @@ For PGT-A requisitions on the PGTaiSM 2.0 platform, ensure that “PGT-A via PGT
 
 All PGT cycles should use time-lapse incubation where possible for easier laboratory organisation on the day of the biopsy where possible. TBR cases may be either traditional or time-lapse incubated.
 
-##### On Day 0:
+### On Day 0:
 
 IVF or ICSI can be routinely performed for PGT-A cases using the PGTai 2.0 platform.
 
@@ -181,15 +181,15 @@ ICSI must be performed for PGT-M and male PGT-SR cases.
 
 CooperGenomics do accept some cases of IVF in PGT-M but these MUST be agreed prior to cycle start on a case-by-case basis.
 
-##### On Day 1:
+### On Day 1:
 
 Corona cells must be completely removed from the zona pellucida during denudation/fertilization check to avoid DNA cross contamination.
 
-##### On Day 3-7:
+### On Day 3-7:
 
 Assisted hatching can be performed on day 3, 4, 5, 6 or 7 as per laboratory preference.
 
-#### 5.5 Witnessing
+## 5.5 Witnessing
 
 For full details of PGT-A witnessing requirements please refer to Oxford Medical Kuwait Witnessing procedure (TFP1-SOP-EMB-0028). In summary the following witness steps are required during the biopsy and vitrification:
 
@@ -199,7 +199,7 @@ For full details of PGT-A witnessing requirements please refer to Oxford Medical
 -   Rapid I barcode label checked against vitrification dish – three patient identifiers (including embryo number) confirmed alongside RI and a second witness.
 -   At the end of the procedure, Rapid I barcode label(s) checked against Visitube / cassette label. Visitube / cassette placed in correct storage location. confirmed alongside second witness.
 
-#### 5.6 Biopsy Dish Preparation
+## 5.6 Biopsy Dish Preparation
 
 Prepare biopsy dishes a minimum of 1 hour prior to use and warm in an un-gassed incubator. Prepare one biopsy and tubing dish per blastocyst.
 
@@ -253,9 +253,9 @@ At x40 both biopsy and holding pipettes should be in focus, have a central posit
 
 Raise both pipettes so that the biopsy dish can be placed on the heated stage with ease.
 
-#### 5.8 Hood Set Up
+## 5.8 Hood Set Up
 
-#### Clearly label each biopsy dish with the embryo number, patient name, DOB and unique identifier before placing the dishes in a non- gassed incubator for a minimum of one hour.
+## Clearly label each biopsy dish with the embryo number, patient name, DOB and unique identifier before placing the dishes in a non- gassed incubator for a minimum of one hour.
 
 Prepare a 200\*-290µl pre-pulled pipette for blastocyst manipulation during the biopsy and use a 130-145µl flexi pipette for the trophectoderm samples as necessary or wash your flexi pipette thoroughly before taking biopsied cells.
 
@@ -267,7 +267,7 @@ The bag containing the PCR tubes must be opened inside the flow-hood to maintain
 
 The laser should be aligned, and the size of the pulse calibrated 6-12 months. Several factors can modify these parameters, but the most common are IT updates or aging lasers. Calibrate laser according to the manufacturer’s guidelines. If calibration is not possible, risk assess and discuss with Head of Department.
 
-#### 5.10 Blastocyst Biopsy
+## 5.10 Blastocyst Biopsy
 
 Wash the first blastocyst to be biopsied and place it in the biopsy dish labelled with the same embryo number.
 
@@ -290,7 +290,7 @@ Use pre-prepared vitrification dishes in accordance with Oxford Medical Kuwait B
 -   -   Each straw must only contain one biopsied blastocyst.
     -   Straws must be labelled/witnessed with the patient’s full name, unit number, freeze date and **unique embryo number**.
 
-#### 5.11 Tubing
+## 5.11 Tubing
 
 Wearing gloves and with the aid of a pipettor, prepare the dishes for tubing following the layout described earlier. DO NOT COVER WITH OIL. Maintain at room temperature, do not place on heated stage.
 
@@ -304,7 +304,7 @@ N.B. If a separate ice rack has been used during tubing, a witness should be ask
 
 Clear the flow-hood and micromanipulator of any used consumables. Use Oosafe to clean the surfaces. Complete the relevant embryology notes, witnessing records and IDEAS database.
 
-#### 5.12 Paperwork, Packaging and Transportation
+## 5.12 Paperwork, Packaging and Transportation
 
 Complete all sections of the Cooper Genomics (CG) Biopsy Worksheet sheet and place a copy inside the embryo biopsy kit supplied by CG or email directly to globalsupport@coopergenomics.com. It is imperative that numbering on the microtubes is consistent with the numbering on the biopsy paperwork. Any discrepancies between the numbering may result in sample rejection by CG.
 
@@ -328,7 +328,7 @@ Warming should be performed in line with the warming SOP and embryos cultured po
 
 In some PGT-M cases where there is a lack of reference DNA from affected parents, the use of arrested embryos may be necessary (usually for autosomal dominant cases). Arrested embryos are tubed and sent to the genetics lab with the biopsy samples. The couple may need further cycles before the results can be reported if there are insufficient arrested embryos to test. Embryos should be zoneless/well breached.
 
-#### 5.15 PGT Results - New Oxford Medical Kuwait Reporting Thresholds
+## 5.15 PGT Results - New Oxford Medical Kuwait Reporting Thresholds
 
 ### PGT-SR Standard Reporting
 
@@ -364,9 +364,9 @@ PGT-A can be performed in conjunction with PGT-SR and PGT-M testing. In line wit
 
 ### PGT-A Reporting
 
-##### **Default:** The Oxford Medical Kuwait reporting strategy for PGT-A is based on whole chromosome, segmental or ‘special chromosome’ changes. Each embryo will yield either a Euploid or Aneuploid result based on the euploid:aneuploid thresholds below.
+### **Default:** The Oxford Medical Kuwait reporting strategy for PGT-A is based on whole chromosome, segmental or ‘special chromosome’ changes. Each embryo will yield either a Euploid or Aneuploid result based on the euploid:aneuploid thresholds below.
 
-##### Whole Chromosome ≤60% = Euploid >60% = Aneuploid
+### Whole Chromosome ≤60% = Euploid >60% = Aneuploid
 
 Segmental Changes ≤80% = Euploid >80% = Aneuploid
 
@@ -378,7 +378,7 @@ Aneuploid: chromosome constitution differs from the expected. **NOT advised for 
 
 Mosaic Reporting Option: Referring clinicians can specifically request mosaic reporting for PGT-A cases if they feel it is clinically relevant. Results will then be reported as described below:
 
-###### _PGT-A, if Mosaic Reporting Requested_
+#### _PGT-A, if Mosaic Reporting Requested_
 
 Euploid: expected chromosome complement in >80% of the cells. **Suitable for transfer.**
 
@@ -403,7 +403,7 @@ No Result: The laboratory is unable to obtain a result for a particular sample. 
 
 \*
 
-#### 5.16 Reporting Results
+## 5.16 Reporting Results
 
 CooperGenomics email results within 4 weeks. Upon receipt, results should be updated onto IDEAs, the report attached to patient documents and progress note updated where appropriate.
 
@@ -413,7 +413,7 @@ Results should be communicated as per local pathway.
 
 Patients should be booked for a follow-up consultation to either plan a Frozen Embryo Transfer cycle (if transferable embryos available) or to discuss future treatment plans if no result, possible transfer or no transferable embryos are available. Patients can be offered further counselling.
 
-#### 5.17 Technical limitations of PGT
+## 5.17 Technical limitations of PGT
 
 PGT-A via NGS, has an accuracy rate of >97% and cannot guarantee a chromosomally normal offspring. It cannot detect rearrangements <5MB in size.
 
@@ -423,7 +423,7 @@ PGT-M testing is reported to have an accuracy rate >95% but cannot guarantee a c
 
 PGT-A, SR or M does not replace the recommendation for conventional pre-natal testing where it would be clinically indicated. Genetic counselling is also strongly recommended.
 
-#### 5.18 Counselling
+## 5.18 Counselling
 
 Patients should be advised of the limitations of the techniques used for PGT. They should be fully aware that any genetic test based on sampling one or a small number of cells biopsied from preimplantation embryos cannot be 100% accurate for a combination of technical and biological factors.
 
@@ -431,7 +431,7 @@ Patient information and consent forms for PGT should include all potential test 
 
 Cooper Genomics has a genetic counseling service. To refer a patient to them, provide the patient’s contact details (email and contact number) to Cooper Genomics global support and they will contact the patient. Genetic counselling from Cooper Genomics is included in the Oxford Medical Kuwait PGT-SR and PGT-M pricing.
 
-#### 5.19 Contact Details
+## 5.19 Contact Details
 
 Global support
 

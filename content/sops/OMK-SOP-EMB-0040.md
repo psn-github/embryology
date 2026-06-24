@@ -32,21 +32,21 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic, Group Director of Embryology</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>10/05/2020</p></td><td colspan="2"><p>Oil overlay added (excluding Vitri 3)</p></td></tr><tr><td><p>3.0</p><p>4.0</p><p>5.0</p></td><td><p>20/05/2021</p><p>02/10/2021</p><p>29/07/2022</p></td><td colspan="2"><p>Additional details added about how to collapse blastocysts. Additional witnessing checks added for split cycles.</p><p>Witnessing checks updated to include the use of three identifiers</p><p>Direct cleavage/reverse cleavage embryos that form blasts A-C can be vitrified. Pipette range adjusted to include a 200-310µl pipette for use in Vitri 1 and Vitri2</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To describe the procedure for vitrifying blastocysts using the Rapid I device with Vitrolife vitrification kits. Blastocyst cryopreservation can be used to preserve fertility or store blastocysts following treatment. Excess blastocysts can be stored following embryo transfer or a ‘freeze all’ strategy may be adopted for medical reasons.
 
-#### Scope
+## Scope
 
 Applicable to all Embryologists and practitioners trained to carry out vitrification of blastocysts:
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 PPE Personal Protective Equipment
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -64,9 +64,9 @@ All Staff
 
 All staff are responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables required
+### 5.1 Equipment & Consumables required
 
 **Equipment/Consumables Required**
 
@@ -91,7 +91,7 @@ All staff are responsible for following the process laid out in this document, e
 -   RI Witness Tags
 -   Bar Code Labels (optional)
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to the vitrification procedure the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -103,7 +103,7 @@ Fill the Rapid I Cryobox and a dilvac with liquid nitrogen. Ensure appropriate P
 
 Ensure the heat sealer is present and switched on.
 
-##### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
+### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
 
 Before beginning the Vitrification process check the laboratory notes to ensure that blastocyst vitrification is indicated.
 
@@ -114,7 +114,7 @@ Blastocyst vitrification requires a second witness to be used alongside RI witne
 Check the patient’s full name, clinic number and D.O.B. on the GTL culture dish matches the vitrification dish, laboratory notes and RI witness system. In addition, check the patient’s full name, clinic number, D.O.B. and date of vitrification on the Rapid I straws and visi/cassette match that on the laboratory notes and RI witness system. Each straw must be labelled with the number of blastocysts and the grade of the blastocyst/well number. Approve these checks on the RI witness system and both operator and witness must sign for these checks.
 
 
-##### 5.4 Preparation of Dishes
+### 5.4 Preparation of Dishes
 
 Prepare the Blastocyst collapsing & Vitrification dishes 30-60 minutes prior to use (validate time period required locally) and warm in an ungassed incubator.
 
@@ -132,7 +132,7 @@ Optional collapsing dish: prepare one 40mm dish for collapsing blastocysts prior
 
 One ICSI dish is also required for every 5 well dish for the loading procedure.
 
-##### 5.5 Timing of Vitrification Procedure & Selection of Blastocysts
+### 5.5 Timing of Vitrification Procedure & Selection of Blastocysts
 
 Perform blastocyst vitrification on Day 5 or Day 6 of embryo culture.
 
@@ -140,7 +140,7 @@ Blastocysts graded A-C are considered suitable for vitrification.
 
 Blastocysts that have shown a pattern of reverse cleavage or direct cleavage are suitable for freezing/biopsy should they reach a grade A-C. They should however be considered ‘low priority’ for transfer.
 
-##### 5.6 Cryoprotectant Exposure Times
+### 5.6 Cryoprotectant Exposure Times
 
 Vitrolife Rapid Vit Blast
 
@@ -150,7 +150,7 @@ Vitri2: Exposure time 2 minutes
 
 Vitri3: Exposure time 45 seconds
 
-##### 5.7 Preparation for the Procedure
+### 5.7 Preparation for the Procedure
 
 Label sufficient Rapid I’s for the number of blastocysts to be vitrified. 1-2 blastocysts can be placed on each Rapid I. Different coloured Rapid I’s can be used to denote singles/doubles or blastocysts of different grades.
 
@@ -158,7 +158,7 @@ Identify a location for the samples within the cryostore based on the patient’
 
 Enter the storage location(s) in IDEAs. Prepare a storage card if required.
 
-##### 5.8 Collapse the Blastocyst Prior to Vitrification
+### 5.8 Collapse the Blastocyst Prior to Vitrification
 
 Blastocysts must be laser or manually collapsed prior to vitrification.
 
@@ -176,7 +176,7 @@ Equivalent settings for the Saturn laser are approximately pulse width 0.395ms, 
 
 Immediately proceed to vitrification once the laser collapsing has been completed.
 
-##### 5.9 Vitrification Procedure
+### 5.9 Vitrification Procedure
 
 Maintenance of a temperature of 37◦C is crucial during blastocyst vitrification. Temperature can be maintained either using a heated stage or an ungassed G85/incubator.
 
@@ -208,13 +208,13 @@ Transfer the vitrified blastocysts to the designated storage location in the nit
 
 Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 Blastocyst Survival ≥50% Cells Intact ≥90%
 
-#### Monitoring
+## Monitoring
 
-#### A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP once annually.
+## A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP once annually.
 
 Each laboratory manager is responsible for monitoring each operator’s blastocyst survival rates within their clinic. Any deviation will be discussed at team meetings or supervision meetings
 

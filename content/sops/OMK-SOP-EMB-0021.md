@@ -32,21 +32,21 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic. Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p></td><td><p>11/05/2021</p><p>01/10/2021</p></td><td colspan="2"><p>Additional details added to witnessing steps. Number of GMOPS+ dishes required now based on follicle number. Note added for how to label dishes containing oocytes for /vitrification.</p><p>Witnessing updated to include 3 identifiers as standard</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 This SOP covers the process of oocyte collection and culture of oocytes on Day 0. To outline the laboratory procedure for oocyte collection, this includes consumables/equipment required, laboratory witnessing steps, the oocyte collection procedure and the culture of oocytes post collection.
 
-#### Scope
+## Scope
 
 This SOP covers the procedure of egg collection by laboratory staff and is applicable to all laboratory staff working in any Oxford Medical Kuwait clinic who are deemed competent to perform egg collection.
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 N/A
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -64,9 +64,9 @@ All Staff
 
 All relevant staff are responsible for following this SOP and for reporting any instances of non-compliance to the appropriate manager. Staff are responsible for ensuring they receive up-to-date training to enable safe working and to request further training if they feel it is required.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -104,7 +104,7 @@ All relevant staff are responsible for following this SOP and for reporting any 
 -   5 Well Dishes (0.7ml GIVF+, 0.3-0.5ml Ovoil)
 -   RI Witness Tags
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to the start of the theatre list, the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -114,7 +114,7 @@ The flowhood must be checked to ensure the flow is on and the hood is clear of a
 
 Ensure the RI heated stage is switched on and at the correct set point. If a surface probe is available, check the surface temperature is at the correct temperature.
 
-##### 5.3 Witnessing Checks (Full Name, D.O.B and Clinic Number)
+### 5.3 Witnessing Checks (Full Name, D.O.B and Clinic Number)
 
 The patients RI Witness card must be assigned prior to the start of the procedure. Assigning of the patient RI Witness card requires an operator and a second person to act as the witness. The full name, D.O.B. and clinic number on the RI card must be cross checked to the laboratory notes and RI Witness.
 
@@ -126,7 +126,7 @@ Remove the pre-labelled GMOPS+ dishes from the un-gassed incubator and alongside
 
 Place the GMOPS\+ dishes in the G85 incubator (or equivalent).
 
-##### 5.4 Preparation of Dishes
+### 5.4 Preparation of Dishes
 
 Prepare GMOPS+ centre well dishes the afternoon before the patient’s oocyte collection and equilibrate in an ungassed incubator overnight. Prepare one GMOPS+ dish per 6 follicles up to a maximum of three dishes (thereafter the dishes are re-used).
 
@@ -146,7 +146,7 @@ Figure 1: GMOPS+ Centre Well Dish Set-up
 
 Figure 2: GIVF+ 5-Well Dish Set-up
 
-##### 5.5 Oocyte Collection Procedure
+### 5.5 Oocyte Collection Procedure
 
 Place 6mls of GMOPS with Heparin in a 14ml test tube and place in the theatre test tube warmer (used to flush the needle).
 
@@ -168,7 +168,7 @@ Process all further aspirates as described above; in order of arrival into the l
 
 Once the last test tube has been checked, the timer can be stopped, and the oocytes can then be transferred into their GIVF+ 5 well dishes.
 
-##### 5.6 Cultures of Oocytes Post Collection
+### 5.6 Cultures of Oocytes Post Collection
 
 If the oocytes are for the patient’s own use the oocytes can be transferred to the patients GIVF+ 5 well dishes alongside RI witness alone. The patient’s full name, clinic number and D.O.B. must be cross checked on the GMOPS+ dishes, 5 well GIVF+ dishes, laboratory notes and RI witness system. Approve the checks on the RI witness system and sign for the witness check in the laboratory notes.
 
@@ -219,11 +219,11 @@ Transfer of oocytes to the GIVF+ 5 well dishes as described above in 6.6.
 
 
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 Egg:Follicle Ratio for follicles >10mm = >80%
 
-#### Monitoring
+## Monitoring
 
 A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP annually.
 

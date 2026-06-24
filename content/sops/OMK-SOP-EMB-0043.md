@@ -32,20 +32,20 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic, Group Director of Embryology</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>ALL Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p></td><td><p>10/05/2020</p><p>01/10/2021</p><p>20/04/2022</p></td><td colspan="2"><p>Oil overlay added to warming dish (excluding solution 1) and all solutions to be placed in a 5-well dish</p><p>Witnessing updated to include the use of three identifiers</p><p>Requirement for a pre thaw call 24-48 hours before date of thaw added to the SOP. Details to be confirmed during the call listed in the SOP in section 5.3. Timing of warming prior to ICSI deferred to 3 hours ±30 minutes.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 
-#### Scope
+## Scope
 
 Applicable to all embryologists and practitioners deemed competent to perform warming of vitrified of oocytes:
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 PPE Personal Protective Equipment
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -63,9 +63,9 @@ All Staff
 
 All staff re responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment and Consumables Required
+### 5.1 Equipment and Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -85,7 +85,7 @@ All staff re responsible for following the process laid out in this document, en
 -   Oil
 -   RI Witness Tags
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to performing the warming procedure the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -95,7 +95,7 @@ Ensure the RI heated stage is switched on and at the correct set point. Warming 
 
 Fill the Rapid I Cryobox and a dilvac with liquid nitrogen. Ensure appropriate PPE is used when handling liquid nitrogen.
 
-##### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
+### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
 
 24-48 hours prior to the scheduled thaw date, check the patients thaw has been scheduled on the correct date in their cycle (post LH surge or start of progesterone) and call the patient to check/confirm the following:
 
@@ -122,7 +122,7 @@ Check the patient’s full name, clinic number and D.O.B. on the Visi/Cassette, 
 
 Post thaw the warmed oocytes are moved into a G1+ Post Denudation Dish alongside RI witness alone. Check the patient’s full name, clinic number and D.O.B. on the warming dish matches the G1+ Post Denudation dish, laboratory notes and RI witness system.
 
-##### 5.4 Preparation of Dishes
+### 5.4 Preparation of Dishes
 
 Prepare G1+ Post Denudation dish the afternoon before the patient’s oocyte warm and equilibrate in a gassed incubator overnight. Prepare one dish per patient.
 
@@ -136,11 +136,11 @@ Warm4 + Oil Warm3 + Oil
 
 Figure 1: Warming dish set-up
 
-##### 5.5 Timing of Warming Procedure
+### 5.5 Timing of Warming Procedure
 
 Perform warming 3 hours ±30 minutes prior to the ICSI procedure.
 
-##### 5.6 Warming Exposure Times
+### 5.6 Warming Exposure Times
 
 Vitrolife Rapid Warm Oocyte
 
@@ -152,7 +152,7 @@ Warm3: Exposure time 5 minutes
 
 Warm4: Exposure time 5 minutes
 
-##### 5.7 Procedure
+### 5.7 Procedure
 
 Maintenance of a temperature of 37◦C is crucial during oocyte warming. Temperature can be maintained either using a heated stage or an ungassed G85/incubator.
 
@@ -180,15 +180,15 @@ Return the G1\+ post denudation dish to a gassed incubator until ICSI.
 
 Complete the laboratory and witnessing records.
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 Oocyte Survival ≥85%
 
-#### Monitoring
+## Monitoring
 
-#### A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP once annually.
+## A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP once annually.
 
-#### Each laboratory manager is responsible for monitoring the operator’s oocyte survival rates within their clinic. Any deviation will be discussed at team meetings or supervision meetings.
+## Each laboratory manager is responsible for monitoring the operator’s oocyte survival rates within their clinic. Any deviation will be discussed at team meetings or supervision meetings.
 
 
 ## Annex A — Legacy slow-frozen egg thaw (reconciled from former OMK-SOP-EMB-0044)
