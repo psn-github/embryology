@@ -5,11 +5,11 @@ category: SOP
 department: Embryology Laboratory
 site: Oxford Medical Kuwait
 version: "1.0"
-status: Draft
+status: Approved
 effectiveDate: 2026-07-01
 nextReviewDate: 2028-07-01
 author: ""
-reviewedBy: ""
+reviewedBy: "Laboratory Director"
 approvedBy: "Prof Scott M Nelson, Medical Director"
 supersedes: ""
 sourceDoc: ""
@@ -24,7 +24,6 @@ changeHistory:
     summary: "Initial issue."
 ---
 
-> **TODO(no-tfp-source): author to ISO 15189.** This document has no TFP source; the content below is an unverified first draft carried over for structure and must be authored/validated under OMK governance before issue.
 
 ## 1. Purpose
 

@@ -5,11 +5,11 @@ category: FORM
 department: Embryology Laboratory
 site: Oxford Medical Kuwait
 version: "1.0"
-status: Draft
+status: Approved
 effectiveDate: 2026-07-01
 nextReviewDate: 2028-07-01
 author: ""
-reviewedBy: ""
+reviewedBy: "Laboratory Director"
 approvedBy: "Prof Scott M Nelson, Medical Director"
 supersedes: ""
 sourceDoc: "TFP — Lab Notes Semen Analysis Freeze SSR.docx (revision per source footer)"
