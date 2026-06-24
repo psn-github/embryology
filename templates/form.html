@@ -1,0 +1,39 @@
+<!-- Fillable form / worksheet template (PLAN.md §3.3, §2.1).
+     Supports bilingual EN / Khaleeji Arabic with RTL stacked layout when the
+     document front-matter sets `bilingual: true` (adds .is-bilingual to the
+     wrapper, which brand.css renders as a two-column / stacked RTL form). -->
+<article class="document {{bodyClass}}" {{{anchor}}}>
+
+  <div class="running-header" role="presentation">
+    <span class="rh-logo">
+      <!-- TODO(brand): replace with Logo_01_RGB horizontal lockup -->
+      <img src="{{{logoHref}}}" alt="Oxford Medical" class="rh-logo-img" />
+    </span>
+    <span class="rh-doc">
+      <span class="rh-title">{{title}}</span>
+      <span class="rh-id">{{docId}}</span>
+    </span>
+  </div>
+
+  <div class="running-footer" role="presentation">
+    {{docId}} · v{{version}} · Issued by {{issuedBy}} · Review due {{nextReviewDate}} ·
+    <span class="rf-controlled">PRINTED COPIES ARE UNCONTROLLED — refer to the controlled register for the current version.</span>
+  </div>
+
+  <div class="watermark" aria-hidden="true">{{watermarkText}}</div>
+
+  <header class="doc-titleblock">
+    <p class="doc-eyebrow">{{site}} · {{department}}</p>
+    <h1 class="doc-title">{{title}}</h1>
+    <p class="doc-id-line">{{docId}}</p>
+    {{{metadataTable}}}
+  </header>
+
+  <main class="doc-body form-body">
+    {{{body}}}
+  </main>
+
+  <footer class="doc-signoff">
+    {{{signatureBlock}}}
+  </footer>
+</article>

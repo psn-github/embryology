@@ -1,0 +1,50 @@
+name: build
+
+# Lint + build the Embryology document suite on every push / PR.
+# On a tag push (v*), attach the rendered PDFs + register to a GitHub Release.
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["v*"]
+  pull_request:
+
+jobs:
+  lint-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate front-matter + cross-references
+        run: npm run lint
+
+      - name: Build all documents (PDF) + register
+        run: npm run build
+
+      - name: Build bound manual
+        run: npm run build:manual
+
+      - name: Upload build artefacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: embryology-suite
+          path: |
+            dist/pdf/*.pdf
+            dist/register.csv
+          if-no-files-found: warn
+
+      - name: Attach PDFs to release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/pdf/*.pdf
+            dist/register.csv

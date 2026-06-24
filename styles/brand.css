@@ -1,0 +1,248 @@
+/* ==========================================================================
+   Oxford Medical v2.3 — Embryology Laboratory document suite
+   Brand tokens (§8), A4 print furniture (§3.3, §7), bilingual RTL form layout.
+   No new tokens are introduced; values mirror the Oxford Medical v2.3 system.
+   ========================================================================== */
+
+/* ---- Fonts -------------------------------------------------------------- */
+/* TODO(brand): drop the licensed font files into styles/fonts/ and the
+   @font-face rules below will embed them in the PDF. Until then the pipeline
+   falls back to system serif/sans so builds still succeed. */
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("fonts/CormorantGaramond-Regular.woff2") format("woff2");
+  font-weight: 400; font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("fonts/CormorantGaramond-SemiBold.woff2") format("woff2");
+  font-weight: 600; font-display: swap;
+}
+@font-face {
+  font-family: "Inter Tight";
+  src: url("fonts/InterTight-Regular.woff2") format("woff2");
+  font-weight: 400; font-display: swap;
+}
+@font-face {
+  font-family: "Inter Tight";
+  src: url("fonts/InterTight-SemiBold.woff2") format("woff2");
+  font-weight: 600; font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("fonts/PlusJakartaSans-Regular.woff2") format("woff2");
+  font-weight: 400; font-display: swap;
+}
+
+:root {
+  /* Neutral palette (Oxford Medical v2.3) */
+  --enoki:  #E0D6C9;
+  --oyster: #BDB6AD;
+  --porcini:#908375;
+  --morel:  #7A736A;
+  --ink:    #2B2620;   /* near-black warm text */
+  --paper:  #FFFFFF;
+
+  /* Data accents — status chips + caution callouts only */
+  --garnet:  #7E2B36;
+  --emerald: #1F5C4A;
+  --lapis:   #29486E;
+  --saffron: #B5872B;
+
+  /* Type */
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-body: "Inter Tight", system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  --font-label: "Plus Jakarta Sans", "Inter Tight", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Geeza Pro", "Times New Roman", serif;
+}
+
+/* ---- A4 page boxes (§7) ------------------------------------------------- */
+@page {
+  size: A4;
+  margin: 30mm 20mm 22mm 20mm;   /* extra top for header band */
+
+  @top-left { content: element(running-header); }
+  @bottom-left {
+    content: "";
+  }
+  @bottom-center {
+    content: counter(page) " of " counter(pages);
+    font-family: var(--font-label);
+    font-size: 8pt;
+    color: var(--morel);
+  }
+  @bottom-right { content: element(running-footer); }
+}
+
+/* Running header / footer are flowed into the page margin boxes. */
+.running-header {
+  position: running(running-header);
+  width: 170mm;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 0.4pt solid var(--porcini);
+  padding-bottom: 2mm;
+  font-family: var(--font-label);
+}
+.rh-logo-img { height: 9mm; }
+.rh-doc { text-align: right; font-size: 8pt; line-height: 1.25; color: var(--morel); }
+.rh-title { display: block; font-weight: 600; color: var(--ink); }
+.rh-id { display: block; letter-spacing: 0.04em; }
+
+.running-footer {
+  position: running(running-footer);
+  font-family: var(--font-label);
+  font-size: 7.5pt;
+  color: var(--morel);
+  text-align: right;
+}
+.rf-controlled { color: var(--porcini); }
+
+/* ---- Base typography ---------------------------------------------------- */
+html { font-size: 10.5pt; }
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 0;
+}
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; color: var(--ink); line-height: 1.2; }
+h2 { font-size: 16pt; margin: 1.4em 0 0.4em; border-bottom: 0.4pt solid var(--enoki); padding-bottom: 2px; }
+h3 { font-size: 13pt; margin: 1.1em 0 0.3em; }
+h4 { font-size: 11pt; margin: 0.9em 0 0.2em; font-family: var(--font-label); }
+p, li { orphans: 2; widows: 2; }
+a { color: var(--lapis); text-decoration: none; }
+code { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 0.92em; }
+
+/* ---- Title block -------------------------------------------------------- */
+.document { position: relative; }
+.doc-eyebrow {
+  font-family: var(--font-label);
+  font-size: 8.5pt; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--porcini); margin: 0 0 2mm;
+}
+.doc-title { font-size: 26pt; margin: 0 0 1mm; }
+.doc-id-line { font-family: var(--font-label); color: var(--morel); margin: 0 0 6mm; letter-spacing: 0.04em; }
+
+/* ---- Metadata + change history + signature tables ----------------------- */
+.meta-table, .change-history, .signature-block {
+  width: 100%; border-collapse: collapse; font-size: 9pt; margin: 0 0 6mm;
+  font-family: var(--font-label);
+}
+.meta-table th {
+  width: 38%; text-align: left; vertical-align: top;
+  background: var(--enoki); color: var(--morel);
+  font-weight: 600; padding: 2mm 3mm; border: 0.4pt solid var(--oyster);
+}
+.meta-table td { padding: 2mm 3mm; border: 0.4pt solid var(--oyster); }
+
+.change-history caption, .signature-block caption {
+  text-align: left; font-family: var(--font-label); font-weight: 600;
+  color: var(--porcini); font-size: 9pt; margin-bottom: 1.5mm;
+  text-transform: uppercase; letter-spacing: 0.06em;
+}
+.change-history th, .signature-block th {
+  background: var(--enoki); color: var(--morel); text-align: left;
+  padding: 1.6mm 3mm; border: 0.4pt solid var(--oyster); font-weight: 600;
+}
+.change-history td, .signature-block td { padding: 1.6mm 3mm; border: 0.4pt solid var(--oyster); }
+.signature-block { margin-top: 8mm; page-break-inside: avoid; }
+.sig-space { height: 9mm; }
+.sig-role { font-weight: 600; color: var(--morel); width: 22%; }
+
+/* ---- Status chips ------------------------------------------------------- */
+.chip {
+  display: inline-block; padding: 0.5mm 2.5mm; border-radius: 2mm;
+  font-size: 8pt; font-weight: 600; color: var(--paper);
+}
+.chip--garnet  { background: var(--garnet); }
+.chip--emerald { background: var(--emerald); }
+.chip--lapis   { background: var(--lapis); }
+.chip--saffron { background: var(--saffron); color: var(--ink); }
+.chip--oyster  { background: var(--oyster); color: var(--ink); }
+
+/* ---- Body content tables ------------------------------------------------ */
+.doc-body table {
+  width: 100%; border-collapse: collapse; font-size: 9pt; margin: 3mm 0 5mm;
+  font-family: var(--font-label); page-break-inside: avoid;
+}
+.doc-body th { background: var(--enoki); color: var(--morel); text-align: left; font-weight: 600; }
+.doc-body th, .doc-body td { border: 0.4pt solid var(--oyster); padding: 1.6mm 2.5mm; vertical-align: top; }
+
+/* ---- Caution / critical-step callout (thin Garnet left border, §8) ------ */
+blockquote {
+  margin: 4mm 0; padding: 2mm 0 2mm 4mm;
+  border-left: 1.5pt solid var(--garnet); color: var(--ink);
+  font-size: 9.5pt;
+}
+blockquote p { margin: 0.3em 0; }
+
+/* Witness / critical-control-point marker via {.witness} attr */
+.witness, .ccp {
+  border-left: 1.5pt solid var(--lapis); padding-left: 4mm; margin: 3mm 0;
+}
+
+/* ---- Watermark ---------------------------------------------------------- */
+.watermark {
+  position: fixed; top: 45%; left: 0; right: 0; text-align: center;
+  font-family: var(--font-display); font-size: 90pt; font-weight: 600;
+  color: rgba(144, 131, 117, 0.12); transform: rotate(-30deg);
+  z-index: 0; pointer-events: none; letter-spacing: 0.1em;
+}
+.wm-draft .doc-body, .wm-superseded .doc-body { position: relative; z-index: 1; }
+
+/* ---- Page breaks -------------------------------------------------------- */
+.document { page-break-after: always; }
+.document:last-of-type { page-break-after: auto; }
+/* Do NOT page-break-after:avoid the title block — when it is tall (full
+   metadata + change-history tables) Paged.js relocates the whole block to keep
+   it with the following element, leaving a blank first page. */
+h2, h3 { page-break-after: avoid; }
+
+/* ==========================================================================
+   Bilingual EN / Khaleeji Arabic forms (PLAN.md §2.1)
+   `bilingual: true` → wrapper gets .is-bilingual. Markdown is authored with
+   paired blocks; Arabic spans/blocks carry [lang="ar"] and render RTL.
+   ========================================================================== */
+.is-bilingual { }
+.is-bilingual [lang="ar"], .is-bilingual .ar {
+  direction: rtl; text-align: right;
+  font-family: var(--font-arabic); font-size: 1.05em;
+}
+/* Two-column stacked bilingual rows: author markup as a table with .bi class */
+table.bi { table-layout: fixed; }
+table.bi th, table.bi td { width: 50%; }
+table.bi .en { direction: ltr; text-align: left; }
+table.bi .ar { direction: rtl; text-align: right; font-family: var(--font-arabic); }
+
+/* Fillable fields */
+.form-body .field-line { border-bottom: 0.4pt solid var(--morel); min-height: 6mm; display: block; }
+.form-body .checkbox { display: inline-block; width: 3.2mm; height: 3.2mm; border: 0.6pt solid var(--morel); margin-right: 1.5mm; vertical-align: middle; }
+
+/* ==========================================================================
+   Manual cover + TOC + register
+   ========================================================================== */
+.manual-cover {
+  page-break-after: always; text-align: center;
+  display: flex; flex-direction: column; justify-content: center;
+  min-height: 230mm;
+}
+.cover-logo { height: 40mm; margin: 0 auto 14mm; }
+.cover-eyebrow { font-family: var(--font-label); letter-spacing: 0.12em; text-transform: uppercase; color: var(--porcini); }
+.cover-title { font-family: var(--font-display); font-size: 34pt; margin: 4mm 0; }
+.cover-sub { font-family: var(--font-display); font-size: 16pt; color: var(--morel); font-style: italic; }
+.cover-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm 10mm; max-width: 120mm; margin: 16mm auto 0; font-family: var(--font-label); font-size: 9.5pt; }
+.cover-meta dt { color: var(--porcini); font-size: 8pt; text-transform: uppercase; letter-spacing: 0.06em; }
+.cover-meta dd { margin: 0 0 2mm; color: var(--ink); }
+.cover-controlled { margin-top: 18mm; font-family: var(--font-label); font-size: 8pt; color: var(--porcini); }
+
+.manual-toc, .manual-register { page-break-after: always; }
+.manual-toc h2, .manual-register h2 { border: none; }
+.toc-list { list-style: none; padding: 0; font-family: var(--font-label); font-size: 10pt; }
+.toc-list li { display: flex; justify-content: space-between; padding: 1.2mm 0; border-bottom: 0.3pt dotted var(--oyster); }
+.toc-cat { font-family: var(--font-label); font-weight: 600; color: var(--porcini); text-transform: uppercase; font-size: 8.5pt; letter-spacing: 0.06em; margin: 6mm 0 2mm; }
+
+.register-table { width: 100%; border-collapse: collapse; font-family: var(--font-label); font-size: 8pt; }
+.register-table th { background: var(--enoki); color: var(--morel); text-align: left; }
+.register-table th, .register-table td { border: 0.4pt solid var(--oyster); padding: 1.2mm 2mm; }
