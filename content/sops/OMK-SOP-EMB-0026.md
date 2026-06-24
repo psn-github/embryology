@@ -12,7 +12,7 @@ author: ""
 reviewedBy: ""
 approvedBy: "Prof Scott M Nelson, Medical Director"
 supersedes: ""
-sourceDoc: "TFP Time Lapse Imaging SOP — pending ingest"
+sourceDoc: "TFP — TFP Time Lapse Imaging SOP.docx (revision per source footer)"
 relatedDocuments: []
 guidelineRefs: ["ESHRE IVF lab", "ASRM", "Istanbul Consensus", "ISO 15189"]
 witnessSystem: "RI Witness"
@@ -21,50 +21,294 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Stub created; pending transformation from TFP source (PLAN v2 §8)."
+    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-> **TODO: ingest from `TFP Time Lapse Imaging SOP`.** This is a front-matter-complete stub (PLAN v2 §12.7). Run `npm run ingest -- --file "<source>.docx" --as <docId>` once the TFP corpus is in `source/tfp/`; the §8 transformation rules will populate this body and emit a `*.transform.md` report. Nothing is published until reviewed.
+![](assets/figures/OMK-SOP-EMB-0026/fig-1.png)
 
-## 1. Purpose
+<table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Oxford Medical Kuwait Time Lapse Imaging for ES/ES+/ES8</h2></td></tr></tbody></table>
 
-_TODO: ingest from TFP Time Lapse Imaging SOP._
+<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
 
-## 2. Scope
+<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Anthony Price, UK Embryology Lead</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>ALL LABORATORY STAFF</strong></p></td></tr><tr><td colspan="4"><p><strong>AMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>12/05/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>25/10/2021</p></td><td colspan="2"><p><strong>Title:</strong> Updated to include ES8</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Registering new treatment cycles:</strong> section removed as superseded by the IDEAS – EmbryoViewer interface.</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Logging fresh embryo transfers:</strong> Requirement for logging date of embryo transfer removed.</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Logging frozen embryo transfers</strong>: Requirement for logging date of embryo transfer section removed - superseded by the IDEAS / EmbryoViewer interface.</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Logging Treatment Outcome (Optional)</strong>: section removed - superseded by the IDEAS / EmbryoViewer interface.</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Table 3 - Atypical cell division event summary:</strong> Failed cleavage definition updated to reverse cleavage type 2; reverse cleavage definition updated to reverse cleavage type 1</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>IDEAS – EmbryoViewer Interface:</strong> Section added</p></td></tr><tr><td><p>3.0</p></td><td><p>20/06/2022</p></td><td colspan="2"><p><strong>Accessing iDAScore Data:</strong> Section added</p><p>Blastocysts that have shown a pattern of reverse cleavage or direct cleavage are suitable for freezing/biopsy should they reach a grade A-C.</p></td></tr></tbody></table>
 
-Autologous ART using the couple's own gametes. Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait). _TODO: confirm on ingest._
+#### Purpose
 
-## 3. Definitions & abbreviations
+Time-lapse imaging allows continuous monitoring of early embryo development from within an uninterrupted physiological culture environment. The simultaneous assessment of early cleavage regularity, developmental speed, blastocyst morphology and known implantation data, has facilitated the development of morphokinetic algorithms, which have been used to predict embryo implantation potential.
 
-_TODO: ingest from TFP Time Lapse Imaging SOP._
+KIDscore Day 5 allows blastocysts to be ranked by assigning a score which ranges from 1 to 9.9 in 0.1 decimal increments. The algorithm used to generate the KIDscore has been developed by Vitrolife using known implantation data from 5200 embryos transferred at the blastocyst stage, where the score was positively correlated with implantation.
 
-## 4. Responsibilities
+Time-lapse imaging has also allowed the definition of several atypical embryo development phenotypes and their associated implantation potential to be determined.
 
-General Manager · Laboratory Manager · Quality Manager · All Staff. _TODO: ingest from TFP Time Lapse Imaging SOP._
+The primary aims of this procedure are to:
 
-## 5. Procedure
+-   Describe the process to follow when annotating embryo morphokinetic events in accordance with Vitrolife KIDscore day 5 requirements
+-   How KIDScores should be used to aid selection of embryos for transfer / cryopreservation
+-   Define atypical embryo division events and provide guidance on the appropriate ranking of embryos displaying such phenotypes for which the KIDscore may be inaccurate
 
-### 5.1 Equipment & consumables required
-_TODO: ingest (keep Vitrolife media, volumes verbatim)._
-### 5.2 Equipment checks
-_TODO: ingest._
-### 5.3 Witnessing checks
-_TODO: ingest — retain three identifiers (full name, clinic number, D.O.B.) and RI Witness steps verbatim._
-### 5.4 Procedure steps
-_TODO: ingest (keep dish layouts, timings, setpoints, grading criteria verbatim)._
+The secondary aim of this procedure to describe how to access iDAScores for the purposes of the VISA study. iDAScores are generated by an embryo selection algorithm driven by artificial intelligence. The score is generated independently of embryologist assessment / input. The use of iDAScores is currently limited to the VISA study.
 
-## 6. Acceptance / rejection & non-conformance
+#### Scope
 
-_TODO: ingest; link OMK-SOP-EMB-0005 (deviation/CAPA)._
+Applicable to all laboratory staff deemed competent to carry out embryo assessment and annotation.
 
-## 7. Records generated
+#### Definitions
 
-_TODO: ingest._
+ES Embryoscope
 
-## 8. Guideline-linked & locally-defined values
+ES+ Embryoscope+
 
-See **OMK-APP-EMB-A** (setpoint register). _TODO: populate from TFP validated values, flag "verify locally"._
+ES8 Embryoscope 8
 
-## 9. References
+KID Known Implantation Data
 
-_TODO: ingest._
+KID Score A numerical score generated from a morphokinetic algorithm
+
+2PN Two Pronuclei
+
+t2 Time to two cell stage
+
+t3 Time to three cell stage
+
+t4 Time to four cell stage
+
+t5 Time to five cell stage
+
+tB Time to blastocyst stage
+
+ICM Inner cell mass
+
+TE Trophectoderm
+
+ZP Zona Pellucida
+
+#### Responsibilities
+
+General Manager
+
+The General Manager (GM) is accountable for the implementation of this clinic-wide process.
+
+Laboratory Manager
+
+The Laboratory Lead is responsible for ensuring that current practice is line with this SOP, all staff have been trained appropriately and signed off competent to enable them to work safely and ensure patients safety at all times. The Laboratory Lead is also responsible for ensuring that all non-compliance with this SOP, or incidents occurring are properly investigated and any corrective action taken. They are also responsible for auditing compliance to this SOP.
+
+Quality Manager
+
+The Quality Manager is responsible for ensuring that all staff are aware of and comply with the requirements specified in this document. The QM is also responsible for ensuring all non-compliance with this SOP, or incidents occurring are properly investigated and any corrective action taken is recorded on the controlled register.
+
+All Staff
+
+All staff are responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
+
+#### Procedure
+
+##### 5.1 Procedure Requirements
+
+Equipment/Consumables Required
+
+-   -   ES/ES+/ ES8 Incubator
+    -   EmbryoViewer software
+
+##### 5.2 Equipment Checks
+
+Functionality of the ES/ ES+/E8 incubator must be checked as part of the laboratory quality control routine to ensure that it is operating optimally. As a minimum, functionality checks must include the following:
+
+-   Daily critical parameter set point and stability checks – in house
+-   Twice weekly independent gas verification checks – in house
+-   Six monthly preventative maintenance to include independent gas and temperature verification
+
+Daily set point and critical parameter stability checks - In House
+
+Critical parameter set points and stability graphs may be accessed from the incubator screen.
+
+Each set point may be viewed in turn by pressing the blue framed temperature, CO2 or O2 button. Once pressed the set point will be displayed on the incubator screen and the validation graph will be displayed on the larger PC screen. When reviewing the validation graph select “24 hours” in order to review the set point stability during a period when the incubator is most unlikely to be opened. Once the set point has been reviewed, press the X button on the incubator screen in order to go back to the main display. Review each set point in turn. For temperature, set point deviations should not exceed +/- 0.2 0C. For CO2 and O2, set point deviations should not exceed +/- 0.2 %.
+
+In order to review set point stability in the **Embryoscope**, refer to Embryoscope user manual section 8.
+
+Independent Gas Checks – In House
+
+CO2 and O2 gas levels should be measured a minimum twice weekly using an independent gas meter. In order to verify CO2 and O2 gas levels in the **Embryoscope**, refer to Embryoscope user manual section 8.
+
+Six monthly preventative maintenance
+
+Preventative maintenance must be carried out by a certified Vitrolife engineer every six months. Preventative maintenance must include independent CO2, O2 and temperature verification.
+
+##### 5.3 Emergency Embryoslide Removal
+
+In the event of a system failure, all Embryoslides within the ES/ES+/ES8 should be immediately evacuated to another incubator. Seek assistance of another member of the laboratory team if available. The emergency procedure should only be carried out in cases where the load door cannot be opened by following the normal access process.
+
+**Embryoscope+/ES8**
+
+Turn off the EmbryoScope+ incubator via the illuminated green power switch located on the back of the unit. The power switch is located on the upper left-hand corner when facing the back of the unit.
+
+Press the blue emergency unlock button and then the load door opening button. Both buttons are located at the front of the unit below the load door.
+
+Remove the white load area frame and manually rotate the culture dish holder clockwise transferring Embryoslides to another incubator as soon as they become accessible.
+
+Keep rotating the Embryoslide holder until a hard stop is reached. Now rotate the Embryoslide holder anticlockwise again removing any Embryoslides that become accessible until a hard stop is reached.
+
+Once all Embryoslides have been evacuated rotate the Embryoslide holder clockwise once again until the hard stop in order to ensure no Embryoslides have been missed.
+
+Call Vitrolife support on +45 7023 0500 and report the fault.
+
+**Embryoscope**
+
+Turn off the EmbryoScope time-lapse incubator on the main switch which is illuminated in green and located on the back upper right corner of the incubator.
+
+Locate the 2.5 mm and 3 mm Allen keys which are stored together beneath the service lid.
+
+Disengage the load door lock by inserting the 2.5 mm Allen key into the socket and pressing down the red load door lock indicator and then open the load door to the embryo chamber.
+
+Remove the cover plate and if necessary, use the 2.5 mm or 3 mm Allen key to pull the culture dish holder towards the left until it is positioned in the load area.
+
+Transfer all Embryoslides to another incubator.
+
+##### 5.4 Preparation
+
+KIDscore Day 5 Morphokinetic assessment is carried out for patients whose embryos are cultured in either an ES, ES+ or ES8 incubator.
+
+For preparation of the ES+/ES8 slide see the Oxford Medical Kuwait Dish Preparation SOP.
+
+##### 5.5 Timing of Annotation
+
+Annotations may be carried out as part of standard zygote / embryo morphological assessment; either prospectively from day 1 or retrospectively from day 5 depending on local policy.
+
+##### 5.6 Annotation Procedure
+
+Annotate compulsory KIDscore Day 5 development events according to the definitions listed in Table 1 below. Note, although annotation of multinucleation at the 2 or 4 cell stages are not required for KIDscore day 5 they are compulsory for Oxford Medical Kuwait morphokinetic assessment. Ensure the whole video is reviewed prior to selecting embryos for transfer or vitrification in order to exclude division abnormalities (refer to Table 3) associated with reduced implantation potential.
+
+**Table 1:** Compulsory KIDScore day 3 / 5 annotation events.
+
+<table><tbody><tr><td><p><strong>Day 5 Annotation Event</strong></p><p><strong>(*KIDscore requirement)</strong></p></td><td><p><strong>Definition</strong></p></td></tr><tr><td><p>*2PN</p></td><td><p>Normal fertilisation</p></td></tr><tr><td><p>*t2</p></td><td><p>First time frame when two cells are clearly visible</p></td></tr><tr><td><p>Multi-nuclei – 2 cell stage</p></td><td><p>Presence of ≥2 nuclei in a single blastomere. A variable proportion of blastomeres may be affected.</p></td></tr><tr><td><p>*t3</p></td><td><p>First time frame when three cells are clearly visible</p></td></tr><tr><td><p>*t4</p></td><td><p>First time frame when four cells are clearly visible</p></td></tr><tr><td><p>Multi-nuclei – 4 cell stage</p></td><td><p>Presence of ≥2 nuclei in a single blastomere. A variable proportion of blastomeres may be affected.</p></td></tr><tr><td><p>*t5</p></td><td><p>First time frame when five cells are clearly visible</p></td></tr><tr><td><p>*tB (KIDScore Day 5 only)</p></td><td><p>First time frame before ZP begins to thin</p></td></tr><tr><td><p>*#ICM (KIDScore Day 5 only)</p></td><td><p>Grade A, B or C according to ES Blastocyst Technote grading scheme at 112 – 116 HPI</p></td></tr><tr><td><p>*#TE (KIDScore Day 5 only)</p></td><td><p>Grade A, B or C according to ES Technote Blastocyst grading scheme at 112 – 116 HPI</p></td></tr><tr><td><p>Oxford Medical Kuwait Grading Scheme Morphological Grade</p></td><td><p>A-F</p></td></tr></tbody></table>
+
+#In cases where a full blastocyst has formed by 116 HPI
+
+\*Contributes to KID Score
+
+Assess ICM and TE quality in accordance with ES Technote Blastocyst grading scheme summarised in table 2.
+
+**Table 2:** ICM and TE grade descriptions based on ES KID Score grading scheme.
+
+<table><tbody><tr><td><p><strong>ICM Grade</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>A</p></td><td><p>Clear ICM;</p><ul><li>Many tightly packed cells</li><li>Cell boundaries indistinct</li><li>Cell layers homogenous, no vacuoles / debris.</li></ul></td></tr><tr><td><p>B</p></td><td><p>Clear ICM:</p><ul><li>Several cells may be less tightly packed</li><li>Cell layers may be less homogenous</li><li>Minor cell vacuolization / degeneration may be present</li></ul></td></tr><tr><td><p>C</p></td><td><ul><li>ICM may be small with fewer, loosely cohesive cells</li><li>ICM may appear larger due to poor compaction of larger cells with clear cell boundaries Unincorporated cells may be present.</li><li>ICM may be indistinguishable from the TE layer</li><li>ICM cells show vacuolization / degeneration</li></ul></td></tr><tr><td><p><strong>TE Grade</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>A</p></td><td><ul><li>TE consists of many cells (typically &gt;40) which form a cohesive surface lining the blastocoel cavity.</li><li>Cell usually contain homogenous cytoplasm with visible nuclei</li></ul></td></tr><tr><td><p>B</p></td><td><ul><li>TE consists of several cells (typically &gt;20) which may vary in size and shape</li><li>The TE lay may not be fully cohesive</li><li>Cytoplasm may not be homogenous between the TE cells and nuclei may be difficult to visualise</li></ul></td></tr><tr><td><p>C</p></td><td><ul><li>TE consists of very few cells which may be large and stretched over wide area.</li><li>Cytoplasm often non-homogenous and vacuoles may be present.</li></ul></td></tr></tbody></table>
+
+##### 5.7 Annotation of Complex Division Events
+
+Consideration should be given on how to manage atypical development phenotypes in a consistent manner to ensure that the KIDscore obtained is as accurate as possible. Table 3 contains a summary of atypical cell division events, their definition and agreed annotation approach.
+
+**Table 3:** Atypical cell division event summary.
+
+<table><tbody><tr><td><p><strong>Division Event</strong></p></td><td><p><strong>Definition</strong></p></td><td><p><strong>Annotation Management</strong></p></td></tr><tr><td><p>Reverse cleavage type 1</p></td><td><p>Merging of daughter cells following cytokinesis</p></td><td><p>Count the first cleavage event and ignore the correction cleavage from the same cell</p><p><strong>User defined comment:</strong></p><p>Reverse Cleavage</p></td></tr><tr><td><p>Reverse cleavage</p><p>type 2</p></td><td><p>Failure of cytokinesis</p></td><td><p>Do not count failed cleavage as a division event</p><p><strong>User defined comment:</strong></p><p>Failed Cleavage</p></td></tr><tr><td><p>Chaotic cleavage</p></td><td><p>Irregular cell division / excessive membrane movement</p></td><td><p>Attempt annotation if a usable blastocyst develops</p><p><strong>User defined comment:</strong></p><p>Chaotic cleavage</p></td></tr><tr><td><p>Direct cleavage</p></td><td><p>Production of three daughter cells from one cell. (The third daughter cell will continue to divide and potentially become incorporated into the blastocyst)</p></td><td><p>Record identical times for production of daughter cells</p><p><strong>User defined comments:</strong></p><ul><li>Direct Cleavage 1-3 (if occurring at the first cleavage event after syngamy)</li><li>Direct Cleavage 2+ if occurring at or after the second cleavage event after syngamy)</li></ul></td></tr><tr><td><p>False Direct cleavage</p></td><td><p>Production of three daughter cells from one cell (the third daughter cell will not divide and remain excluded from the blastocyst)</p></td><td><p>Record identical times for production of daughter cells</p><p><strong>User defined comment:</strong></p><p>False Direct Cleavage</p></td></tr><tr><td><p>Multinucleated cells</p></td><td><p>Presence of ≥2 nuclei in a single blastomere. A variable proportion of blastomeres may be affected.</p></td><td><p>In the MN annotation event, select the number of cells showing the presence of ≥2 nuclei. It is compulsory to annotate multinucleation from 2 to 4 cell stage.</p></td></tr><tr><td><p>Excluded Cells</p></td><td><p>Presence of ≥2 cells which are not incorporated into the blastocyst.</p></td><td><p><strong>User defined comment:</strong></p><p>Excluded cells ≥2</p></td></tr><tr><td><p>Degenerate cells</p></td><td><p>Presence of ≥2 degenerate cells which are not incorporated into the blastocyst.</p></td><td><p><strong>User defined comment:</strong></p><p>Degenerate cells ≥2</p></td></tr></tbody></table>
+
+Annotation events that are not required to generate a KID score may be annotated according to local practice.
+
+##### 5.8 IDEAS – EmbryoViewer Interface
+
+**Summary:** Mellowood Medical have developed a two-way interface between EmbryoViewer and IDEAs. The interface allows IDEAS to upload upcoming treatment cycles to the EmbryoViewer database in addition to downloading embryo KIDScore and morphokinetic time point data.
+
+**Uploading New Treatment Cycles to EmbryoViewer:** Ensure the trigger date and time has been confirmed and logged within the treatment cycle plan. Once the trigger has been saved a grey dialog box will appear confirming that the cycle and patient details have been sent to the Embryoscope. Click OK in the dialogue box (see red highlighted boxes below).
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-2.png)
+
+**Saving KIDScore D5 Data:** Once the KIDScore day 5 annotation requirements have been entered, for all embryos of interest (those suitable for either transfer or cryopreservation), select “Compare & Select” from the main side menu. Select “KIDSCoreD5 V3” from the “Current Model” drop down box and then click “Save Model” within the “Saved Model” box. Once saved ensure that the “Current scores” correspond to the “Saved scores” (see below).
+
+Note: The saved scores are those that will be uploaded to IDEAs.
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-3.png)
+
+Prediction model save option
+
+Embryos of interest: 2, 3 & 4. Current and saved scores should be identical after the score model has been saved.
+
+Prediction model
+
+**Uploading KIDScores to IDEAS:** Open the patient’s IDEAs file and select “Annotations” (see red highlighted box below).
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-4.png)
+
+Then select “Get annotations” (see red highlighted box below).
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-5.png)
+
+A grey dialog box will transiently appear confirming that annotations have been received although nothing will appear within the annotation table. In order to make the data appear, click on any other folder from the side list i.e., “Semen analysis” then click back onto “Laboratory details”. The KIDScore and annotation data should now be displayed as shown below.
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-6.png)
+
+Embryos are arranged in columns with morphokinetic time point data listed in rows under each embryo column (see orange boxes above). The evaluation row contains the KIDScores which appear to the right of each embryo (see red highlighted boxes above).
+
+##### 5.9 EmbryoViewer Data Entry
+
+To facilitate data extraction and research, the well identity of an embryo in the ES, ES+ or ES8 must match the embryo number in IDEAs. For example, the embryo in well 1 must be embryo number 1 in the IDEAS record.
+
+The final fate of every embryo cultured in the ES, ES+ or ES8 must be recorded within the EmbryoViewer. Each embryo must either be marked as transferred, cryopreserved, or discarded. In cases where traceability is maintained through vitrification to warming, embryos selected for frozen transfer should also be marked.
+
+**Logging fresh embryo transfers:** Highlight embryos selected for transfer with a green tick. The green tick may be added from within the “View Slide” or “Compare & Select” displays.
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-7.png)
+
+**Logging embryo cryopreservation:** Highlight embryos selected for cryopreservation with a blue snowflake. The blue snowflake may be added from within the “View Slide” or “Compare & Select” displays.
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-8.png)
+
+**Logging frozen embryo transfers:** Highlight warmed / thawed embryos selected for frozen embryo transfer with a purple ticked snowflake. The purple ticked snowflake may be added from within the “View slide” or “Compare & Select” displays.
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-9.png)
+
+**Logging embryo disposal:** Highlight embryos, considered unsuitable for transfer or cryopreservation, with a red cross. The red cross may be added from within the “View slide” or “Compare & Select” displays.
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-10.png)
+
+##### 5.10 Use of KID Score in Embryo selection
+
+Selection of embryos for transfer or cryopreservation should be based on Morphological grade in accordance with TFP1-SOP-EMB-0011 - Embryo and Blastocyst Grading. Morphological grade should be prioritised over the KIDScore unless the morphological grade appears similar.
+
+The KID score generated by the algorithm does not take into account reverse cleavage events, multinucleation, cell exclusion or cell degeneration. These aspects of development must be considered separately.
+
+##### 5.11 Management of Embryos with division abnormalities
+
+**Direct Cleavage/Reverse Cleavage**:
+
+Direct cleavage/reverse cleavage is associated with a lower blastocyst formation rate, however those that reach blastocyst stage can be euploid. Embryos with evidence of direct cleavage/reverse cleavage should be de-prioritised for fresh embryo transfer. Such embryos are suitable for freezing if they reach a grade A-C blastocyst, however as with fresh transfer, should be deprioritised for warming.
+
+The negative effect of DC is reduced the further down the cell line it occurs.
+
+**Multinucleation:**
+
+Multinucleation is associated with reduced implantation potential. Although blastocysts displaying evidence of multinucleation during cleavage stages may be transferred/cryopreserved, preference should be given to blastocysts which did not display multinucleation during early cleavage provided the grade is equivalent.
+
+**Excluded Cells:**
+
+The presence of ≥2 excluded cells is associated with reduced implantation potential. Although embryos which have excluded cells from blastocyst, preference should be given to blastocysts which were not associated with excluded cells.
+
+**Degenerate Cells**
+
+The presence of ≥2 degenerate cells is associated with reduced implantation potential. Although embryos which have excluded cells from blastocyst, preference should be given to blastocysts which were not associated with degenerate cells.
+
+##### 5.12 Accessing iDAScore Data
+
+The use of iDAScores is limited to the VISA research study in which the following UK Oxford Medical Kuwait clinics are enrolled:
+
+-   Nurture
+-   Oxford
+-   Thames Valley
+-   Wessex
+
+iDAScore software is accessed via the Vitrolife technology hub installed on Embryoscope servers at participating clinics. The default Username and Password is “admin”. After the log in stage, iDAScore may be selected from the “Hello admin” screen as shown in the red boxed area of the summary diagram below
+
+.![](assets/figures/OMK-SOP-EMB-0026/fig-11.png)
+
+Patients may be searched by entering their clinic number in the patient search box (red box below). Each embryo is identified by the unique alpha numeric code relating to the dish and embryo number respectively (orange boxed area below).
+
+Notes:
+
+-   The embryo list generated is derived from all cycles carried out for that patient
+-   Embryo fates are automatically pulled across from the EmbryoViewer data entry
+
+![](assets/figures/OMK-SOP-EMB-0026/fig-12.png)
+
+#### Standards/Key Performance/Quality Indicators
+
+% Gold Standard Match on EQA ≥70%
+
+#### Monitoring
+
+A Oxford Medical Kuwait Laboratory Manager is responsible for auditing this SOP at least once annually. All clinics must participate in the TFP EQA Scheme for embryo grading.

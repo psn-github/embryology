@@ -44,7 +44,8 @@ export function listContentFiles() {
     const dir = path.join(CONTENT_DIR, sub);
     if (!fs.existsSync(dir)) continue;
     for (const f of fs.readdirSync(dir)) {
-      if (f.endsWith(".md")) files.push(path.join(dir, f));
+      // .transform.md are ingest provenance reports, not controlled documents.
+      if (f.endsWith(".md") && !f.endsWith(".transform.md")) files.push(path.join(dir, f));
     }
   }
   return files.sort();

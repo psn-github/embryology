@@ -39,9 +39,8 @@ const RULES = [
     id: "qpulse",
     mode: "replace",
     test: /q[\s-]?pulse/i,
-    replacement:
-      "PRINTED COPIES ARE UNCONTROLLED — refer to the controlled register for the current version.",
-    note: "TFP Q-Pulse controlled-copy reference replaced with OMK controlled-copy notice (§8 STRIP/REPLACE).",
+    replacement: "the controlled register",
+    note: "TFP Q-Pulse reference rebased to the OMK controlled register (§8 STRIP/REPLACE). Full controlled-copy notice is in the page footer.",
   },
   {
     id: "hfea",
@@ -65,7 +64,9 @@ const RULES = [
   {
     id: "tfp_brand",
     mode: "replace",
-    test: /\bTFP\b|The Fertility Partnership/i,
+    // Case-SENSITIVE for the TFP token: org references are uppercase "TFP";
+    // lowercase "tfp" (e.g. in generated asset paths) must not be rewritten.
+    test: /\bTFP\b|The Fertility Partnership/,
     replacement: "Oxford Medical Kuwait",
     note: "TFP organisation reference → Oxford Medical Kuwait (§8). Verify each occurrence is org-framing, not a source-ID.",
   },
@@ -113,9 +114,19 @@ function applyRules(markdown, docId) {
       out.push("Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).");
       return;
     }
+    // Structured lines (tables / worksheets) are emitted as one HTML line by
+    // mammoth. NEVER wholesale-strip them — a single worksheet cell listing
+    // "Donation" or "Surrogacy" as one option must be hand-edited at cell
+    // level, not have the entire validated table deleted. Downgrade strip→flag.
+    const isStructured = /<table|<\/tr>|<\/td>/.test(working);
     for (const rule of RULES) {
       if (!rule.test.test(working)) continue;
       if (rule.mode === "strip") {
+        if (isStructured) {
+          report.push({ line: idx + 1, rule: rule.id, action: "FLAGGED", note: rule.note + " [in a TABLE — remove only the specific donor/surrogacy cell/option by hand; table preserved].", text: line.trim().slice(0, 200) });
+          working = `${working}  <!-- TODO(§8 ${rule.id}): remove the donor/surrogacy option(s) from this table by hand (out of scope, Kuwait). -->`;
+          continue;
+        }
         report.push({ line: idx + 1, rule: rule.id, action: "STRIPPED", note: rule.note, text: line.trim() });
         dropped = true;
         break;
@@ -204,7 +215,8 @@ async function main() {
   }
 
   // Extract images (dish-layout figures) to an assets folder beside the draft.
-  const imgDir = path.join(ROOT, "assets", "tfp", docId);
+  // NB: folder name avoids the "tfp" token so §8 brand-rewrite can't touch the path.
+  const imgDir = path.join(ROOT, "assets", "figures", docId);
   fs.mkdirSync(imgDir, { recursive: true });
   let imageCount = 0;
   const convertImage = mammoth.images.imgElement(async (image) => {

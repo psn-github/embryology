@@ -103,9 +103,12 @@ function watermarkClass(status) {
   return "";
 }
 
-// Render markdown body, optionally with a bilingual RTL second column for forms.
+// Render markdown body. Repo-relative asset paths (extracted dish-layout
+// figures, "assets/figures/…") are rewritten to absolute file:// URLs so they
+// resolve from dist/html/ where the rendered page actually lives.
 function renderBody(doc) {
-  return md.render(doc.body || "");
+  const html = md.render(doc.body || "");
+  return html.replaceAll('src="assets/', `src="file://${path.join(ROOT, "assets")}/`);
 }
 
 // --- public API ------------------------------------------------------------
