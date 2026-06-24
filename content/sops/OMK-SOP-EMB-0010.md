@@ -34,7 +34,7 @@ changeHistory:
 
 #### Purpose
 
-To describe the procedure for analysing semen parameters and post vasectomy analysis to required standards as set out in WHO (2021), ABA Guidelines for good Practice (2012) and Guidelines for Post Vasectomy analysis (2016). Semen samples can be analysed for patients prior to coming through for fertility treatment to determine the likely treatment type, for prospective sperm donors to determine their suitability or for patients undergoing fertility assessment via a GP or privately. Post vasectomy analysis is carried out for patients following vasectomy to assess the sample for the presence of sperm.
+To describe the procedure for analysing semen parameters and post vasectomy analysis to required standards as set out in WHO (2021), ABA Guidelines for good Practice (2012) and Guidelines for Post Vasectomy analysis (2016). Semen samples can be analysed for patients prior to coming through for fertility treatment to determine the likely treatment type, for prospective sperm  to determine their suitability or for patients undergoing fertility assessment via a GP or privately. Post vasectomy analysis is carried out for patients following vasectomy to assess the sample for the presence of sperm.
 
 #### Scope
 
@@ -576,7 +576,7 @@ The CASA system will then capture an image of the field of view and will place i
 
 ![](assets/figures/OMK-SOP-EMB-0010/fig-15.png)
 
-**_Image 8_** _– Example image using a CASA system (https://www.micropticsl.com)_
+**_Image 8_** _– Example image using a CASA system (https:/www.micropticsl.com)_
 
 **Red (Grade A) -** Rapid progressive motility (≥25µm/s)
 
@@ -602,7 +602,7 @@ To deselect any cells that have been inappropriately identified, for example inc
 
 ![](assets/figures/OMK-SOP-EMB-0010/fig-16.png)
 
-**_Image 9_** _– How to add/deselect sperm manually on the CASA (https://www.micropticsl.com)_
+**_Image 9_** _– How to add/deselect sperm manually on the CASA (https:/www.micropticsl.com)_
 
 To add a motility grade to any cell that has been missed or mis-identified click the ‘+’ icon, select the correct motility grade from the drop-down menu (see image 9 above), and then click on the sperm cell to add the grade to it. This can also be done by right clicking on a sperm cell and selecting the correct grade from the list that appears.
 

@@ -102,7 +102,7 @@ Ensure the heat sealer is closely situated and switched on.
 ##### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
 
 
-Check the required HFEA forms have (or country specific equivalent) been completed providing consent to oocyte freezing.  <!-- TODO(§8 hfea): HFEA / UK licence-condition reference — re-base to Kuwait MoH equivalent or remove (§8). NEEDS SCOTT. -->
+Check the required Kuwait MoH forms have (or country specific equivalent) been completed providing consent to oocyte freezing.
 
 Oocyte vitrification requires a second witness to be used alongside RI witness.
 
@@ -188,7 +188,7 @@ Blastocyst Formation Rate (A-E on day 5) ≥45%
 
 Good Blastocyst Formation Rate (A/B/C Day 5 or 6) ≥25%
 
-KPI’s with donated oocytes are expected to meet the lower limits above. KPI’s with own oocytes may be lower depending on patient age, patient history.
+KPI’s with  oocytes are expected to meet the lower limits above. KPI’s with own oocytes may be lower depending on patient age, patient history.
 
 #### Monitoring
 

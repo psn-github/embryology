@@ -16,7 +16,7 @@ sourceDoc: "TFP — Semen production form.docx (revision per source footer)"
 relatedDocuments: []
 guidelineRefs: ["ESHRE IVF lab", "ASRM", "Istanbul Consensus", "ISO 15189"]
 witnessSystem: "RI Witness"
-bilingual: true
+bilingual: false
 changeHistory:
   - version: "1.0"
     date: 2026-07-01

@@ -185,16 +185,16 @@ Laboratory staff are:
 
 HCPC Standards of conduct, performance and ethics
 
-[Standards of conduct, performance and ethics | (hcpc-uk.org)](https://www.hcpc-uk.org/standards/standards-of-conduct-performance-and-ethics/)
+[Standards of conduct, performance and ethics | (hcpc-uk.org)](https:/www.hcpc-uk.org/standards/standards-of-conduct-performance-and-ethics/)
 
 HCPC The standards of proficiency for clinical scientists
 
-[Clinical scientists | (hcpc-uk.org)](https://www.hcpc-uk.org/standards/standards-of-proficiency/clinical-scientists/)
+[Clinical scientists | (hcpc-uk.org)](https:/www.hcpc-uk.org/standards/standards-of-proficiency/clinical-scientists/)
 
 ESHRE The Revised guidelines for good practice in IVF laboratories (2015)
 
-[The Revised guidelines for good practice in IVF laboratories (2015) (eshre.eu)](https://www.eshre.eu/Guidelines-and-Legal/Guidelines/Revised-guidelines-for-good-practice-in-IVF-laboratories-\(2015\))
+[The Revised guidelines for good practice in IVF laboratories (2015) (eshre.eu)](https:/www.eshre.eu/Guidelines-and-Legal/Guidelines/Revised-guidelines-for-good-practice-in-IVF-laboratories-\(2015\))
 
 ARCS Code of Professional Conduct for Members
 
-[Knowledge Hub - Association of Reproductive and Clinical Scientists - ARCS (arcscientists.org)](https://www.arcscientists.org/knowledge-hub/)
+[Knowledge Hub - Association of Reproductive and Clinical Scientists - ARCS (arcscientists.org)](https:/www.arcscientists.org/knowledge-hub/)

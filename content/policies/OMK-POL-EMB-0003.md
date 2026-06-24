@@ -32,7 +32,7 @@ To define how the Embryology Laboratory receives, assesses and acts on manufactu
 
 ## 2. Scope
 
-Applies to all media, oils, consumables, plasticware, cryogenic devices, instruments and equipment used in the laboratory, and to all sources of recall and alert information from manufacturers, suppliers and regulators. It links to inventory and lot control (see register) and equipment maintenance (OMK-SOP-EMB-0060). Only the couple's own (autologous) material is handled, so traceability runs to the affected cycle rather than to any donor pathway.
+Applies to all media, oils, consumables, plasticware, cryogenic devices, instruments and equipment used in the laboratory, and to all sources of recall and alert information from manufacturers, suppliers and regulators. It links to inventory and lot control (see register) and equipment maintenance (OMK-SOP-EMB-0060). Only the couple's own (autologous) material is handled, so traceability runs to the affected cycle rather than to any  pathway.
 
 ## 3. Policy statements
 
