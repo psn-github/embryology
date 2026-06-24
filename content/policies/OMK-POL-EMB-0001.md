@@ -32,21 +32,21 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic, Group Director of Embryology &amp; Karen Schnauffer, Consultant Embryologist</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>UK Laboratory Staff</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>UK Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>23/01/2023</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To ensure that Oxford Medical Kuwait laboratory staff conduct themselves to the highest standards of efficacy, safety and security, and in accordance with applicable regulations.
 
-#### Scope
+## Scope
 
 Applicable to all laboratory staff.
 
-#### Definitions
+## Definitions
 
 PPE Personal Protective Equipment
 
 IMS Independent Monitoring System
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -62,7 +62,7 @@ All laboratory staff are responsible for ensuring that they have read and adhere
 
 All employees must read and follow company policies. If they have any questions, they should ask their manager or Human Resources (HR) department.
 
-#### Introduction
+## Introduction
 
 Oxford Medical Kuwait is committed to providing a safe laboratory environment that is compliant with regulatory and professional guidelines and provides high standards of care for patients. It is therefore essential that all employees and visitors follow the Laboratory Code of Conduct at all times.
 
@@ -70,9 +70,9 @@ This policy includes appropriate behaviour, use of Personal Protective Equipment
 
 Please note that it is your responsibility as a member of the Oxford Medical Kuwait laboratory team to ensure that you are aware, follow and respect the Laboratory Code of Conduct when present in the laboratories. Accidents must be reported immediately to the Laboratory Manager, or in their absence the Deputy Laboratory Manager/Health and Safety Representative.
 
-##### 5.1 General Rules
+### 5.1 General Rules
 
-##### 5.1.1 Behaviour
+### 5.1.1 Behaviour
 
 Laboratory staff are:
 
@@ -86,13 +86,13 @@ Laboratory staff are:
 -   required to register with the HCPC (or equivalent country registry) within 6 months of becoming eligible.
 -   required to participate in continuing professional development.
 
-##### 5.1.2 Timekeeping
+### 5.1.2 Timekeeping
 
 -   Laboratory staff are required to work in a flexible manner to meet the service needs.
 -   Laboratory staff must ensure that they arrive by their designated start and do not depart before their designated finish time. Any deviation from this requires prior approval from the Laboratory Manager or Deputy Laboratory Manager.
 -   The laboratory is opened at a time specified by the local Laboratory Manager to ensure that the equipment checks, dish preparation and fertilisation checks are completed at the required time. Weekend laboratory opening times are dependent on workload.
 
-##### 5.1.3 On-call
+### 5.1.3 On-call
 
 -   Employees will be notified in advance if they are required to participate in the clinics on-call rota.
 -   Whilst on-call, employees must be directly contactable by the Independent Monitoring System (IMS), keep the on-call phone/their phone within audible distance and with adequate battery charge and always remain in an area of mobile phone/internet connectivity.
@@ -100,22 +100,22 @@ Laboratory staff are:
 -   Whilst on-call the member of staff must remain capable to carry out the duties required.
 -   All laboratory staff that take part in the on-call rota are required to participate in the Christmas/New Year shutdown on-call rota. The rota includes attending for service and maintenance visits, deep cleaning, completing administrative lab work (such as audits) and to ensure that the storage dewars/gas cylinders are appropriately checked and maintained.
 
-##### 5.1.4 Annual Leave
+### 5.1.4 Annual Leave
 
 -   Staff should follow the Oxford Medical Kuwait Annual Leave policy.
 -   Each Laboratory Manager will specify out how many staff may be on annual leave at any one time; however, this may be modified based on workload/periods of closure/bank holidays. The size of the team, number of days worked and available skillset will contribute to this policy.
 
-##### 5.1.5 Communication
+### 5.1.5 Communication
 
 -   Laboratory staff must be able to demonstrate effective and appropriate verbal and non-verbal skills in communicating information, advice, instructions and professional opinions to patients, colleagues, and service companies.
 -   Laboratory staff must ensure high levels of communication and cooperation between themselves and their colleagues.
 
-##### 5.1.6 Record Keeping
+### 5.1.6 Record Keeping
 
 -   Laboratory staff must keep accurate, comprehensive, and comprehensible records for all contact with patients. This should include confirmation of ID checks and details of any contact. A progress note should be created for each contact event.
 -   Records should be written in accordance with applicable legislation, protocols and guidelines.
 
-##### 5.1.7 Infection Control
+### 5.1.7 Infection Control
 
 **Hand Washing**
 
@@ -169,19 +169,19 @@ Laboratory staff are:
 -   Laboratory staff/visitors must only use detergents/sterilising agents approved by the local Laboratory Manager.
 -   All laboratory staff must contribute to the overall cleanliness of the laboratory area by participating in cleaning/decontamination routines, emptying sharps/clinical waste bins and keeping the laboratory area tidy and clear from unnecessary clutter.
 
-##### 5.1.8 Mobile Phones
+### 5.1.8 Mobile Phones
 
 -   Personal mobiles are not permitted in the laboratory, except in exceptional circumstances when agreed by the laboratory manager. This may include when lone working, or if a dependent is unwell. In these circumstances the mobile phone may be placed on the laboratory bench but must not be carried by the individual.
 -   Personal mobiles should only be used during designated breaks.
 -   Personal mobiles should be kept in personal lockers/bags.
 -   Personal phones may be used if needed to authenticate logging into IT accounts. They must be put away into lockers/bags after use.
 
-##### 5.1.9 Visitors
+### 5.1.9 Visitors
 
 -   Visitors are not allowed in the laboratory unless permission has been given by the Laboratory Manager or Deputy Laboratory Manager. If allowed, visitors must be accompanied at all times.
 -   Non-clinical staff must ask the Laboratory Manager or Deputy Laboratory Manager for approval to enter the lab.
 
-#### References
+## References
 
 HCPC Standards of conduct, performance and ethics
 

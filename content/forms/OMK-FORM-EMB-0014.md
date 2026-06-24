@@ -46,7 +46,7 @@ Mob number
 
 <table><tbody><tr><td colspan="2"><h4>SECTION 1: Patient Identification - Patient’s identity matches that on the sample pot / production form (including full name, DOB, unit number). Patient has initialled the pot to confirm identity is correct.</h4></td></tr><tr><td><h4>Staff Name:</h4></td><td><h4>Staff Signature:</h4></td></tr><tr><td><h4>Date:</h4></td><td><h6>Time:</h6></td></tr><tr><td colspan="2"><p><strong>Patient Declaration</strong> I confirm the following regarding the semen sample that I am producing today:</p><p>That the pot is labelled and the details on the pot are correct; I have initialled the pot to confirm this; the sample has been produced by me; the sample has not been tampered with and has been kept at room temperature.</p></td></tr><tr><td><h4>Patient Signature:</h4></td><td><h6>Date:</h6></td></tr></tbody></table>
 
-#### TO BE COMPLETED BY THE PATIENT:
+## TO BE COMPLETED BY THE PATIENT:
 
 Sample Produced: (tick as applicable): 🞏 On Site 🞏 Off Site (e.g. at home)
 
@@ -65,4 +65,4 @@ This sample is for: (tick all that apply):
 5.  Do not use lubricant, which is not supplied directly from the clinic (this can be toxic to sperm).
 6.  If producing the sample offsite, please ensure the sample is labelled with full name, DOB and unit number. It should be delivered to the lab within 50 minutes of production, keep the sample at room temperature, and do not expose to light. If you have any problems producing the sample, please call and notify the clinic.
 
-###### Samples will not be processed if they are unlabelled, the label is incorrect or there is any doubt to the identity of the sample.
+#### Samples will not be processed if they are unlabelled, the label is incorrect or there is any doubt to the identity of the sample.

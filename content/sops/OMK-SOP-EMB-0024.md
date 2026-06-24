@@ -32,17 +32,17 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic, Group Director of Embryology</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p></td><td><p>05/08/2021</p><p>1/10/2021</p><p>19/10/2022</p></td><td colspan="2"><p>Witnessing steps expanded to include checks for split cases. Double witness required every time oocytes or sperm are added to the ICSI dishes. AOA dish preparation added and post AOA oocytes are washed in GTL.</p><p>Post ICSI, injected oocytes to be moved into ES+ GTL dish (an intermediary 40mm GTL dish may be used if helpful). If the ES+ dish is made day before oocyte collection, medium change required on Day 5. If ES+ dish made on day of oocyte collection, medium change required on Day 6 (if, culturing to day 7). ES+ GTL dish requires a minimum of 6 hours equilibration in a gassed incubator.</p><p>Witnessing updated to include use of three identifiers</p><p>Requirement to shake CultActive for 30 seconds prior to use added.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To outline the procedure for ICSI and associated techniques such as Artificial Oocyte Activation (AOA) and Hypo-Osmotic Swelling (HOS) Test. The SOP includes information on the preparation of the micromanipulator, injection technique and additional techniques that may be required.
 
-#### Scope
+## Scope
 
 Applicable to all laboratory staff deemed competent to perform ICSI.
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 ICSI Intra Cytoplasmic Sperm Injection
 
@@ -54,7 +54,7 @@ ES+ Embryoscope Plus
 
 TL Time lapse
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -72,9 +72,9 @@ All Staff
 
 Staff performing the procedure are responsible for following the process laid out in this document, ensuring they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and to the Laboratory Manager.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -95,7 +95,7 @@ Staff performing the procedure are responsible for following the process laid ou
 -   HOS Test (optional)
 -   RI Witness Tags
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to the start of the procedure the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -105,7 +105,7 @@ Ensure the RI heated stage is switched on and at the correct set point
 
 Ensure the ICSI heated stage is switched on and at the correct set point.
 
-##### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
+### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
 
 Before beginning an ICSI procedure check the laboratory notes to ensure that ‘ICSI’ is the agreed insemination method.
 
@@ -125,7 +125,7 @@ If an intermediary 40mm GTL dish is used post ICSI, alongside RI Witness check t
 
 At the end of the procedure the operator must ensure that the correct number of oocytes have been injected and the total number contained with the GTL Post ICSI dish must be noted on the side of the dish.
 
-##### 5.4 Preparation of Dishes
+### 5.4 Preparation of Dishes
 
 Prepare ICSI dishes a minimum of 1 hour prior to use and warm in an ungassed incubator. Prepare one ICSI dish per 4-6 oocytes up to a maximum of 3 dishes, thereafter dishes are re-used. Oocytes are injected in batches of 4-6 depending upon the local stability of the heated stage, sperm quality and ICSI practitioners experience. One oocyte is placed in each droplet. If a ‘Lake Dish’ is required, prepare a minimum of 1 hour prior to use and warm in an ungassed incubator.
 
@@ -191,7 +191,7 @@ Wash Drops
 
 Figure 5: AOA 40mm Dish Set-up with GTL
 
-##### 5.5 Preparation of ICSI Micromanipulator
+### 5.5 Preparation of ICSI Micromanipulator
 
 Check that the microscope is in the correct focal plane for an ICSI dish, this can be done by visualising a cross on the base of the dish. Adjust using course or fine focus controls on the microscope as necessary.
 
@@ -203,11 +203,11 @@ At X40 both ICSI and holding pipettes should be in focus, have a central positio
 
 Raise both pipettes so that the ICSI dish can be placed on the heated stage with ease.
 
-##### 5.6 Timing of ICSI Procedure
+### 5.6 Timing of ICSI Procedure
 
 Performed ICSI 4 hours post oocyte collection ± 30 minutes.
 
-##### 5.7 Standard ICSI Procedure
+### 5.7 Standard ICSI Procedure
 
 Consideration must be given to maintaining temperature, pH and osmolality of the dishes during the ICSI procedure. As such a maximum of 6 oocytes are injected at any one time and a target time for completion of the 6 oocytes should be <15 minutes.
 
@@ -255,13 +255,13 @@ Complete the embryology & witnessing records.
 
 _Additional Note: In Poland the maximum permitted number of oocytes for injection is six, unless the patients qualifies for exemption.._
 
-##### 5.8 Low Maturity or No Mature Oocytes
+### 5.8 Low Maturity or No Mature Oocytes
 
 If the patient has a low level of maturity, <25%, inject all suitable oocytes at the standard injection time and re-check any MI oocytes towards the end of the working day.
 
 In the event that there are no MII oocytes available for injection on the day of TVOR, consider retaining the oocytes until 8-9am on Day 1. If any oocytes have reached MII they can be injected at this point should the patient wish to do so. Any oocytes not at MII will be discarded at this stage.
 
-##### 5.9 Management of Severe Oligo/Asthenozoospermic Samples
+### 5.9 Management of Severe Oligo/Asthenozoospermic Samples
 
 In the event that the sperm sample has a very low concentration or motility it may be preferable to put the sperm sample in GMOPS\+ and find the sperm for injection ahead of the ICSI procedure. This is performed in a separate dish referred to as a ‘Lake Dish’. The ‘Lake dish’ consists of a several strips of GMOPS+ and a droplet of PVP. The ‘Lake dish’ can be used in combination with Sperm Mobil or the HOS test.
 
@@ -279,7 +279,7 @@ Once all the sperm for injection have been collected, transfer the sperm from th
 
 Perform the ICSI procedure as described above using the pre- selected sperm.
 
-##### 5.10 Artificial Oocyte Activation (AOA)\]
+### 5.10 Artificial Oocyte Activation (AOA)\]
 
 If the patient has consented to AOA and it is clinically appropriate to perform, the procedure is performed immediately after the ICSI procedure.
 
@@ -289,7 +289,7 @@ Transferred injected oocytes into the CultActive droplets immediately following 
 
 After 15 minutes, remove the oocytes from the CultActive media and rinse the oocytes through the three GTL wash drops and then transfer to the GTL Post ICSI dish. Repeat until all injected oocytes have been exposed and cultured in CultActive.
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 2PN Rate ≥65%
 
@@ -299,7 +299,7 @@ After 15 minutes, remove the oocytes from the CultActive media and rinse the ooc
 
 Damage Rate <10%
 
-#### Monitoring
+## Monitoring
 
 A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP at least once annually.
 

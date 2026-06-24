@@ -32,15 +32,15 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p><p>5.0</p></td><td><p>13/02/2020</p><p>20/05/2021</p><p>02/02/2022</p><p>09/02/2023</p></td><td colspan="2"><p>For pH test, semen must be added to the pH paper (pH paper not dipped in the sample)</p><p>Haemocytometer cover slip specification added</p><p>Updated with reference to WHO 2021 6<sup>th</sup> edition. Samples produced off site must be delivered to clinic within 50 minutes of production. Requirement to clean men’s room prior to use added.</p><p>Revised method for concentration assessment, counting squares instead of rows. Revised reference values added and acceptable difference tables updated for motility and concentration. Worked example added for motility calculations. Images of LeucoScreen Plus and vitality assessments added. Option of using 20ml Potassium Citrate mixture to equilibrate pH for retrograde analysis added.</p><p>Updated section 5.9. Removed method for ‘Sperminator’ CASA and replaced with SCA CASA method. Cellvision slides replaced with Leja slides for use with the SCA CASA system.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To describe the procedure for analysing semen parameters and post vasectomy analysis to required standards as set out in WHO (2021), ABA Guidelines for good Practice (2012) and Guidelines for Post Vasectomy analysis (2016). Semen samples can be analysed for patients prior to coming through for fertility treatment to determine the likely treatment type, for prospective sperm  to determine their suitability or for patients undergoing fertility assessment via a GP or privately. Post vasectomy analysis is carried out for patients following vasectomy to assess the sample for the presence of sperm.
 
-#### Scope
+## Scope
 
 Applicable to all embryologists, andrologists and practitioners deemed competent to perform semen analysis:
 
-#### Definitions
+## Definitions
 
 PPE Personal Protective Equipment
 
@@ -58,7 +58,7 @@ SSR Surgical Sperm Retrieval
 
 WHO World Health Organisation
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -76,9 +76,9 @@ All Staff
 
 Are responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -115,7 +115,7 @@ Are responsible for following the process laid out in this document, ensure they
 -   LeucoScreen Plus
 -   Media for Dilution GIVF+/GMOPS+
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to performing the semen analysis procedure, the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -123,7 +123,7 @@ The flowhood (if applicable) must be checked to ensure the flow is on and the ho
 
 Ensure the microscope heated stage (if applicable) is switched on and set at 37°C at least 10 minutes prior to examination of samples.
 
-##### 5.3 Witnessing Checks (Full Name, Clinic Number & D.O.B.)
+### 5.3 Witnessing Checks (Full Name, Clinic Number & D.O.B.)
 
 There should be a minimum of 3 patient identifiers on the sample pot e.g. full name, D.O.B. & clinic number.
 
@@ -131,7 +131,7 @@ Ask the patient to state their full name and D.O.B. Check this information along
 
 For on-site production, hand the patient the sample pot and provide the patient with sample production instructions. Instruct the patient to inform the laboratory team if not all the sample is collected/or record this on the sample production form.
 
-###### 5.3.1 Post Vasectomy Analysis Rejection Criteria
+#### 5.3.1 Post Vasectomy Analysis Rejection Criteria
 
 Samples that are incorrectly labelled, unlabelled, where the witnessing step has not been fully completed or whereby there is doubt as to its identification must be rejected.
 
@@ -139,7 +139,7 @@ For post vasectomy samples it is imperative that the patient confirms whether th
 
 See section 5.12 for the strict criteria that must be met for clearance to be given.
 
-###### 5.3.2 Diagnostic Semen Analysis Rejection Criteria
+#### 5.3.2 Diagnostic Semen Analysis Rejection Criteria
 
 Samples that are incorrectly labelled, unlabelled, where the witnessing step has not been fully completed or whereby there is doubt as to its identification, must be rejected.
 
@@ -154,7 +154,7 @@ Once the sample has been produced, transfer the sample to the flowhood/laborator
 
 Only one sample may be processed in a flowhood at any one time.
 
-##### 5.4 Sample Production
+### 5.4 Sample Production
 
 Semen analysis should be performed following 2-7 days abstinence.
 
@@ -168,7 +168,7 @@ If the patient is unable to produce on site, offer the patient the option to pro
 
 Patients may also be given the option of producing the sample into a non-toxic condom.
 
-##### 5.5 Preparation for the Procedure
+### 5.5 Preparation for the Procedure
 
 Turn on the heated stage and set to 37°C for at least 10 minutes prior to use.
 
@@ -176,7 +176,7 @@ Remove reagents from the fridge and allow them to warm to room temperature prior
 
 Pre-weigh the labelled sample pot prior to the patient producing the sample, note the weight of the empty pot on the lid.
 
-##### 5.6 Timing of Semen Analysis
+### 5.6 Timing of Semen Analysis
 
 Begin initial analysis of the semen sample 15-60 minutes post-production and following sample liquefication.
 
@@ -184,7 +184,7 @@ If after 30 minutes the sample fails to liquefy, place the sample on to a heated
 
 Delay or failure of the sample to liquefy after 30 or 60 minutes should be noted on the final report.
 
-##### 5.7 Semen Analysis
+### 5.7 Semen Analysis
 
 This section is the main text of the SOP. It details the procedure for the task to be performed.
 
@@ -194,13 +194,13 @@ Assessments of round cells and viability are performed depending on the patient�
 
 Gloves must be worn when handling human semen.
 
-###### 5.7.1 Assessment of Sample Volume (Reference value ≥1.4ml)
+#### 5.7.1 Assessment of Sample Volume (Reference value ≥1.4ml)
 
 The sample pot must be pre-weighed and the weight recorded. Once the patient has produced the sample, weigh the pot containing the semen sample and note the weight.
 
 To calculate the sample volume, subtract the weight of the empty sample pot from the weight of the pot + sample. Calculate the sample volume assuming the density of semen to be 1g/ml.
 
-###### 5.7.2 Initial Macroscopic Assessment of Viscosity and Appearance
+#### 5.7.2 Initial Macroscopic Assessment of Viscosity and Appearance
 
 Prior to analysis the sample should be mixed by either manually swirling for 15-30 seconds or by using a serological/Pasteur pipette and thoroughly mixing the sample by pipetting up and down several times.
 
@@ -210,7 +210,7 @@ Any abnormal appearance should be recorded, for example a pinkish colour may ind
 
 For samples that are extremely viscous and where assessment may be difficult, the sample should be treated as above for delayed liquefaction prior to analysis.
 
-###### 5.7.3 Assessment of Motility (Reference value A + B= ≥30%)
+#### 5.7.3 Assessment of Motility (Reference value A + B= ≥30%)
 
 Perform motility assessment within 60 minutes of sample production, and ideally within 30 minutes following liquefaction. Perform the motility assessment on a heated stage at 37°C where possible.
 
@@ -270,7 +270,7 @@ Average motility = 9/26/3.5/61.5
 
 Therefore reported motility = 9/26/3/62
 
-###### 5.7.4 Assessment of Concentration (Reference value ≥16M/ml)
+#### 5.7.4 Assessment of Concentration (Reference value ≥16M/ml)
 
 Assess the appropriate dilution to be used according to the number of sperm per HPF observed on a wet preparation at x400 in a minimum of 3 fields. A minimum volume of 50µl semen should be used to make up dilutions, and the total volume should be a minimum of 200 µl.
 
@@ -410,11 +410,11 @@ From the table above the correction factor for a 1:2 dilution and 3 grids counte
 
 _\= 1.46M/ml_
 
-###### 5.7.5 Calculation of Total Sperm Number (Reference value Total Sperm Number ≥39M)
+#### 5.7.5 Calculation of Total Sperm Number (Reference value Total Sperm Number ≥39M)
 
 The total sperm number should be reported for each sample. This is calculated by multiplying the concentration of sperm in millions per ml by the volume of the whole sample.
 
-###### 5.7.6 Assessment of Morphology (Reference value normal forms ≥4%)
+#### 5.7.6 Assessment of Morphology (Reference value normal forms ≥4%)
 
 Place 5µl of semen onto a pre-stained morphology slide and cover with a cover slip. Allow the slide to air dry for 15-30 minutes. Observe the slide at X1000 magnification under oil immersion. Grade 200 whole sperm as ‘normal’ or ‘abnormal’ according to WHO 2021 criteria. Note the result as a percentage of ‘normal’ forms.
 
@@ -434,7 +434,7 @@ The tail should be regular and thinner than the midpiece and around ten times th
 
 If prevalence of specific defects are noted in the assessment, such as sperm with heads lacking acrosomes (‘globozoospermia’) or ‘pinheads’ (free tails with no head structure), these should be reported.
 
-###### 5.7.7 Assessment of Anti-Sperm Antibodies IgG (Reference value <50%)
+#### 5.7.7 Assessment of Anti-Sperm Antibodies IgG (Reference value <50%)
 
 Allow the reagents to warm to room temperature.
 
@@ -446,13 +446,13 @@ Assess 200 motile sperm for the presence of beads bound to them. Convert the num
 
 If initial assessment shows no binding, assess again after 10 minutes to confirm the result.
 
-###### 5.7.8 Assessment of pH (Reference Range pH ≥ 7.2)
+#### 5.7.8 Assessment of pH (Reference Range pH ≥ 7.2)
 
 Perform the pH assessment within 1 hour of sample production.
 
 Place a drop of the semen sample on the pH paper. Wait for the colour of the impregnated zone to become uniform. Compare the colour to the calibration strip and read the pH.
 
-###### 5.7.9. Assessment of Viability, if motility <5%, (Reference value ≥ 54% live)
+#### 5.7.9. Assessment of Viability, if motility <5%, (Reference value ≥ 54% live)
 
 Perform the Vitality assessment within 1 hour of production, ideally at 30 minutes following liquefaction using Vitalscreen (Eosin and Nigrosin exclusion).
 
@@ -466,7 +466,7 @@ Description automatically generated with medium confidence](assets/figures/OMK-S
 
 Alternatively, the Hypo-Osmotic Swelling Test (HOS) may be used to distinguish between viable and non-viable non-motile sperm.
 
-###### 5.7.10 Assessment of Round Cells, if indicated (Reference value <1M/ml Peroxidase Positive Cells)
+#### 5.7.10 Assessment of Round Cells, if indicated (Reference value <1M/ml Peroxidase Positive Cells)
 
 An assessment of round cells in the sample can be carried out in the same way as concentration as decsribed above using the haemocytometer chamber, using an appropriate dilution. If the round cell count is found to exceed 5M/ml, an assessment using LeucoScreen Plus should be performed to determine the concentration of peroxidase positive cells. Record the concentration of total positive round cells.
 
@@ -506,7 +506,7 @@ Concentration of peroxidase positive white blood cells (M/ml) = Proportion of Po
 
 (where total concentration is the concentration of round cells as assessed above on haemocytometer).
 
-###### 5.7.11 Additional Microscopic Assessments (if indicated)
+#### 5.7.11 Additional Microscopic Assessments (if indicated)
 
 Agglutination (where motile sperm stick together i.e. head-to-head, tail-to-tail, tail tip-to-tail tip, or mixed) can be assessed and recorded if noticed to be high and a comment made on the report as agglutination ‘+ (<10 sperm per agglutinate), ++ (10-50 sperm per agglutinate), or +++ (agglutinates of >50 sperm). A note should be made on the report of the type of attachment.
 
@@ -514,7 +514,7 @@ If sperm aggregates (where immotile sperm stick together, stick to motile sperm 
 
 If debris or bacteria is noticed in the sperm sample, this can also be noted on the report as debris or bacteria ‘+, ++ or +++’.
 
-###### 5.7.12 Post Examination Procedure
+#### 5.7.12 Post Examination Procedure
 
 Following completion of the semen analysis, clear the flowhood of any used consumables. Use Oosafe ± sterile water to clean the flowhood/bench.
 
@@ -522,7 +522,7 @@ Dispose of any used slides/pipettes/pots/tubes in clinical waste (sharps bins fo
 
 Proceed to writing the semen analysis report.
 
-##### 5.8 Low Sperm Numbers & Suspected Azoospermia
+### 5.8 Low Sperm Numbers & Suspected Azoospermia
 
 If too few sperm are seen on the haemocytometer chamber in 9 grids for an accurate assessment (<25 sperm in each whole chamber using a 1:2 dilution i.e. <55,555 sperm/ml), the number of sperm observed should be reported, however a note needs to be made on the report that too few sperm are seen for accurate assessment (<56,000).
 
@@ -536,11 +536,11 @@ If no sperm are seen in the sample then a follow up appointment must be made in 
 
 At the end of the semen analysis, clear the flowhood/bench of any used consumables. Use Oosafe ± sterile water to clean the flowhood/bench.
 
-##### 5.9 Assessment of Motility and Concentration using CASA systems
+### 5.9 Assessment of Motility and Concentration using CASA systems
 
 CASA systems (Computer Aided Semen analysis) systems can be used as an alternative to manual methods to assess concentration and motility however they must be validated against a haemocytometer chamber.
 
-###### 5.9.1 SCA CASA (Microptics)
+#### 5.9.1 SCA CASA (Microptics)
 
 To be suitable for assessment via the CASA, samples should have a minimum of >15 sperm per X400 HPF.
 
@@ -675,7 +675,7 @@ Patients that have continued immotile sperm seen in the sample after 7 months po
 
 Special clearance must only be given if <100,000/ml non motile sperm are observed and after assessment of a minimum of 2 samples. It must not be given if any motile sperm are observed.
 
-###### 5.12.1 Initial Assessment
+#### 5.12.1 Initial Assessment
 
 Record the volume and pH of the sample as described above.
 
@@ -687,7 +687,7 @@ If numbers of sperm seen exceed >1M/ml carry out a full semen analysis.
 
 If no sperm is seen in the initial 10µl, the sample must be assessed by either method below:
 
-###### 5.12.2 Option 1: Assessment on Deep Chamber 100um PVSA slide (2016 guidelines)
+#### 5.12.2 Option 1: Assessment on Deep Chamber 100um PVSA slide (2016 guidelines)
 
 Transfer 25µl of sample into a fixed-depth 100µm post vasectomy slide. The filled slide should then be stored in a humid atmosphere for a minimum of 15 minutes prior to examination.
 
@@ -697,7 +697,7 @@ If sperm are seen, make a note of the number of sperm seen in the PVSA slide on 
 
 If no sperm are seen, report that no sperm were seen in the fixed 100µm depth post vasectomy slides.
 
-###### 5.12.3 Option 2: Centrifuge Sample (2002 BAS Guidelines)
+#### 5.12.3 Option 2: Centrifuge Sample (2002 BAS Guidelines)
 
 Transfer 1ml of sample into a tube/Eppendorf and centrifuge at 3.0 r.c.f. for 15 minutes.
 
@@ -711,10 +711,10 @@ If no sperm are seen, report that no sperm were seen in the pellet post centrifu
 
 Clear the flowhood of any used consumables. Use Oosafe ± sterile water to clean the flowhood.
 
-#### 6 Standards/Key Performance/Quality Indicators
+## 6 Standards/Key Performance/Quality Indicators
 
 Each clinic must participate in an external quality assurance scheme for assessment of sperm concentration, motility and morphology with ‘Satisfactory’ performance.
 
-#### 7 Monitoring
+## 7 Monitoring
 
 A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP at least once annually.

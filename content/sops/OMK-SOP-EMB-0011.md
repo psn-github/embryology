@@ -32,17 +32,17 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>13/02/2020</p></td><td colspan="2"><p>Insemination calculations edited. Volumes of GIVF needed for preparation clarified.</p></td></tr><tr><td><p>3.0</p><p>4.0</p><p>5.0</p><p>6.0</p></td><td><p>20/05/2021</p><p>01/10/2021</p><p>02/02/2022</p><p>06/04/2022</p></td><td colspan="2"><p>Sample Production &amp; Witnessing checks expanded</p><p>Witnessing updated, requirement for 3 identifiers</p><p>Men’s room to be cleaned prior to use. Stock suspension to be equilibrated for 30-120 minutes prior to insemination. Updated with WHO 2021 6<sup>th</sup> Edition reference values. Option of using 20ml Potassium Citrate mixture to equilibrate pH prior to retrograde analysis.</p><p>Checks that need to take place prior to thawing/using  sperm listed in a more specific manner. Each patient must complete a Oxford Medical Kuwait  form (TFP1-CON-AND-0005) prior to each cycle in which  sperm is used. Steps listed must be second witnessed. Additional KPI added for all patients using  sperm to have completed a TFP  form (TFP1-CON-AND-0005) and all office checks to have been completed.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To describe the procedure for analysing semen parameters and preparing the semen sample for IUI, IVF or ICSI treatment. Semen samples must be prepared prior to use in treatment. There are several different preparation methods, and these should be applied to different samples depending on their concentration and motility parameters.
 
-#### Scope
+## Scope
 
 Applicable to all embryologists, andrologists and practitioners deemed competent to perform semen analysis and preparation:
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 IUI Intra Uterine Insemination
 
@@ -52,7 +52,7 @@ ICSI Intra Cytoplasmic Sperm Injection
 
 D.O.B. Date of Birth
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -70,9 +70,9 @@ All Staff
 
 Are responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register, and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -104,13 +104,13 @@ Are responsible for following the process laid out in this document, ensure they
 -   GIVF+
 -   Sterile Jug (for retrograde analysis)
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to performing the sperm preparation procedure, the equipment to be used must be checked to ensure it is operating optimally.
 
 The flowhood must be checked to ensure the flow is on and the hood is clear of used pots/pipettes and tubes.
 
-##### 5.3 Witnessing Checks (Full Name, Clinic Number & D.O.B.)
+### 5.3 Witnessing Checks (Full Name, Clinic Number & D.O.B.)
 
 The sample pot must be labelled with three identifiers, the patient’s full name, clinic number and D.O.B.
 
@@ -142,7 +142,7 @@ Inside the flowhood, alongside a second witness check the full name, D.O.B. and 
 
 Any sperm that remains following thawing, must be returned to the cryobank alongside a second witness.
 
-##### 5.4 Sample Production
+### 5.4 Sample Production
 
 Semen samples should where possible be produced on site. If the patient is unable to produce on site, offer the patient the option to produce off site. Provide the patient with a labelled sample pot. If the sample is produced off-site the patient must sign an off-site production declaration form stating the date/time/place of production and that the sample is their own and has not been tampered with. Advise the patient to keep the sample warm and to bring it to the clinic within 50 minutes of production.
 
@@ -152,7 +152,7 @@ If the patient is to produce on site, the sample production room must be cleaned
 
 All patients must be triaged for Covid-19 before attending the clinic.
 
-##### 5.5 Preparation of Density Gradients & Test Tubes for Sample Washing
+### 5.5 Preparation of Density Gradients & Test Tubes for Sample Washing
 
 Prepare 80% and 40% PureSperm Gradients in 10ml aliquots in conical tubes.
 
@@ -168,7 +168,7 @@ Alternatively, for preparation of samples with <2M/ml and <5% motility, a one-st
 
 Prepare conical tubes for washing, place 2ml of GIVF+ in one tube (Wash/Stock tube) plus a further 4mls of GIVF+ in a second conical tube (Media tube) for the 2nd wash and to resuspend the pellet at the end of the preparation procedure. Equilibrate in a gassed incubator for a minimum of 6 hours. Tightly cap the tubes when they are removed from the incubator ready for use.
 
-##### 5.6 Timing of Sperm Preparation Procedure
+### 5.6 Timing of Sperm Preparation Procedure
 
 Begin preparation of the semen sample 15-60 minutes post-production. If the sample is viscous or fails to liquefy, GIVF+ can be added to the sample or the sample can be syringed/warmed.
 
@@ -182,7 +182,7 @@ High Speed Spin 5 minutes at 0.5-0.8 rcf
 
 Swim-Up 60-90 minutes in a gassed incubator
 
-##### 5.8 Semen Analysis
+### 5.8 Semen Analysis
 
 Assess the volume, concentration and motility of the initial semen sample.
 
@@ -196,17 +196,17 @@ The initial and post preparation parameters are used to determine whether IVF or
 
 Gloves must be worn when handling human semen.
 
-###### 5.8.1 Assessment of Sample Volume (Reference Value ≥1.4ml)
+#### 5.8.1 Assessment of Sample Volume (Reference Value ≥1.4ml)
 
 Using a serological pipette, thoroughly mix the sample by pipetting up and down several times and then measure the total volume of the sample using the graduations on the pipette.
 
-###### 5.8.2 Assessment of Concentration (Reference Value ≥16M/ml)
+#### 5.8.2 Assessment of Concentration (Reference Value ≥16M/ml)
 
 Mix 10µl of neat semen with 190µl of sterile water in an Eppendorf tube. Vortex to mix thoroughly. Attach the cover slip #4 or 0.44mm to the haemocytometer until Newtons Rings are visible. Gently pipette approximately 8-10 µl of the diluted sample into each side of the haemocytometer chamber. Allow the chamber to settle for 4 minutes in a humid chamber before analysis.
 
 Observe the chamber at X200-400 magnification. The chamber consists of two grids with 25 large squares on each. Depending on the concentration of the sperm in the sample, count either the number of whole sperm in 5 large squares per grid or 25 large squares per grid. Determine the concentration of the sample in M/ml.
 
-###### 5.8.3 Assessment of Motility (Reference Value A + B= ≥30%)
+#### 5.8.3 Assessment of Motility (Reference Value A + B= ≥30%)
 
 Place 10 µl of semen onto a clear glass slide and cover with a glass cover slip. Observe the slide at X200-400 magnification. Immediately following slide preparation, grade the motility of 100-200 sperm using the following criteria:
 
@@ -220,7 +220,7 @@ Place 10 µl of semen onto a clear glass slide and cover with a glass cover slip
 
 Note the results as a percentage of each grade.
 
-###### 5.8.4 Assessment of Morphology, if Indicated (Reference Value normal forms ≥4%)
+#### 5.8.4 Assessment of Morphology, if Indicated (Reference Value normal forms ≥4%)
 
 Place 5µl of semen onto a pre-stained morphology slide. Allow the slide to air dry for 15-30 minutes. Observe the slide at X1000 magnification under oil immersion. Grade 100-200 whole sperm as ‘normal’ or ‘abnormal’ according to WHO 2021 criteria. Note the result as a percentage of normal forms.
 
@@ -232,7 +232,7 @@ The midpiece should be slender and regular and approximately the same length as 
 
 The tail should be regular and thinner than the midpiece and around ten times the length of the head.
 
-###### 5.8.5 Assessment of Anti-Sperm Antibodies IgG, if Indicated (Reference Value <50%)
+#### 5.8.5 Assessment of Anti-Sperm Antibodies IgG, if Indicated (Reference Value <50%)
 
 Allow the reagents to warm to room temperature.
 
@@ -244,21 +244,21 @@ Assess 100 motile sperm for the presence of beads bound to them. Convert the num
 
 If the initial assessment shows no binding, re-assess in 10 minutes.
 
-###### 5.8.6 Assessment of pH, if Indicated (Reference pH ≥7.2)
+#### 5.8.6 Assessment of pH, if Indicated (Reference pH ≥7.2)
 
 Perform the pH assessment within 1 hour of sample production.
 
 Place a droplet of neat semen onto pH paper. Wait for the colour of the impregnated zone to become uniform. Compare the colour to the calibration strip and read the pH.
 
-###### 5.8.7 Assessment of Viability, Performed if 0% Motility (Reference Value ≥54%)
+#### 5.8.7 Assessment of Viability, Performed if 0% Motility (Reference Value ≥54%)
 
 SpermMobil can be used to initiate motility in viable non-motile sperm. The process for using SpermMobil is outlined in the Oxford Medical Kuwait ICSI SOP.
 
 Alternatively, the Hypo-Osmotic Swelling Test (HOS) may be used to distinguish between viable and non-viable non-motile sperm.
 
-##### 5.9 Sperm Preparation
+### 5.9 Sperm Preparation
 
-###### 5.9.1 80:40% Density Gradient (IUI, ICSI or IVF Samples)
+#### 5.9.1 80:40% Density Gradient (IUI, ICSI or IVF Samples)
 
 **_Density Gradient - 1st Wash – 2nd Wash - Stock_**
 
@@ -276,7 +276,7 @@ Assess the concentration and motility of the final stock solution as described a
 
 Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
-###### 5.9.2 40% Density Gradient (ICSI Samples)
+#### 5.9.2 40% Density Gradient (ICSI Samples)
 
 **_Density Gradient - 1st Wash – 2nd Wash - Stock_**
 
@@ -308,7 +308,7 @@ Assess the concentration and motility of the final stock solution as described a
 
 Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
-###### 5.9.4 High Speed Wash Only (ICSI Samples Only)
+#### 5.9.4 High Speed Wash Only (ICSI Samples Only)
 
 **1st Wash – 2nd Wash - Stock**
 
@@ -326,7 +326,7 @@ Assess the concentration and motility of the final stock solution as described a
 
 Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
-###### 5.9.5 Swim-Up (IUI/IVF Samples)
+#### 5.9.5 Swim-Up (IUI/IVF Samples)
 
 **1st Wash – Swim-Up – 2nd Wash - Stock**
 
@@ -366,7 +366,7 @@ Remove 50µl of the post thaw sample and place in an Eppendorf tube for subseque
 
 The thawed sample can then be prepared using one of the methods above based on the thawed samples concentration and motility.
 
-##### 5.11 Surgically Retrieved Sperm (SSR)
+### 5.11 Surgically Retrieved Sperm (SSR)
 
 GMOPS+ supplemented with heparin is used for the SSR procedure, (20µl Heparin is added to each 12.5ml tube of GMOPS+).
 
@@ -386,7 +386,7 @@ If the sample is for freezing, follow the Sperm Freezing/Thawing for Patients Ow
 
 If the sample is for immediate treatment, prepare following the ‘High Speed Wash Only’ or ‘Wash Only’ method described above.
 
-##### 5.12 Retrograde Ejaculation
+### 5.12 Retrograde Ejaculation
 
 All receptacles/tubes used during the processing of a retrograde sample must be labelled with the patient’s full name, clinic number and D.O.B. Witnessing should be untaken as described in 5.3 with the extra receptacles included.
 
@@ -412,7 +412,7 @@ Transfer the urine to pre-labelled conical tubes and centrifuge at 0.3-0.8 r.c.f
 
 Remove the pellet and re-suspend in 0.5ml of GIVF+. Assess the suspension for the presence of sperm. If sperm are found, prepare the sample via density gradient or ‘wash only’ as described above.
 
-##### 5.13 Calculation of Insemination Values
+### 5.13 Calculation of Insemination Values
 
 Equilibrate the stock solution in a gassed incubator for 30-120 minutes prior to insemination.
 
@@ -436,12 +436,12 @@ TMC Calculation: 12 x 0.91= 10.92
 
 Insemination Volume: 75/10.92 = 6.87µl
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 % Sperm Motility (A+B’s) Post Preparation IVF/IUI ≥90%
 
 
-#### Monitoring
+## Monitoring
 
 A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP at least once annually.
 

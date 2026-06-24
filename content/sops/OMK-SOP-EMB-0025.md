@@ -32,17 +32,17 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p></td><td><p>05/08/2021</p><p>01/10/2021</p><p>04/04/2022</p></td><td colspan="2"><p>TL culture is now standard across the Group and as such is now referenced in the SOP as the core culture method.</p><p>Need to ensure the view of any oocytes within ES+ dish is not obscured if the fertilization check is to be deferred.</p><p>Need to keep partner: sperm zygotes separate highlighted. Need to keep IVF:ICSI zygotes separate highlighted.</p><p>Witnessing updated to include 3 identifiers as standard</p><p>Requirement to culture unfertilised oocytes following IVF (for re-check following low/failed fertilization) in wells containing sperm, removed. Can be cultured in any well (but avoid well 1) where there will be significant GMOPS+ carry over. Management of micro PN’s defined. Size range for pipettes for fertilization check expanded.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To describe the procedure for identifying and categorising the signs of fertilisation and stages of oocyte maturity. This includes the consumables/equipment required, laboratory witnessing steps, the denudation procedure and the culture of fertilised oocytes following fertilisation check.
 
-#### Scope
+## Scope
 
 Applicable to all laboratory staff deemed competent to perform fertilisation checks.
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 PN Pro Nucleus
 
@@ -54,7 +54,7 @@ ES+ EmbryoScope Plus
 
 ICSI Intra cytoplasmic Sperm Injection
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -72,9 +72,9 @@ All Staff
 
 All staff re responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -88,7 +88,7 @@ All staff re responsible for following the process laid out in this document, en
 -   Oil
 -   RI Witness Tags
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to the fertilisation check procedure the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -96,7 +96,7 @@ The flowhood must be checked to ensure the flow is on and the hood is clear of u
 
 Ensure the RI heated stage and inverted microscopes are switched on and at the correct set point.
 
-##### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B.)
+### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B.)
 
 Prior to commencing the fertilisation check determine whether all the oocytes have been inseminated via IVF or ICSI or a combination of both. **If both have been performed, IVF and ICSI inseminated oocytes must be cultured separately and clearly identified.**
 
@@ -107,7 +107,7 @@ Check the patient’s full name, clinic number and D.O.B. on the IVF Inseminatio
 
 Approve these checks on the RI witness system and sign for these checks.
 
-##### 5.4 Preparation of Dishes
+### 5.4 Preparation of Dishes
 
 For IVF cases, prepare the ES+ GTL dish the afternoon of Day 0 and equilibrate in a gassed incubator overnight. Prepare one ES+ dish per 16 oocytes.
 
@@ -121,11 +121,11 @@ For ICSI cases, as the injected oocytes were placed in an ES+ GTL dish post ICSI
 
 Figure 1: ES+ GTL dish for IVF Cases
 
-##### 5.5 Timing of Fertilisation Procedure
+### 5.5 Timing of Fertilisation Procedure
 
 Perform fertilisation check 15-18 hours post insemination ± 30 minutes. Where TL has been used post ICSI, the fertilisation check can be deferred but care must be taken to ensure that the injected oocytes are clearly visible i.e. there are no bubbles obscuring the view of the oocyte, the dish is not misaligned or that the oocyte is not at the periphery of the well, meaning it cannot be easily viewed.
 
-##### 5.6 Fertilisation Check Procedure
+### 5.6 Fertilisation Check Procedure
 
 Consideration must be given to maintaining temperature, pH and osmolality during the procedure; therefore oil covered dishes are used. The procedure should be performed as quickly as practically possible to minimise the exposure of oocytes outside the incubator environment.
 
@@ -197,13 +197,13 @@ In the event that TL monitoring was not available post ICSI, remove the ES+ GTL 
 
 Return the ES+ GTL dish back to the incubator. If space is now available in an ES+ incubator, transfer the dish there for onward culture.
 
-##### 5.7 Low/Failed Fertilisation
+### 5.7 Low/Failed Fertilisation
 
 In the event of failed/low (<25%) fertilisation with IVF, observe the insemination dishes on an inverted microscope and report the % sperm survival, % of sperm with rapid progression and the degree of sperm binding to the zona pellucida. Return the dishes to the incubator and re-check for the signs of fertilisation 2-6 hours later. Any late emerging 2PN’s during this time frame can be considered for embryo transfer/cryopreservation in the absence of any other normally developing 2PN’s.
 
 In the event of failed/low (<25%) fertilisation with ICSI, re-check for the signs of fertilisation 2-6 hours later. Any late emerging 2PN’s during this time frame can be considered for embryo transfer/cryopreservation in the absence of any other normally developing 2PN’s.
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 **IVF ICSI**
 
@@ -217,7 +217,7 @@ Damage N/A ≤10%
 
 Failed Fertilisation <5% <5%
 
-#### Monitoring
+## Monitoring
 
 A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP at least once annually.
 

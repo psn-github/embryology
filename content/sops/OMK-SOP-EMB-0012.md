@@ -32,17 +32,17 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>14/02/2020</p></td><td colspan="2"><p>Witnessing &amp; Sample production instructions amended</p></td></tr><tr><td><p>3.0</p><p>4.0</p><p>5.0</p><p>6.0</p></td><td><p>25/05/2021</p><p>01/10/2021</p><p>02/02/2022</p><p>24/02/2023</p></td><td colspan="2"><p>Witnessing checks expanded</p><p>Witnessing checks edited to include the use of 3 identifiers</p><p>Updated with reference to WHO 2021 edition including new reference values. Samples produced off site must be delivered to clinic within 50 minutes of production. Requirement to clean men’s room prior to use added. If intended Tx is ICSI and &lt;3 oocytes collected, denude oocyte(s) prior to thawing sperm to ensure something suitable for injection.</p><p>Option for patients who have a partner to complete the MT for consent to sperm storage.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To describe the procedure for analysing semen parameters and carrying out freeze and thaw procedures for patient samples. Sperm cryopreservation can be used to preserve fertility or store sperm as back up prior to treatment.
 
-#### Scope
+## Scope
 
 Applicable to all embryologists, andrologists and practitioners deemed competent to perform semen analysis and freezing:
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 PPE Personal Protective Equipment
 
@@ -52,7 +52,7 @@ IVF In Vitro Fertilisation
 
 ICSI Intra Cytoplasmic Sperm Injection
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -70,9 +70,9 @@ All Staff
 
 Are responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register, and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -117,7 +117,7 @@ Are responsible for following the process laid out in this document, ensure they
 -   LeucoScreen Plus (if required)
 -   GIVF\+ (if required)
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to performing the sperm freeze procedure the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -129,7 +129,7 @@ _Option 2:Dilvac/cryobox._ Fill with with liquid nitrogen. Ensure appropriate PP
 
 Ensure that an appropriate dry shipper/dilvac/cryobox is used for freezing of the sample based on the patient’s infection screen results. Ensure the heat sealer is present and switched on.
 
-##### 5.3 Witnessing Checks (Full Name, Clinic Number & D.O.B.)
+### 5.3 Witnessing Checks (Full Name, Clinic Number & D.O.B.)
 
 Check the required Kuwait MoH forms (or local country equivalent)have been completed providing consent to sperm freezing and that the viral infection screens are in date.
 
@@ -173,7 +173,7 @@ Alongside a second witness check the CBS straws and visi tubes/cassettes are lab
 
 Alongside a second witness, check the location of the samples in the dewar matches that in the laboratory notes.
 
-##### 5.4 Sample Production
+### 5.4 Sample Production
 
 Semen samples should where possible be produced on site. If the patient is unable to produce on site, offer the patient the option to produce off site. Provide the patient with a labelled sample pot (full name, clinic number and D.O.B.) If the sample is produced off-site the patient must sign an off-site production declaration form stating date/time/place of production and that the sample is his own and has not been tampered with. Advise the patient to keep the sample warm and to bring it to the clinic within 50 minutes of production.
 
@@ -185,7 +185,7 @@ Check with the patient their abstinence period, any recent illnesses or medicati
 
 All patients must be triaged for Covid-19 before attending the clinic.
 
-##### 5.5 Freezing in Vapour Procedure
+### 5.5 Freezing in Vapour Procedure
 
 Straws need to be frozen in vapour prior to placing in liquid nitrogen. This can be done via either of the two methods described:
 
@@ -193,7 +193,7 @@ _Option 1:_ Place straws in cryo cassette/visi & Cane in charged dry shipper for
 
 _Option 2:_ Suspend straws in cryo cassettes/visi tubes and canes above liquid nitrogen in a dilvac/cryobox or dewar for a minimum of 30 minutes.
 
-##### 5.6 Timing of Freeze Procedure & Sample Suitability
+### 5.6 Timing of Freeze Procedure & Sample Suitability
 
 Begin freezing of the semen sample once liquefied and within 15-60 minutes post-production or once sample has been processed (for SSR or retrograde samples).
 
@@ -242,11 +242,11 @@ The initial parameters of the sample are used to determine number of straws to b
 Post-thaw, assess the motility of the sample.
 
 
-###### 5.10.1 Assessment of Sample Volume (Reference Value ≥1.4ml)
+#### 5.10.1 Assessment of Sample Volume (Reference Value ≥1.4ml)
 
 Using a serological pipette, thoroughly mix the sample by pipetting up and down several times and then measure the total volume of the sample using the graduations on the pipette.
 
-###### 5.10.2 Assessment of Concentration (Reference Value ≥16M/ml)
+#### 5.10.2 Assessment of Concentration (Reference Value ≥16M/ml)
 
 Mix 10µl of neat semen with 190µl of sterile water in an Eppendorf tube. Vortex to mix thoroughly. Attach the cover slip to the haemocytometer until Newtons Rings are visible. Gently pipette approximately 8-10 µl of the diluted sample onto each side of the haemocytometer chamber. Allow the chamber to settle for 4 minutes in a humid chamber before analysis.
 
@@ -254,7 +254,7 @@ Observe the chamber at X200-400 magnification. The chamber consists of two grids
 
 For samples where concentration assessment not possible, (<0.5M/ml) assess number of motile sperm seen on 10µl slide and report finding as the number of motile sperm per high power field.
 
-###### 5.10.3 Assessment of Motility (Reference Value A + B= ≥30%)
+#### 5.10.3 Assessment of Motility (Reference Value A + B= ≥30%)
 
 Place 10µl of semen onto a clear glass slide and cover with a glass cover slip. Observe the slide at X200-400 magnification. Grade the motility of 200 sperm using the following criteria:
 
@@ -268,7 +268,7 @@ Place 10µl of semen onto a clear glass slide and cover with a glass cover slip.
 
 Note the results as a percentage of each grade.
 
-###### 5.10.4 Assessment of Morphology, if indicated (Reference Value ≥4%)
+#### 5.10.4 Assessment of Morphology, if indicated (Reference Value ≥4%)
 
 Place 5µl of semen onto a pre-stained morphology slide. Allow the slide to air dry for 15-30 minutes. Observe the slide at X1000 magnification under oil immersion. Grade 200 whole sperm as ‘normal’ or ‘abnormal’ according to WHO 2010 criteria. Note the result as a percentage of normal forms.
 
@@ -280,7 +280,7 @@ The midpiece should be slender and regular and approximately the same length as 
 
 The tail should be regular and thinner than the midpiece and around ten times the length of the head.
 
-###### 5.10.5 Assessment of Anti-Sperm Antibodies IgG, if indicated (Reference Value <50%)
+#### 5.10.5 Assessment of Anti-Sperm Antibodies IgG, if indicated (Reference Value <50%)
 
 Allow the reagents to warm to room temperature.
 
@@ -292,19 +292,19 @@ Assess 100 motile sperm for the presence of beads bound to them. Convert the num
 
 If no binding is seen on the initial assessment, re-assess after 10 minutes.
 
-###### 5.10.6 Assessment of pH, if indicated (Reference pH ≥7.2)
+#### 5.10.6 Assessment of pH, if indicated (Reference pH ≥7.2)
 
 Perform the pH assessment within 1 hour of sample production.
 
 Place a droplet of neat semen onto pH paper/strip. Wait for the colour of the impregnated zone to become uniform. Compare the colour to the calibration strip and read the pH.
 
-###### 5.10.7 Assessment of Viability, if indicated (Reference Value ≥54%)
+#### 5.10.7 Assessment of Viability, if indicated (Reference Value ≥54%)
 
 SpermMobil can be used to initiate motility in viable non-motile sperm. The process for using SpermMobil is outlined in the Oxford Medical Kuwait ICSI SOP (TFP1-SOP-EMB-0007).
 
 Alternatively, the Hypo-Osmotic Swelling Test (HOS) may be used to distinguish between viable and non-viable non-motile sperm.
 
-###### 5.10.8 Assessment of Round Cells if indicated (quantify if concentration appears >5M/ml)
+#### 5.10.8 Assessment of Round Cells if indicated (quantify if concentration appears >5M/ml)
 
 An assessment of round cells in the sample can be performed in the same way as a concentration assessment as described above.
 
@@ -362,15 +362,15 @@ Using a serological pipette measure the volume of the thawed sample.
 
 Add an equivalent volume of equilibrated GIVF+ to the thawed sample dropwise, tilting the tube after each drop. GIVF+ must be added slowly in order to gradually adjust the osmolality of the sample.
 
-#### Remove 50µl of the post thaw sample and place in an Eppendorf tube for subsequent concentration and motility assessment.
+## Remove 50µl of the post thaw sample and place in an Eppendorf tube for subsequent concentration and motility assessment.
 
-#### Assess the initial concentration and motility of the thawed sample.
+## Assess the initial concentration and motility of the thawed sample.
 
-#### The thawed sample can then be prepared for treatment using a method suitable for the sample’s concentration and motility. The process for sperm preparation is outlined in Oxford Medical Kuwait Sperm Preparation for Treatment (TFP1-SOP-AND-0002).
+## The thawed sample can then be prepared for treatment using a method suitable for the sample’s concentration and motility. The process for sperm preparation is outlined in Oxford Medical Kuwait Sperm Preparation for Treatment (TFP1-SOP-AND-0002).
 
-#### Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
+## Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 Each clinic must participate in an external quality assurance scheme for assessment of sperm concentration, motility and morphology. 100%
 
@@ -380,7 +380,7 @@ Samples Stored Separately According to Viral Screening Status 100%
 
 Fertility Preservation Samples Split Between Minimum Two Vessels 100%
 
-#### Monitoring
+## Monitoring
 
 A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP at least once annually.
 

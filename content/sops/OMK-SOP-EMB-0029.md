@@ -32,17 +32,17 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic, Group Director Embryology</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>26/02/2020</p></td><td colspan="2"><p>ET witnessing checks expanded</p></td></tr><tr><td><p>3.0</p></td><td><p>11/05/2021</p></td><td colspan="2"><p>Mixed transfer section expanded. Confirmation of number for ET must be documented in writing at point of ET.</p></td></tr><tr><td><p>4.0</p><p>5.0</p></td><td><p>30/07/2021</p><p>02/10/2021</p></td><td colspan="2"><p>Requirement to complete Oxford Medical Kuwait Unified Embryo Transfer Consent form prior to ET added. Witnessing procedure for ET segregated into separate steps for easier interpretation. Additional note added regarding potential for an oil covered embryo transfer dish to be used in certain circumstances. Reference for nurse performing embryo transfer added.</p><p>Witnessing updated to include the use of three identifiers at each step. Document reference number for the TFP Unified Embryo Transfer Consent added</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To outline the laboratory procedure for embryo transfer. This includes consumables/equipment required, laboratory witnessing steps, embryo selection and the embryo transfer procedure.
 
-#### Scope
+## Scope
 
 Applicable to all laboratory staff deemed competent to perform embryo transfer.
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 ET Embryo Transfer
 
@@ -52,7 +52,7 @@ DET Transfer of Two Embryos
 
 TET Transfer of Three Embryos
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -70,9 +70,9 @@ All Staff
 
 All staff re responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -95,7 +95,7 @@ All staff re responsible for following the process laid out in this document, en
 -   RI Witness Tags
 -   Oil (Optional, see additional note in 5.4)
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to the start of the theatre list, the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -105,7 +105,7 @@ Ensure the RI heated stage and inverted microscope are switched on and at the co
 
 Any test tube warmers to be used must be subject to an independent temperature check prior to use. The temperature should be 37◦C ±0.2◦C. If it is outside this range, the set point must be adjusted and the temperature then re-measured. Only proceed to embryo transfer once the temperature is within range.
 
-##### 5.3 Witnessing Checks (Full Name, D.O.B and Clinic Number)
+### 5.3 Witnessing Checks (Full Name, D.O.B and Clinic Number)
 
 All patients must complete and sign the Oxford Medical Kuwait Unified Embryo Transfer Consent (TFP1-CON-EMB-0003). This captures in writing how many embryos the patient is having transferred.
 
@@ -135,7 +135,7 @@ The operator and witness must sign for the above witnessing checks.
 
 _Note: If it is not possible to have a second witness to check the identity of the ET dish at the time of loading due to the laboratory/theatre layout, instead a second witness must be used during Step 1: Movement of the Embryo(s) from the Culture Dish to the Embryo Transfer Dish. A second witness must verify the ET dish in either Step 1 or Step 3._
 
-##### 5.4 Preparation of Dishes
+### 5.4 Preparation of Dishes
 
 Prepare 1ml of G2+ and an additional 1ml of G2+ or EmbryoGlue in separate 5ml test tubes. Prepare the afternoon before the embryo transfer.
 
@@ -147,13 +147,13 @@ A minimum of 3 hours prior to embryo transfer, place 1ml of G2+ or Embryo Glue (
 
 _Additional Note: An embryo transfer dish may be prepared with 1ml of G2+/EmbryoGlue overlaid with 1ml of oil if the above method is not practical due to the timings required/equipment available within the laboratory. The oil covered embryo transfer dish must be made the day before the embryo transfer and equilibrated in gassed incubator overnight._
 
-##### 5.5 Timing of the Embryo Transfer Procedure
+### 5.5 Timing of the Embryo Transfer Procedure
 
 The aim is to perform all embryo transfers on Day 5 of development.
 
 A day 2/3 or Day 6 transfer may be performed if clinically applicable.
 
-##### 5.6 Number of Embryos for Transfer
+### 5.6 Number of Embryos for Transfer
 
 The number of embryos for transfer depends on a variety of factors, including female age, number of previous attempts at treatment, embryo quality, NHS funding policies and whether PGT-A has been performed.
 
@@ -186,7 +186,7 @@ If the patient’s partner does not attend for the embryo transfer appointment a
 
 ![](assets/figures/OMK-SOP-EMB-0029/fig-2.png)
 
-##### 5.7 Mixed Transfers
+### 5.7 Mixed Transfers
 
 Mixed IVF:ICSI embryo transfers can only take place in up to 2% of a clinics embryo transfers.
 
@@ -198,7 +198,7 @@ It is prohibited to perform transfer of biopsied and non-biopsied embryos in the
 
 Mixed transfers of frozen and fresh embryos can take place providing the conditions above are not breached.
 
-##### 5.8 Pre-ET Patient Discussion (Embryologist and/or Clinician)
+### 5.8 Pre-ET Patient Discussion (Embryologist and/or Clinician)
 
 -   Inform the patient of the number and quality of the embryos.
 -   Confirm the number of embryos for transfer.
@@ -206,7 +206,7 @@ Mixed transfers of frozen and fresh embryos can take place providing the conditi
 -   Confirm whether any remaining embryos will be cultured until day 6
 -   Complete the Oxford Medical Kuwait Unified Embryo Transfer Consent
 
-##### 5.9 Embryo Transfer Procedure
+### 5.9 Embryo Transfer Procedure
 
 Place the catheter and syringe on the RI heated stage to warm (ensure the catheter remains sterile).
 
@@ -280,7 +280,7 @@ Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to
 
 Complete the laboratory and witnessing records.
 
-##### 5.10 Difficult Embryo Transfer
+### 5.10 Difficult Embryo Transfer
 
 In the event that the embryos have been loaded into the catheter and the clinician cannot pass the catheter, return the catheter to the laboratory and expel the embryos back into the embryo transfer dish. Replace the embryo transfer dish back into a gassed incubator until the clinician is ready to attempt the procedure again.
 
@@ -288,13 +288,13 @@ If an alternative catheter is required, prepare the catheter as described above.
 
 A spare 1-2ml of G2+ is available if a further catheter needs to be flushed (see section 5.4).
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 Implantation Rate Day 5 ≥35%
 
 % Patients having Day 5 Transfer ≥90%
 
-#### Monitoring
+## Monitoring
 
 A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP at least once annually.
 

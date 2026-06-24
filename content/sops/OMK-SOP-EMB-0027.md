@@ -32,15 +32,15 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p></td><td><p>20/05/2021</p><p>18/05/2022</p></td><td colspan="2"><p>Section 7 updated with details of the EQA scheme.</p><p>Embryos graded E/F to be cultured until Day 6 as standard with a view to potential cryopreservation. Culture to Day 7 at local clinics discretion.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To describe the time points at which embryos are graded and the associated grading schemes used to grade embryos. To define the process of embryo grading at cleavage stage and Day 5/6 of development.
 
-#### Scope
+## Scope
 
 Applicable to all laboratory staff deemed competent to perform embryo grading.
 
-#### Definitions
+## Definitions
 
 TL Time Lapse
 
@@ -48,7 +48,7 @@ EQA External Quality Assurance
 
 PTMRIE Polish Society for Reproductive Medicine and Embryology
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -66,9 +66,9 @@ All Staff
 
 All staff re responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -80,7 +80,7 @@ Stereo/Inverted Microscope
 
 N/A – Embryos are already in their culture dishes at this stage
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to observing embryos, the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -90,7 +90,7 @@ Ensure the RI heated stage/Inverted or Stereo Microscope is switched on and at t
 
 Ensure the embryos in the wells of the TL dish are clearly visible.
 
-##### 5.3 Timing of Embryo Grading Assessments
+### 5.3 Timing of Embryo Grading Assessments
 
 Table 1: Timing of embryo grading observations and which features should be assessed.
 
@@ -98,7 +98,7 @@ Table 1: Timing of embryo grading observations and which features should be asse
 
 Detailed information describing the grading of embryos cultured in time lapse can be found in the Oxford Medical Kuwait Time Lapse SOP (TFP1-SOP-EMB-0022).
 
-##### 5.4 Embryo Grading Procedure
+### 5.4 Embryo Grading Procedure
 
 For standard culture, consideration must be given to maintaining temperature, pH and osmolality during the embryo grading procedure, therefore oil covered dishes are used. The procedure should be performed as quickly as practically possible to minimise the exposure of the embryos outside the incubator environment.
 
@@ -144,7 +144,7 @@ _Note: In Poland embryos graded D may also be considered for cryopreservation. I
 
 All clinics must participate in the Oxford Medical Kuwait EQA scheme and review their clinical practice in line with the results.
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 % Patients having Day 5 Embryo Transfer ≥90%
 
@@ -154,7 +154,7 @@ All clinics must participate in the Oxford Medical Kuwait EQA scheme and review 
 
 % Gold Standard Match on EQA ≥70%
 
-#### Monitoring
+## Monitoring
 
 The Oxford Medical Kuwait External Quality Assurance (EQA) scheme is distributed three times per year and assesses individual operators’ agreement with the gold standard grade. Any operators with <70% agreement are required to regrade the embryos following discussion with their laboratory manager.
 

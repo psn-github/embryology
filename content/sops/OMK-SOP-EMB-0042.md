@@ -32,21 +32,21 @@ changeHistory:
 
 <table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic, Group Director of Embryology</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p></td><td><p>10/05/2020</p><p>02/10/2021</p><p>20/04/2022</p></td><td colspan="2"><p>Oil overlay added (excluding Warm 1). All solutions placed in a 5-well dish.</p><p>Witnessing updated to include the use of three identifiers</p><p>Requirement for a pre thaw call 24-48 hours before date of thaw added to the SOP. Details to be confirmed during the call listed in the SOP in section 5.3.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>  <!-- TODO(§8 tfp_author): TFP author/owner — move to sourceDoc provenance; OMK author/reviewer/approver set in front-matter (§8). -->
 
-#### Purpose
+## Purpose
 
 To describe the procedure for warming vitrified blastocysts using the Rapid I device with Vitrolife warming kits. Blastocysts may be cryopreserved as part of a fertility preservation programme or following treatment. When the patient wishes to use the cryopreserved blastocysts they must be warmed and returned to culture.
 
-#### Scope
+## Scope
 
 Applicable to all embryologists and practitioners deemed competent to perform warming of vitrified of blastocysts:
 
 Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait).
 
-#### Definitions
+## Definitions
 
 PPE Personal Protective Equipment
 
-#### Responsibilities
+## Responsibilities
 
 General Manager
 
@@ -64,9 +64,9 @@ All Staff
 
 All staff re responsible for following the process laid out in this document, ensure they receive up-to-date training to enable safe working and to request further training if they feel it is required. Staff are also responsible for reporting any non-compliance or incidents occurring on the controlled register and following up the outcome of any reported incidents/non-conformities.
 
-#### Procedure
+## Procedure
 
-##### 5.1 Equipment & Consumables Required
+### 5.1 Equipment & Consumables Required
 
 **Equipment/Consumables Required**
 
@@ -85,7 +85,7 @@ All staff re responsible for following the process laid out in this document, en
 -   Oil
 -   RI Witness Tags
 
-##### 5.2 Equipment Checks
+### 5.2 Equipment Checks
 
 Prior to performing the warming procedure the equipment to be used must be checked to ensure it is operating optimally.
 
@@ -95,7 +95,7 @@ Ensure the RI heated stage is switched on and at the correct set point. Warming 
 
 Fill the Rapid I Cryobox and a dilvac with liquid nitrogen. Ensure appropriate PPE is used when handling liquid nitrogen.
 
-##### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
+### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
 
 24-48 hours prior to the scheduled thaw date, check the patients thaw has been scheduled on the correct date in their cycle (post LH surge or start of progesterone) and call the patient to check/confirm the following:
 
@@ -120,7 +120,7 @@ Check the patient’s full name, clinic number and D.O.B. on the Visi/Cassette, 
 
 Post thaw the warmed blastocysts are moved into a 40mm G2+ culture dish alongside RI witness alone.
 
-##### 5.4 Preparation of Dishes
+### 5.4 Preparation of Dishes
 
 Prepare the 40mm G2+ dish the afternoon before the patient’s blastocyst warm and equilibrate in a gassed incubator overnight. Prepare one dish per patient.
 
@@ -134,7 +134,7 @@ Warm3 + Oil
 
 Figure 1: Warming dish set-up
 
-##### 5.5 Timing of Warming Procedure
+### 5.5 Timing of Warming Procedure
 
 Perform warming on Day 5 of the patient’s cycle such that the blastocysts are in synchrony with the endometrium (Day 5 and 6 embryos are both synchronised with a Day 5 endometrium).
 
@@ -142,7 +142,7 @@ Warm a minimum of 2 hours prior to the embryo transfer time.
 
 Assess for signs of re-expansion 30-90 minutes post warming. If signs of re-expansion are not seen, consider warming a further blastocyst(s).
 
-##### 5.6 Warming Exposure Times
+### 5.6 Warming Exposure Times
 
 Vitrolife Rapid Warm Blast
 
@@ -152,7 +152,7 @@ Warm2: Exposure time 3 minutes
 
 Warm3: Exposure time 5 minutes
 
-##### 5.7 Warming Procedure
+### 5.7 Warming Procedure
 
 Maintenance of a temperature of 37◦C is crucial during blastocyst warming. Temperature can be maintained either using a heated stage or an ungassed G85/incubator.
 
@@ -184,14 +184,14 @@ Complete the laboratory and witnessing records.
 
 Return any remaining frozen blastocysts to their designated nitrogen storage vessel alongside a second witness. Both operator and witness must sign for these checks.
 
-#### Standards/Key Performance/Quality Indicators
+## Standards/Key Performance/Quality Indicators
 
 Blastocyst Survival ≥50% Cells Intact ≥90%
 
-#### Monitoring
+## Monitoring
 
-#### A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP once annually.
+## A Oxford Medical Kuwait laboratory manager is responsible for auditing this SOP once annually.
 
-#### Each laboratory manager is responsible for monitoring operator’s blastocyst survival rates within their clinic. Any deviation will be discussed at team meetings or supervision meetings.
+## Each laboratory manager is responsible for monitoring operator’s blastocyst survival rates within their clinic. Any deviation will be discussed at team meetings or supervision meetings.
 
 Overall clinic blastocyst survival rates are reviewed every four months at the Oxford Medical Kuwait KPI meeting.

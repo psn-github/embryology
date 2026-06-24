@@ -51,7 +51,7 @@ order:
   - OMK-SOP-EMB-0040   # Blastocyst vitrification
   - OMK-SOP-EMB-0041   # Oocyte vitrification
   - OMK-SOP-EMB-0042   # Blastocyst warming
-  
+  - OMK-SOP-EMB-0043   # Oocyte (egg) warming (+ legacy egg thaw)
   - OMK-SOP-EMB-0045   # LN₂ storage, tank monitoring & cryosecurity
   # E. Equipment & QC (kept)
   - OMK-SOP-EMB-0060   # QC & equipment maintenance (overview)
