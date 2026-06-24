@@ -12,7 +12,7 @@ author: ""
 reviewedBy: ""
 approvedBy: "Prof Scott M Nelson, Medical Director"
 supersedes: ""
-sourceDoc: "TFP IUI SOP — pending ingest"
+sourceDoc: "TFP — IUI.docx (revision per source footer)"
 relatedDocuments: []
 guidelineRefs: ["ESHRE IVF lab", "ASRM", "Istanbul Consensus", "ISO 15189"]
 witnessSystem: "RI Witness"
@@ -21,50 +21,37 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Stub created; pending transformation from TFP source (PLAN v2 §8)."
+    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-> **TODO: ingest from `TFP IUI SOP`.** This is a front-matter-complete stub (PLAN v2 §12.7). Run `npm run ingest -- --file "<source>.docx" --as <docId>` once the TFP corpus is in `source/tfp/`; the §8 transformation rules will populate this body and emit a `*.transform.md` report. Nothing is published until reviewed.
+Patient name
 
-## 1. Purpose
+DOB
 
-_TODO: ingest from TFP IUI SOP._
+PUN
 
-## 2. Scope
+POST CODE
 
-Autologous ART using the couple's own gametes. Gamete/embryo donation and surrogacy are out of scope (prohibited in Kuwait). _TODO: confirm on ingest._
+Mob number
 
-## 3. Definitions & abbreviations
+Tx Number
 
-_TODO: ingest from TFP IUI SOP._
+Partner name
 
-## 4. Responsibilities
+DOB
 
-General Manager · Laboratory Manager · Quality Manager · All Staff. _TODO: ingest from TFP IUI SOP._
+PUN
 
-## 5. Procedure
+POST CODE
 
-### 5.1 Equipment & consumables required
-_TODO: ingest (keep Vitrolife media, volumes verbatim)._
-### 5.2 Equipment checks
-_TODO: ingest._
-### 5.3 Witnessing checks
-_TODO: ingest — retain three identifiers (full name, clinic number, D.O.B.) and RI Witness steps verbatim._
-### 5.4 Procedure steps
-_TODO: ingest (keep dish layouts, timings, setpoints, grading criteria verbatim)._
+Mob number
 
-## 6. Acceptance / rejection & non-conformance
+<table><tbody><tr><td colspan="4"><p><strong>Treatment Details &amp; Consents</strong></p></td></tr><tr><td><p>IUI Cycle number</p></td><td></td><td><p>Planned Time of IUI</p></td><td></td></tr><tr><td><p>Date of IUI</p></td><td></td><td><p>Marital Status</p><p><em>(circle)</em></p></td><td><p>Legally Married / Civil Partnership /</p><p>Cohabiting / Single</p></td></tr><tr><td rowspan="3"><p>Sperm Type/Source</p><p><em>(circle)</em></p></td><td><p>Partner / Donor</p><p>Donor Code ……………………………..</p><p>DMC Complete Yes / NA</p></td><td><p>Oxford Medical Kuwait/HFEA Consents (Circle)</p></td><td><p>TFP IUI/DI consent</p><p>MGI / NA (Partner sperm)</p><p>WP / PP / NA (Donor Sperm)</p></td></tr><tr><td rowspan="2"><p>Fresh / Frozen</p><p>No. Straws Fz…………………………….</p><p>No Straws to Thaw……………………</p></td><td><p>RI Set Up Correctly</p></td><td><p>Yes / No</p></td></tr><tr><td><p>Assign RI Card</p></td><td><p>Operator: Witness:</p><p>Date: Time:</p></td></tr><tr><td><p>Male Virology</p><p><em>(Circle)</em></p></td><td colspan="3"><p>Date(s): <strong>NAT/Qualitative PCR:</strong></p><p><strong>HIV 1 &amp; 2:</strong> Neg/Pos <strong>Hep C</strong>: Neg/ Pos <strong>Hep B sAg</strong>: Neg/Pos <strong>Hep B Anti-HBc :</strong> Neg/Pos</p></td></tr><tr><td><p>Comments</p></td><td colspan="3"></td></tr></tbody></table>  <!-- TODO(§8 hfea): HFEA / UK licence-condition reference — re-base to Kuwait MoH equivalent or remove (§8). NEEDS SCOTT. -->  <!-- TODO(§8 donor_surrogacy): remove the donor/surrogacy option(s) from this table by hand (out of scope, Kuwait). -->
 
-_TODO: ingest; link OMK-SOP-EMB-0005 (deviation/CAPA)._
+<table><tbody><tr><td><p><strong>Semen Preparation</strong></p></td><td colspan="4"><p>Date Prepared: Time Prepared: Operator:</p></td></tr><tr><td><p>Sperm Prep Method:</p></td><td colspan="3"><p>80:40 / 40 / Swim-Up / Wash Only</p></td><td><p>Centrifuge ID:</p></td></tr><tr><td><p>Parameters</p></td><td><p>Initial</p></td><td><p>Lower Reference Limit</p></td><td><p>Parameters</p></td><td><p>Post Preparation</p></td></tr><tr><td><p>Volume</p></td><td></td><td><p>≥ 1.4 ml</p></td><td><p>Volume</p></td><td></td></tr><tr><td><p>Concentration</p></td><td></td><td><p>≥ 16 M/ml</p></td><td><p>Concentration</p></td><td></td></tr><tr><td><p>Motility (A/B/C/D)</p></td><td><p>/ / /</p></td><td><p>≥ 30 % (A+B)</p></td><td><p>Motility (A/B/C/D)</p></td><td><p>/ / /</p></td></tr><tr><td><p>Other Tests</p></td><td colspan="2"></td><td><p>Total Motile Count</p></td><td><p></p></td></tr><tr><td><p>Comments</p></td><td colspan="5"></td></tr></tbody></table>
 
-## 7. Records generated
+<table><tbody><tr><td colspan="6"><p>IUI Procedure</p></td></tr><tr><td><p>Time</p></td><td></td><td><p>Lab Operator</p></td><td></td><td><p>Clinical Operator</p></td><td></td></tr></tbody></table>
 
-_TODO: ingest._
+<table><tbody><tr><td colspan="2"><p><strong>Witnessing</strong></p></td></tr><tr><td><p>Sample Removed from/Replaced in Cryotank</p><p>(Straw/Amps, Visi, Lab Notes, Location)</p></td><td><p>Number Thawed:</p><p>Operator: Witness:</p></td></tr><tr><td><p>Assign Sample</p><p>(Sperm pot/Straws or thaw tube, lab notes, RI)</p></td><td><p>Operator: Witness:</p></td></tr><tr><td><p>Assign Sperm Preparation Tubes</p><p>(Gradient/wash-stock)</p></td><td><p>Operator: Witness:</p></td></tr><tr><td><p>Sperm Pot/Preparation Tubes discarded</p><p>(Sperm pot, preparation tubes, lab notes, RI)</p></td><td><p>Operator: Witness: RI</p></td></tr><tr><td><p>Verbal Patient ID Check in Theatre</p><p>(Full Name, DOB, Post code, Lab Notes and RI card)</p></td><td><p>Operator: Witness:</p></td></tr><tr><td><p>Stock Tube Matches Verbal ID</p><p>(Stock tube, lab notes, RI)</p></td><td><p>Operator: Witness:</p></td></tr><tr><td><p>IUI Tube discarded post IUI Procedure</p><p>(IUI tube, lab notes, RI)</p></td><td><p>Operator: Witness: RI</p></td></tr></tbody></table>
 
-## 8. Guideline-linked & locally-defined values
-
-See **OMK-APP-EMB-A** (setpoint register). _TODO: populate from TFP validated values, flag "verify locally"._
-
-## 9. References
-
-_TODO: ingest._
+<table><tbody><tr><td colspan="4"><p><strong>End of Cycle Checks</strong></p></td></tr><tr><td><p>Witnessing Completed?</p></td><td><p>Yes/No</p></td><td><p>Prism Submitted</p></td><td><p>Yes/No</p></td></tr><tr><td><p>Comments:</p></td><td colspan="3"></td></tr></tbody></table>
