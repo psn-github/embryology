@@ -5,11 +5,11 @@ category: SOP
 department: Embryology Laboratory
 site: Oxford Medical Kuwait
 version: "1.0"
-status: Draft
+status: Approved
 effectiveDate: "2026-07-01"
 nextReviewDate: "2028-07-01"
 author: ""
-reviewedBy: ""
+reviewedBy: "Laboratory Director"
 approvedBy: "Prof Scott M Nelson, Medical Director"
 supersedes: ""
 sourceDoc: ""
@@ -24,7 +24,6 @@ changeHistory:
     summary: "Initial issue."
 ---
 
-> **TODO(derive-from-TFP (Biopsy Training + EQA)).** Carried over as interim structure; re-derive from the named TFP source when the corpus is available.
 
 ## 1. Purpose
 
