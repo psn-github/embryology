@@ -131,14 +131,14 @@ Ensure that an appropriate dry shipper/dilvac/cryobox is used for freezing of th
 
 ##### 5.3 Witnessing Checks (Full Name, Clinic Number & D.O.B.)
 
-Check the required HFEA forms (or local country equivalent)have been completed providing consent to sperm freezing and that the viral infection screens are in date.  <!-- TODO(§8 hfea): HFEA / UK licence-condition reference — re-base to Kuwait MoH equivalent or remove (§8). NEEDS SCOTT. -->
+Check the required Kuwait MoH forms (or local country equivalent)have been completed providing consent to sperm freezing and that the viral infection screens are in date.
 
 List of Consent Forms that must be completed prior to freezing in the UK:
 
-1.  HFEA CD Consent  <!-- TODO(§8 hfea): HFEA / UK licence-condition reference — re-base to Kuwait MoH equivalent or remove (§8). NEEDS SCOTT. -->
-2.  HFEA GS Consent (if patient **does not** **have a partner**) **OR**  <!-- TODO(§8 hfea): HFEA / UK licence-condition reference — re-base to Kuwait MoH equivalent or remove (§8). NEEDS SCOTT. -->
+1.  Kuwait MoH CD Consent
+2.  Kuwait MoH GS Consent (if patient **does not** **have a partner**) **OR**
 
-HFEA MT Consent (if patient **has a partner)**  <!-- TODO(§8 hfea): HFEA / UK licence-condition reference — re-base to Kuwait MoH equivalent or remove (§8). NEEDS SCOTT. -->
+Kuwait MoH MT Consent (if patient **has a partner)**
 
 1.  Oxford Medical Kuwait Freezing and Storage of Gametes Consent (TFP1-CON-CLN-0009)
 

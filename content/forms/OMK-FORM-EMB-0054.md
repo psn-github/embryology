@@ -117,7 +117,7 @@ changeHistory:
 <td class="ar">تحمل الإذابة والنقل خطر عدم بقاء المواد سليمة. ولا يمكن ضمان أي نتيجة.</td>
 </tr>
 <tr>
-<td class="en">This election concerns our own material only. The laboratory does not donate our material to other people.</td>
+<td class="en">This election concerns our own material only. The laboratory does not  our material to other people.</td>
 <td class="ar">يخصّ هذا الاختيار موادنا الذاتية فقط. ولا يقوم المختبر بالتبرّع بموادنا لأشخاص آخرين.</td>
 </tr>
 </tbody>

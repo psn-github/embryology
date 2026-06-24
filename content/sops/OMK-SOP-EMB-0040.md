@@ -107,7 +107,7 @@ Ensure the heat sealer is present and switched on.
 
 Before beginning the Vitrification process check the laboratory notes to ensure that blastocyst vitrification is indicated.
 
-Check the required HFEA forms (or country specific equivalent) have been completed providing consent to embryo freezing.  <!-- TODO(§8 hfea): HFEA / UK licence-condition reference — re-base to Kuwait MoH equivalent or remove (§8). NEEDS SCOTT. -->
+Check the required Kuwait MoH forms (or country specific equivalent) have been completed providing consent to embryo freezing.
 
 Blastocyst vitrification requires a second witness to be used alongside RI witness.
 
