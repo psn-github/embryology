@@ -70,7 +70,7 @@ async function main() {
     approvedBy: cfg.approvedBy || "",
     site: cfg.site || "Oxford Medical Kuwait — Bneid Al-Qar",
     cssHref: "file://" + path.join(ROOT, "styles", "brand.css"),
-    coverLogoHref: "file://" + path.join(ROOT, "assets", "brand", "Logo_02_RGB.svg"),
+    coverLogoHref: "file://" + path.join(ROOT, "assets", "brand", "oxmed-02-vertical.png"),
     toc: buildToc(ordered),
     register: tableHtml,
     documents: documentsHtml,
