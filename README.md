@@ -29,6 +29,20 @@ npm install --include=dev   # pulls puppeteer + pagedjs-cli
 npm run build               # now also emits dist/pdf/*.pdf
 ```
 
+### Black-&-white controlled masters
+
+The documents are already monochrome apart from the Morel logo. To print a
+master with **zero colour toner**, build with `OMK_BW_MASTER=1`, which swaps in
+the single-colour black logo (`assets/brand/oxmed-*-black.png`):
+
+```bash
+OMK_BW_MASTER=1 npm run build         # black logo; page is pure black ink on white
+OMK_BW_MASTER=1 npm run build:manual
+```
+
+Default builds keep the Morel logo (which simply resolves to grey on a B&W
+device); the flag is for masters that must be pure black.
+
 ## Repository layout
 
 ```

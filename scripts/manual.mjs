@@ -6,7 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import yaml from "js-yaml";
 import { loadAllDocs, indexDocs, DIST_DIR, ROOT } from "./lib/load.mjs";
-import { renderDocumentHtml, applyTemplate } from "./lib/render-html.mjs";
+import { renderDocumentHtml, applyTemplate, COVER_LOGO_HREF } from "./lib/render-html.mjs";
 import { buildRegister } from "./register.mjs";
 import { htmlFileToPdf } from "./lib/pdf.mjs";
 
@@ -70,7 +70,7 @@ async function main() {
     approvedBy: cfg.approvedBy || "",
     site: cfg.site || "Oxford Medical Kuwait — Bneid Al-Qar",
     cssHref: "file://" + path.join(ROOT, "styles", "brand.css"),
-    coverLogoHref: "file://" + path.join(ROOT, "assets", "brand", "oxmed-02-vertical.png"),
+    coverLogoHref: COVER_LOGO_HREF,
     toc: buildToc(ordered),
     register: tableHtml,
     documents: documentsHtml,
