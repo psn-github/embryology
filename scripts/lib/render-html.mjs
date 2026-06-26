@@ -11,6 +11,15 @@ import { ROOT } from "./load.mjs";
 
 const TEMPLATE_DIR = path.join(ROOT, "templates");
 
+// Logo selection. Default is the Morel master; set OMK_BW_MASTER=1 to build a
+// black-&-white controlled master, which swaps in the single-colour black logo
+// so the page uses zero colour toner (brand-assets logos/README, documents.md
+// §6). Everything else is already monochrome, so this is the only swap needed.
+const BW_MASTER = ["1", "true", "yes"].includes((process.env.OMK_BW_MASTER || "").toLowerCase());
+const brandAsset = (file) => "file://" + path.join(ROOT, "assets", "brand", file);
+export const LOGO_HREF = brandAsset(BW_MASTER ? "oxmed-01-horizontal-black.png" : "oxmed-01-horizontal.png");
+export const COVER_LOGO_HREF = brandAsset(BW_MASTER ? "oxmed-02-vertical-black.png" : "oxmed-02-vertical.png");
+
 const md = new MarkdownIt({ html: true, linkify: true, typographer: true }).use(attrs);
 
 // --- tiny, dependency-free templating: {{{raw}}} and {{escaped}} ----------
@@ -123,8 +132,8 @@ export function renderDocumentHtml(doc, opts = {}) {
   const tpl = readTemplate(tplName);
 
   const vars = {
-    logoHref: "file://" + path.join(ROOT, "assets", "brand", "oxmed-01-horizontal.png"),
-    coverLogoHref: "file://" + path.join(ROOT, "assets", "brand", "oxmed-02-vertical.png"),
+    logoHref: LOGO_HREF,
+    coverLogoHref: COVER_LOGO_HREF,
     docId: d.docId,
     title: d.title,
     version: d.version,
