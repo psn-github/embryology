@@ -6,7 +6,10 @@
    follows the brand's Document track, NOT the web/presentation track:
      · Typeface is Arial (Liberation Sans on build boxes) — Latin + Arabic.
      · Text is near-black on white; colour is confined to the logo, so every
-       page reproduces identically in greyscale (documents.md §3–§5).
+       page reproduces identically in greyscale (documents.md §3–§5). There are
+       NO panel/tint fills: table headers, status chips and callouts are set
+       off by weight and hairline rules, not coloured bands — so a colour
+       printer spends no toner on decoration, only on the logo.
    A4 print furniture (§3.3, §7) and the bilingual RTL form layout are
    unchanged — only the typeface and colour have moved onto the Document track.
    ========================================================================== */
@@ -115,8 +118,8 @@ code { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size:
 }
 .meta-table th {
   width: 38%; text-align: left; vertical-align: top;
-  background: var(--enoki); color: var(--morel);
-  font-weight: 600; padding: 2mm 3mm; border: 0.4pt solid var(--oyster);
+  color: var(--ink);   /* no fill — bold label + hairline carry the structure */
+  font-weight: 700; padding: 2mm 3mm; border: 0.4pt solid var(--oyster);
 }
 .meta-table td { padding: 2mm 3mm; border: 0.4pt solid var(--oyster); }
 
@@ -126,44 +129,45 @@ code { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size:
   text-transform: uppercase; letter-spacing: 0.06em;
 }
 .change-history th, .signature-block th {
-  background: var(--enoki); color: var(--morel); text-align: left;
-  padding: 1.6mm 3mm; border: 0.4pt solid var(--oyster); font-weight: 600;
+  color: var(--ink); text-align: left;
+  padding: 1.6mm 3mm; border: 0.4pt solid var(--oyster);
+  border-bottom: 0.8pt solid var(--morel);   /* header rule replaces the fill */
+  font-weight: 700;
 }
 .change-history td, .signature-block td { padding: 1.6mm 3mm; border: 0.4pt solid var(--oyster); }
 .signature-block { margin-top: 8mm; page-break-inside: avoid; }
 .sig-space { height: 9mm; }
 .sig-role { font-weight: 600; color: var(--morel); width: 22%; }
 
-/* ---- Status chips (near-monochrome; the status WORD carries the meaning) --
-   No coloured fills in the Document track (documents.md §5). Every chip is a
-   neutral Enoki pill; Superseded uses the mid neutral so a withdrawn document
-   still reads as "greyed out" in black & white, and Draft/Superseded are
-   reinforced by the page watermark. */
+/* ---- Status chips (monochrome outline; the status WORD carries the meaning) -
+   No fill — an outlined pill keeps colour (and colour-toner cost) off the page
+   entirely. The status word is the signal, and Draft/Superseded are reinforced
+   by the page watermark. */
 .chip {
   display: inline-block; padding: 0.5mm 2.5mm; border-radius: 2mm;
   font-size: 8pt; font-weight: 700; color: var(--ink);
-  background: var(--enoki); border: 0.4pt solid var(--oyster);
+  background: none; border: 0.5pt solid var(--morel);
 }
 .chip--garnet,
 .chip--emerald,
 .chip--lapis,
-.chip--saffron { background: var(--enoki); color: var(--ink); }
-.chip--oyster  { background: var(--oyster); color: var(--ink); }
+.chip--saffron,
+.chip--oyster { background: none; color: var(--ink); }
 
 /* ---- Body content tables ------------------------------------------------ */
 .doc-body table {
   width: 100%; border-collapse: collapse; font-size: 9pt; margin: 3mm 0 5mm;
   font-family: var(--font-label); page-break-inside: avoid;
 }
-.doc-body th { background: var(--enoki); color: var(--morel); text-align: left; font-weight: 600; }
+.doc-body th { color: var(--ink); text-align: left; font-weight: 700; border-bottom: 0.8pt solid var(--morel); }
 .doc-body th, .doc-body td { border: 0.4pt solid var(--oyster); padding: 1.6mm 2.5mm; vertical-align: top; }
 
-/* ---- Caution / critical-step callout (Enoki panel, Morel border, §5/§7) --
-   Greyscale-safe: a quiet Enoki fill with a Morel rule, never a coloured box.
-   The "Caution"/"Critical step" wording carries the meaning, not the hue. */
+/* ---- Caution / critical-step callout (left rule only, no fill, §5/§7) -----
+   A heavier Morel left rule marks the block; no panel fill, so it costs no
+   colour toner and the "Caution"/"Critical step" wording carries the meaning. */
 blockquote {
   margin: 4mm 0; padding: 2mm 3mm 2mm 4mm;
-  border-left: 2pt solid var(--morel); background: var(--enoki); color: var(--ink);
+  border-left: 2.5pt solid var(--morel); color: var(--ink);
   font-size: 9.5pt;
 }
 blockquote p { margin: 0.3em 0; }
@@ -235,5 +239,5 @@ table.bi .ar { direction: rtl; text-align: right; font-family: var(--font-arabic
 .toc-cat { font-family: var(--font-label); font-weight: 600; color: var(--porcini); text-transform: uppercase; font-size: 8.5pt; letter-spacing: 0.06em; margin: 6mm 0 2mm; }
 
 .register-table { width: 100%; border-collapse: collapse; font-family: var(--font-label); font-size: 8pt; }
-.register-table th { background: var(--enoki); color: var(--morel); text-align: left; }
+.register-table th { color: var(--ink); text-align: left; font-weight: 700; border-bottom: 0.8pt solid var(--morel); }
 .register-table th, .register-table td { border: 0.4pt solid var(--oyster); padding: 1.2mm 2mm; }
