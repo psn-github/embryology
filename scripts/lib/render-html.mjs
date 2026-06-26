@@ -123,8 +123,8 @@ export function renderDocumentHtml(doc, opts = {}) {
   const tpl = readTemplate(tplName);
 
   const vars = {
-    logoHref: "file://" + path.join(ROOT, "assets", "brand", "Logo_01_RGB.svg"),
-    coverLogoHref: "file://" + path.join(ROOT, "assets", "brand", "Logo_02_RGB.svg"),
+    logoHref: "file://" + path.join(ROOT, "assets", "brand", "oxmed-01-horizontal.png"),
+    coverLogoHref: "file://" + path.join(ROOT, "assets", "brand", "oxmed-02-vertical.png"),
     docId: d.docId,
     title: d.title,
     version: d.version,

@@ -1,59 +1,42 @@
 /* ==========================================================================
-   Oxford Medical v2.3 — Embryology Laboratory document suite
-   Brand tokens (§8), A4 print furniture (§3.3, §7), bilingual RTL form layout.
-   No new tokens are introduced; values mirror the Oxford Medical v2.3 system.
+   Oxford Medical Kuwait — Embryology Laboratory document suite
+   DOCUMENT TRACK · brand v2.4 (brand-assets/design/documents.md, css/print.css).
+
+   This suite is written documentation (SOPs, policies, forms, logs), so it
+   follows the brand's Document track, NOT the web/presentation track:
+     · Typeface is Arial (Liberation Sans on build boxes) — Latin + Arabic.
+     · Text is near-black on white; colour is confined to the logo, so every
+       page reproduces identically in greyscale (documents.md §3–§5).
+   A4 print furniture (§3.3, §7) and the bilingual RTL form layout are
+   unchanged — only the typeface and colour have moved onto the Document track.
    ========================================================================== */
 
 /* ---- Fonts -------------------------------------------------------------- */
-/* TODO(brand): drop the licensed font files into styles/fonts/ and the
-   @font-face rules below will embed them in the PDF. Until then the pipeline
-   falls back to system serif/sans so builds still succeed. */
-@font-face {
-  font-family: "Cormorant Garamond";
-  src: url("fonts/CormorantGaramond-Regular.woff2") format("woff2");
-  font-weight: 400; font-display: swap;
-}
-@font-face {
-  font-family: "Cormorant Garamond";
-  src: url("fonts/CormorantGaramond-SemiBold.woff2") format("woff2");
-  font-weight: 600; font-display: swap;
-}
-@font-face {
-  font-family: "Inter Tight";
-  src: url("fonts/InterTight-Regular.woff2") format("woff2");
-  font-weight: 400; font-display: swap;
-}
-@font-face {
-  font-family: "Inter Tight";
-  src: url("fonts/InterTight-SemiBold.woff2") format("woff2");
-  font-weight: 600; font-display: swap;
-}
-@font-face {
-  font-family: "Plus Jakarta Sans";
-  src: url("fonts/PlusJakartaSans-Regular.woff2") format("woff2");
-  font-weight: 400; font-display: swap;
-}
+/* Arial reproduces through photocopy/fax/greyscale and covers Latin + Khaleeji
+   Arabic in one family (documents.md §2). Arial is absent from Linux/VPS/CI
+   build boxes, so Liberation Sans — the open, metrically-identical substitute
+   (apt-get install fonts-liberation) — is listed next in every stack below.
+   Nothing needs embedding, so there are no @font-face rules. */
 
 :root {
-  /* Neutral palette (Oxford Medical v2.3) */
+  /* Neutral palette (brand v2.4 brandNeutrals — the fixed common thread) */
   --enoki:  #E0D6C9;
   --oyster: #BDB6AD;
   --porcini:#908375;
-  --morel:  #7A736A;
-  --ink:    #2B2620;   /* near-black warm text */
+  --morel:  #7A736A;   /* logo wordmark; also secondary text + hairlines */
+  --ink:    #1A1A1A;   /* near-black document text (ink.documentText) */
   --paper:  #FFFFFF;
 
-  /* Data accents — status chips + caution callouts only */
-  --garnet:  #7E2B36;
-  --emerald: #1F5C4A;
-  --lapis:   #29486E;
-  --saffron: #B5872B;
+  /* The Document track carries NO data/accent colour — the logo is the only
+     colour on the page so everything stays greyscale-true (documents.md §5).
+     Status, caution and witness cues are signalled by weight, the neutral
+     palette and wording, never by hue. */
 
-  /* Type */
-  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
-  --font-body: "Inter Tight", system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  --font-label: "Plus Jakarta Sans", "Inter Tight", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Geeza Pro", "Times New Roman", serif;
+  /* Type — one Arial family for Latin and Arabic (documents.md §2) */
+  --font-display: Arial, "Liberation Sans", "Helvetica Neue", Helvetica, sans-serif;
+  --font-body:    Arial, "Liberation Sans", "Helvetica Neue", Helvetica, sans-serif;
+  --font-label:   Arial, "Liberation Sans", "Helvetica Neue", Helvetica, sans-serif;
+  --font-arabic:  Arial, "Liberation Sans", "Noto Naskh Arabic", "Geeza Pro", sans-serif;
 }
 
 /* ---- A4 page boxes (§7) ------------------------------------------------- */
@@ -112,7 +95,7 @@ h2 { font-size: 16pt; margin: 1.4em 0 0.4em; border-bottom: 0.4pt solid var(--en
 h3 { font-size: 13pt; margin: 1.1em 0 0.3em; }
 h4 { font-size: 11pt; margin: 0.9em 0 0.2em; font-family: var(--font-label); }
 p, li { orphans: 2; widows: 2; }
-a { color: var(--lapis); text-decoration: none; }
+a { color: var(--ink); text-decoration: none; }   /* print: links carry no colour */
 code { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 0.92em; }
 
 /* ---- Title block -------------------------------------------------------- */
@@ -151,15 +134,20 @@ code { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size:
 .sig-space { height: 9mm; }
 .sig-role { font-weight: 600; color: var(--morel); width: 22%; }
 
-/* ---- Status chips ------------------------------------------------------- */
+/* ---- Status chips (near-monochrome; the status WORD carries the meaning) --
+   No coloured fills in the Document track (documents.md §5). Every chip is a
+   neutral Enoki pill; Superseded uses the mid neutral so a withdrawn document
+   still reads as "greyed out" in black & white, and Draft/Superseded are
+   reinforced by the page watermark. */
 .chip {
   display: inline-block; padding: 0.5mm 2.5mm; border-radius: 2mm;
-  font-size: 8pt; font-weight: 600; color: var(--paper);
+  font-size: 8pt; font-weight: 700; color: var(--ink);
+  background: var(--enoki); border: 0.4pt solid var(--oyster);
 }
-.chip--garnet  { background: var(--garnet); }
-.chip--emerald { background: var(--emerald); }
-.chip--lapis   { background: var(--lapis); }
-.chip--saffron { background: var(--saffron); color: var(--ink); }
+.chip--garnet,
+.chip--emerald,
+.chip--lapis,
+.chip--saffron { background: var(--enoki); color: var(--ink); }
 .chip--oyster  { background: var(--oyster); color: var(--ink); }
 
 /* ---- Body content tables ------------------------------------------------ */
@@ -170,17 +158,20 @@ code { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size:
 .doc-body th { background: var(--enoki); color: var(--morel); text-align: left; font-weight: 600; }
 .doc-body th, .doc-body td { border: 0.4pt solid var(--oyster); padding: 1.6mm 2.5mm; vertical-align: top; }
 
-/* ---- Caution / critical-step callout (thin Garnet left border, §8) ------ */
+/* ---- Caution / critical-step callout (Enoki panel, Morel border, §5/§7) --
+   Greyscale-safe: a quiet Enoki fill with a Morel rule, never a coloured box.
+   The "Caution"/"Critical step" wording carries the meaning, not the hue. */
 blockquote {
-  margin: 4mm 0; padding: 2mm 0 2mm 4mm;
-  border-left: 1.5pt solid var(--garnet); color: var(--ink);
+  margin: 4mm 0; padding: 2mm 3mm 2mm 4mm;
+  border-left: 2pt solid var(--morel); background: var(--enoki); color: var(--ink);
   font-size: 9.5pt;
 }
 blockquote p { margin: 0.3em 0; }
 
-/* Witness / critical-control-point marker via {.witness} attr */
+/* Witness / critical-control-point marker via {.witness} attr — neutral rule;
+   the witness/CCP label in the text is what flags it, never colour alone. */
 .witness, .ccp {
-  border-left: 1.5pt solid var(--lapis); padding-left: 4mm; margin: 3mm 0;
+  border-left: 1.5pt solid var(--morel); padding-left: 4mm; margin: 3mm 0;
 }
 
 /* ---- Watermark ---------------------------------------------------------- */

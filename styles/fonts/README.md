@@ -1,18 +1,24 @@
-# Embedded fonts — TODO(brand)
+# Fonts — Document track (brand v2.4)
 
-The build embeds three Oxford Medical v2.3 typefaces (PLAN.md §8). Drop the
-licensed `.woff2` files here with **exactly** these names so the `@font-face`
-rules in `../brand.css` resolve:
+This suite is **written documentation**, so it uses the brand's **Document
+track** typeface: **Arial**. Arial reproduces through photocopy/fax/greyscale
+and covers Latin *and* Khaleeji Arabic in one family — see
+`brand-assets/design/documents.md` §2.
 
-| Family | File |
-|---|---|
-| Cormorant Garamond (titles/cover) | `CormorantGaramond-Regular.woff2`, `CormorantGaramond-SemiBold.woff2` |
-| Inter Tight (body) | `InterTight-Regular.woff2`, `InterTight-SemiBold.woff2` |
-| Plus Jakarta Sans (tables/labels) | `PlusJakartaSans-Regular.woff2` |
+**No font files are embedded.** Arial is present on every Mac/Windows machine;
+on Linux/VPS/CI build boxes it is replaced automatically by **Liberation Sans**,
+the open, metrically-identical substitute listed next in every font stack in
+`../brand.css`. Nothing needs to be dropped into this folder.
 
-For bilingual forms, an Arabic Naskh face (e.g. **Noto Naskh Arabic**) is used
-via the system fallback chain in `--font-arabic`; add `NotoNaskhArabic-Regular.woff2`
-and a matching `@font-face` rule if a controlled embedded copy is required.
+On a build box, install it once:
 
-**Until these files are present** the pipeline falls back to system
-serif/sans so builds still succeed — but PDFs will not be brand-true.
+```bash
+apt-get install fonts-liberation     # Liberation Sans / Serif / Mono
+```
+
+If `fonts-liberation` is missing the build still succeeds — the stack falls
+back to the next system sans — but the PDF will not be metrically brand-true.
+
+> Bilingual forms render Arabic through the same Arial/Liberation Sans family
+> (`--font-arabic` in `brand.css`), with `Noto Naskh Arabic` as a fallback for
+> boxes that ship a separate Naskh face.

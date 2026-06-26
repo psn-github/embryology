@@ -3,7 +3,7 @@
 
 **Repository (proposed):** `psn-github/embryology`
 **Owner / Approver:** Prof Scott M Nelson, BSc MBChB PhD MRCOG — Medical Director, Oxford Medical Kuwait
-**Output:** A4 controlled documents (PDF primary, DOCX optional), individually and as a bound manual, fully branded to Oxford Medical v2.3, version-controlled in Git.
+**Output:** A4 controlled documents (PDF primary, DOCX optional), individually and as a bound manual, fully branded to the Oxford Medical v2.4 **Document track** (Arial / Liberation Sans, near-monochrome), version-controlled in Git.
 **Status of this document:** Master build brief, revised. Hand to Claude Code to scaffold the repo and Phase 0.
 
 > **What changed in v2.** The original plan was reverse-engineered from a generic US "IVF Store" manual (FDA/OSHA/HIPAA/CLIA framing — none of which apply here) and assumed Scott would author every SOP from blank stubs. We now hold the **TFP (The Fertility Partnership) embryology SOP corpus** — ~25 mature, HFEA-regulated, audited SOPs already partly adapted for Kuwait. These become the **primary content source**, not a structural reference. Claude Code's job shifts from "scaffold + empty stubs" to "ingest the TFP corpus, transform it into the Oxford Medical controlled-document system, and ship fully-worked SOPs in Phase 0." The IVF Store manual is demoted to a cross-check for completeness only.
@@ -241,8 +241,8 @@ embryology/
 │   ├── manual.html   # cover + auto-TOC + concatenated docs + register
 │   └── register.html
 ├── styles/
-│   ├── brand.css     # Oxford Medical v2.3 tokens + @page A4 rules
-│   └── fonts/        # Cormorant Garamond, Inter Tight, Plus Jakarta Sans
+│   ├── brand.css     # Oxford Medical v2.4 Document-track tokens + @page A4 rules
+│   └── fonts/        # Arial / Liberation Sans (no embedded files needed)
 ├── assets/brand/
 │   ├── Logo_01_RGB.svg   # horizontal (header)
 │   ├── Logo_02_RGB.svg   # vertical (cover)
@@ -321,14 +321,16 @@ npm run watch
 
 ---
 
-## 9. Branding (Oxford Medical v2.3)
+## 9. Branding (Oxford Medical v2.4 — Document track)
 
-Apply the existing brand system — no new tokens.
+This is written documentation, so it follows the brand's **Document track**
+(`brand-assets/design/documents.md`, `css/print.css`), not the web/presentation
+track — no new tokens.
 
-- **Palette:** Enoki `#E0D6C9`, Oyster `#BDB6AD`, Porcini `#908375`, Morel `#7A736A`; data accents Garnet / Emerald / Lapis / Saffron (status chips and caution callouts only).
-- **Type:** Cormorant Garamond (titles/cover), Inter Tight (body), Plus Jakarta Sans (tables/labels). Embed fonts in the PDF.
-- **Logos:** `Logo_01_RGB` horizontal in the running header; `Logo_02_RGB` vertical on the manual cover.
-- **Tone:** clinical and quiet. Porcini hairline rules, generous margins, no heavy fills. Caution/critical-step callouts use a thin Garnet left-border, not a filled box. Use the `oxford-medical-design` skill for any cover/figure work.
+- **Palette:** brand neutrals only — Enoki `#E0D6C9`, Oyster `#BDB6AD`, Porcini `#908375`, Morel `#7A736A` — with near-black document text `#1A1A1A` on white. **No data/accent colour:** the logo is the only colour on the page, so every document reproduces identically in greyscale.
+- **Type:** **Arial** for titles, body, tables and Arabic alike; **Liberation Sans** (metrically identical, open) substitutes on Linux/CI build boxes. No embedded web fonts.
+- **Logos:** `oxmed-01-horizontal` (Morel) in the running header; `oxmed-02-vertical` on the manual cover.
+- **Tone:** clinical and quiet. Porcini/Oyster hairline rules, generous margins, no heavy fills. Status, caution and witness cues are signalled by weight, the neutral palette and wording — never by hue. Caution/critical-step callouts are a quiet Enoki panel with a Morel rule. Test every document with one black-&-white print: it must look identical to colour.
 
 ---
 
@@ -364,7 +366,7 @@ For each phase Claude Code **ingests the matching TFP files, applies §8, and pr
 > 1. Scaffold the directory structure in §6, including `source/tfp/` and `scripts/ingest.mjs`.
 > 2. Implement the **ingest pipeline** (§7, §8): convert a TFP `.docx` to Markdown + YAML front-matter via mammoth/pandoc, preserving tables and dish-layout figures; apply the §8 transformation rules; write the draft `.md` **and** a `*.transform.md` report listing every stripped/flagged line. Nothing auto-publishes.
 > 3. Implement the render pipeline (Markdown → A4 PDF via Puppeteer + Paged.js), the front-matter validator (§3.2), the document register (§3.4), and the manual assembler.
-> 4. Implement brand CSS (§9) with Oxford Medical v2.3 tokens; embed Cormorant Garamond, Inter Tight, Plus Jakarta Sans; `Logo_01_RGB` in header, `Logo_02_RGB` on cover. If brand assets are absent, create labelled placeholders + TODO.
+> 4. Implement brand CSS (§9) with Oxford Medical v2.4 Document-track tokens; Arial / Liberation Sans (no embedded fonts); `oxmed-01-horizontal` in header, `oxmed-02-vertical` on cover.
 > 5. Implement page furniture per §3.3: header band; TFP-style footer rebased to OMK (`docId · version · issued-by · review-due · Page X of Y` + controlled-copy notice); first-page metadata + amendment-history tables; signature block; DRAFT/SUPERSEDED watermark logic.
 > 6. Author the house SOP template (§4) and produce these **fully-worked transformed documents** as proof: `OMK-SOP-EMB-0024` (ICSI), `OMK-SOP-EMB-0021` (TVOR), `OMK-SOP-EMB-0040` (Blastocyst vitrification), `OMK-SOP-EMB-0002` (Witnessing), one bilingual form `OMK-FORM-AND-0014` (EN / Khaleeji Arabic, RTL), `OMK-APP-A`, `OMK-APP-B`. Transform from the TFP `.docx` sources following §8 — **keep all clinical values, dish layouts, media, timings and witnessing steps verbatim; strip Q-Pulse/HFEA/donor/surrogacy/multi-site framing; set `sourceDoc` provenance.** Do **not** generate donor or surrogacy content (§1, §5.0).
 > 7. Create the remaining register entries from §5 as **front-matter-complete stubs** (body = section headings + `TODO: ingest from <TFP source>` or `TODO: author (no TFP source)`).

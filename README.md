@@ -2,9 +2,10 @@
 
 A maintainable, auditable suite of embryology/IVF-laboratory SOPs, policies,
 forms and logs. **Markdown + YAML front-matter is the single source of truth;**
-a render pipeline applies Oxford Medical v2.3 branding and all document-control
-furniture and produces print-true A4 PDFs and a bound manual. See `PLAN.md` for
-the full design brief.
+a render pipeline applies Oxford Medical v2.4 **Document-track** branding (Arial /
+Liberation Sans, near-monochrome, colour confined to the logo) and all
+document-control furniture, and produces print-true A4 PDFs and a bound manual.
+See `PLAN.md` for the full design brief.
 
 > **Scope.** Autologous ART (the couple's own gametes) only. Third-party gamete
 > donation and surrogacy are out of scope — no such documents exist in this suite.
@@ -33,7 +34,7 @@ npm run build               # now also emits dist/pdf/*.pdf
 ```
 content/   sops/ policies/ forms/ logs/ appendices/   ← authored Markdown (source of truth)
 templates/ sop.html form.html manual.html register.html page.html
-styles/    brand.css  fonts/        ← Oxford Medical v2.3 tokens + @page A4 rules
+styles/    brand.css  fonts/        ← Oxford Medical v2.4 Document-track tokens + @page A4 rules
 assets/    brand/ (logos, placeholders)
 scripts/   validate · build · render · manual · register · docx · watch
 manual.config.yml                   ← manual metadata + ordered docId list
