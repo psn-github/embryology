@@ -1,0 +1,74 @@
+{
+  "$schema": "https://oxmedkw.com/brand/palette.schema.json",
+  "name": "Oxford Medical Kuwait — colour tokens",
+  "version": "2.4.0",
+  "description": "Single source of truth for Oxford Medical Kuwait colour. The brand neutrals and the logo wordmark colour are the fixed common thread across every surface. Each surface (documents, web, clinical-tools, leaflets) draws from this file; per-surface usage rules live in the matching design/*.md spec.",
+  "notes": [
+    "Brand neutrals are named after mushrooms and are the only colours the brand identity itself uses.",
+    "Morel (#7A736A) is the canonical logo wordmark colour on light backgrounds.",
+    "Document and patient-leaflet TEXT is near-black #1A1A1A on white/neutral — colour is confined to the logo so everything reproduces perfectly in greyscale.",
+    "Emerald is an EMPHASIS/interactive colour. For body-readable emerald (links, paragraph text) use emeraldDeep #174F45 — plain Emerald fails small-text contrast."
+  ],
+
+  "brandNeutrals": {
+    "enoki":   { "hex": "#E0D6C9", "role": "Lightest neutral — print/document backgrounds, panels, light end of any pairing" },
+    "oyster":  { "hex": "#BDB6AD", "role": "Light taupe — subtle backgrounds, secondary surfaces, hairlines" },
+    "porcini": { "hex": "#908375", "role": "Mid taupe — accent surfaces, dark partner to Enoki" },
+    "morel":   { "hex": "#7A736A", "role": "Darkest neutral — DEFAULT LOGO WORDMARK colour on light backgrounds" }
+  },
+
+  "ink": {
+    "documentText": { "hex": "#1A1A1A", "role": "Near-black body text for documents & leaflets (print-safe, greyscale-true)" },
+    "ink":          { "hex": "#1A1F1D", "role": "Primary text on light screen backgrounds (web, slides, tools)" },
+    "ink2":         { "hex": "#4A514E", "role": "Secondary text, body copy, subordinated detail" },
+    "ink3":         { "hex": "#7A8279", "role": "References, captions, metadata, placeholder text (light bg)" }
+  },
+
+  "surfaces": {
+    "white":  { "hex": "#FFFFFF", "role": "Document & leaflet print background — plain white paper" },
+    "paper":  { "hex": "#FBF9F3", "role": "Lightest cream — default light screen/slide background" },
+    "cream":  { "hex": "#F2EFE6", "role": "Warm editorial background, web sections, panels" },
+    "inkBg":  { "hex": "#1A1F1D", "role": "Near-black dramatic background for imagery & dark UI" },
+    "cream2": { "hex": "#EAE5D8", "role": "References/metadata text on dark backgrounds" }
+  },
+
+  "accents": {
+    "emerald":     { "hex": "#1F6B5E", "role": "Single brand accent — emphasis, primary buttons, one element per view. NOT for small body text." },
+    "emeraldDeep": { "hex": "#174F45", "role": "Body-readable emerald — links, inline emphasis, paragraph emphasis. WCAG AA on light." },
+    "emeraldSoft": { "hex": "#E7EEEB", "role": "Soft emerald fill — hover states, CI ribbons, callout panels" },
+    "gold":        { "hex": "#C9A87C", "role": "Reserved accent — cover monograms, divider numerals. Sparing." }
+  },
+
+  "data": {
+    "comment": "Chart/quantitative palette — deliberately spaced across L* (21 to 41 to 59 to 71) to stay distinguishable under deuteranopia, protanopia, and greyscale. Order encodes hierarchy: Dark to Medium to Light. Also carries semantic state meaning in clinical tools.",
+    "garnet":  { "hex": "#5A1F1B", "lStar": 21, "role": "Secondary/control arm", "semantic": "adverse · abnormal · contraindication · error" },
+    "emerald": { "hex": "#1F6B5E", "lStar": 41, "role": "Primary/hero series",  "semantic": "positive · normal · primary endpoint met · success" },
+    "lapis":   { "hex": "#7390B8", "lStar": 59, "role": "Tertiary/comparator",  "semantic": "baseline · neutral · informational" },
+    "saffron": { "hex": "#D2A648", "lStar": 71, "role": "Quaternary/intermediate", "semantic": "caution · intermediate · pending" }
+  },
+
+  "dataSoftFills": {
+    "emeraldSoft": { "hex": "#E7EEEB", "pairedWith": "emerald" },
+    "garnetSoft":  { "hex": "#E8DDD9", "pairedWith": "garnet" },
+    "lapisSoft":   { "hex": "#DDE2EB", "pairedWith": "lapis" },
+    "saffronSoft": { "hex": "#EBE2D0", "pairedWith": "saffron" }
+  },
+
+  "lines": {
+    "rule":  { "hex": "#D8D2C2", "role": "Hairline rules, gridlines, dividers on light surfaces" },
+    "frame": { "hex": "#4A514E", "role": "1pt image frame on dark surfaces" }
+  },
+
+  "logoContrastRule": {
+    "comment": "The only logo colour pairing the brand identity permits.",
+    "onLight": { "backgrounds": ["enoki", "oyster", "white", "paper", "cream"], "logoColour": "morel", "hex": "#7A736A" },
+    "onDark":  { "backgrounds": ["porcini", "morel", "inkBg"], "logoColour": "enoki", "hex": "#E0D6C9" }
+  },
+
+  "surfaceUsage": {
+    "documents":       { "background": "white", "text": "documentText", "accent": "logo-only", "spec": "design/documents.md" },
+    "patientLeaflets": { "background": ["white", "enoki"], "text": "documentText", "accent": "logo + emeraldDeep sparingly", "spec": "design/patient-leaflets.md" },
+    "web":             { "background": ["paper", "cream", "white", "inkBg"], "text": "ink", "accent": "emerald / emeraldDeep", "spec": "design/web.md" },
+    "clinicalTools":   { "background": ["white", "paper"], "text": "ink", "accent": "emerald + data semantics", "spec": "design/clinical-tools.md" }
+  }
+}

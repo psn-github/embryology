@@ -36,7 +36,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: embryology-suite
+          # Full browsable bundle: the index front door, every HTML + PDF
+          # document, the register and the page assets/styles. Open index.html
+          # to navigate the suite offline (relative links throughout).
           path: |
+            dist/index.html
+            dist/index.css
+            dist/assets/**
+            dist/html/**
             dist/pdf/*.pdf
             dist/register.csv
           if-no-files-found: warn

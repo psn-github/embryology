@@ -6,6 +6,7 @@ import { execFileSync } from "node:child_process";
 import { loadAllDocs, indexDocs } from "./lib/load.mjs";
 import { renderOne } from "./render.mjs";
 import { buildRegister } from "./register.mjs";
+import { writeIndex } from "./index.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { DIST_DIR, ROOT } from "./lib/load.mjs";
@@ -45,7 +46,10 @@ async function main() {
     })
   );
 
-  console.log(`\n✓ Build complete — ${docs.length} documents (${pdfCount} PDF, ${docs.length - pdfCount} HTML-only), register: ${count} entries.`);
+  // Documentation index — the on-screen front door (register-driven).
+  const indexCount = writeIndex();
+
+  console.log(`\n✓ Build complete — ${docs.length} documents (${pdfCount} PDF, ${docs.length - pdfCount} HTML-only), register: ${count} entries, index: ${indexCount} documents.`);
 }
 
 main();

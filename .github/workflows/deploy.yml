@@ -1,0 +1,87 @@
+name: Deploy lab-docs to VPS
+
+# Publishes the built documentation index (dist/) to the Oxford Medical clinical
+# tools VPS at https://oxmedkw.app/lab-docs/ — the SAME box and login surface as
+# the other clinical tools.
+#
+# ⚠ MANUAL ONLY, AND GOVERNANCE-GATED. These are CONTROLLED clinical documents
+# (consent forms, SOPs). This workflow does NOT run on push — it must be started
+# by hand ("Run workflow") and only after the server-side access-control gate is
+# in place on the VPS. See HOSTING.md:
+#   - nginx must require auth on `location /lab-docs/` (auth_basic or IP allow),
+#     because the site's Firebase auth is CLIENT-SIDE only and does NOT stop a
+#     direct download of html/<id>.html or pdf/<id>.pdf.
+#   - Verify first: an unauthenticated GET of a lab-docs PDF must return 401/403.
+#
+# Requires one repository secret:
+#   VPS_SSH_PRIVATE_KEY — private SSH key whose public half is in
+#                         root@134.122.96.124:~/.ssh/authorized_keys
+# The deploy is ADDITIVE (no --delete) into a dedicated /lab-docs subdirectory,
+# so it can never touch the other tools or the patient Document Ledger.
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "deploy" to confirm the access-control gate is live on the VPS'
+        required: true
+        default: ''
+
+concurrency:
+  group: deploy-lab-docs
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.inputs.confirm == 'deploy' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install Liberation (Arial-metric) fonts for true PDF metrics
+        run: sudo apt-get update && sudo apt-get install -y fonts-liberation
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint + build (HTML, PDF, register, index)
+        run: |
+          npm run lint
+          npm run build
+          npm run build:manual
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_PRIVATE_KEY }}" > ~/.ssh/id_deploy
+          chmod 600 ~/.ssh/id_deploy
+          cat >> ~/.ssh/config <<'EOF'
+          Host vps
+            HostName 134.122.96.124
+            User root
+            IdentityFile ~/.ssh/id_deploy
+            StrictHostKeyChecking accept-new
+          EOF
+
+      - name: Publish dist/ → vps:/opt/oxmedkw/deploy/lab-docs (additive)
+        run: |
+          ssh vps 'mkdir -p /opt/oxmedkw/deploy/lab-docs'
+          rsync -avz \
+            --exclude '.DS_Store' \
+            --exclude 'index-full.png' \
+            --exclude 'index-top.png' \
+            dist/index.html dist/index.css \
+            dist/assets dist/html dist/pdf dist/register.csv \
+            vps:/opt/oxmedkw/deploy/lab-docs/
+          echo "✓ Published to https://oxmedkw.app/lab-docs/"
+
+      - name: Reminder — verify the access-control gate
+        run: |
+          echo "Confirm an UNAUTHENTICATED request is blocked, e.g.:"
+          echo "  curl -so /dev/null -w '%{http_code}\\n' https://oxmedkw.app/lab-docs/pdf/OMK-FORM-EMB-0053.pdf"
+          echo "Expected: 401 or 403 (NOT 200). If 200, the gate is missing — see HOSTING.md."
