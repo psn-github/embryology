@@ -54,7 +54,8 @@ location ^~ /lab-docs/ {
     auth_basic           "Oxford Medical — Embryology Lab Documentation";
     auth_basic_user_file /etc/nginx/lab-docs.htpasswd;
     autoindex            off;
-    try_files $uri $uri/ =404;
+    # serve index.html for the bare /lab-docs/ dir (autoindex off else 403s it)
+    try_files $uri $uri/index.html =404;
 }
 ```
 
@@ -74,7 +75,7 @@ location ^~ /lab-docs/ {
     allow 1.2.3.4;        # clinic public IP
     allow 5.6.7.8;        # remote practitioner(s)
     deny  all;
-    try_files $uri $uri/ =404;
+    try_files $uri $uri/index.html =404;
 }
 ```
 
