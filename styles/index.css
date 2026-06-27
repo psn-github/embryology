@@ -1,0 +1,321 @@
+/* =========================================================================
+   Oxford Medical Kuwait — Embryology controlled-document INDEX (screen)
+   Clinical-tools / Web brand track (v2.4): Inter Tight, neutral high-contrast,
+   emerald as the single accent, semantic status colour ALWAYS paired with a
+   word + icon (8% of men are colour-blind).
+
+   This is the ON-SCREEN front door — NOT a print document. It is deliberately
+   separate from styles/brand.css (the monochrome Document/print track) and
+   must never be confused with it.
+
+   Colour custom properties (--enoki, --ink, --emerald, …) are generated from
+   the vendored brand token file (assets/brand/palette.json) and prepended to
+   this file at build time by scripts/index.mjs — so colour is pulled from the
+   single source of truth, never hard-coded here.
+   ========================================================================= */
+
+:root {
+  --font-ui: "Inter Tight", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-data: "JetBrains Mono", ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --tap-min: 44px;
+  --content-max: 1120px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 1rem;            /* 16px floor */
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Skip link for keyboard users */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--emerald);
+  color: var(--paper);
+  padding: 0.625rem 1rem;
+  border-radius: 0 0 var(--radius-sm) 0;
+  z-index: 10;
+}
+.skip-link:focus { left: 0; }
+
+a { color: var(--emeraldDeep); text-decoration: none; }
+a:hover, a:focus-visible { text-decoration: underline; }
+
+:focus-visible { outline: 2px solid var(--emeraldDeep); outline-offset: 2px; }
+
+.wrap { max-width: var(--content-max); margin: 0 auto; padding: 0 clamp(1rem, 4vw, 2.5rem); }
+
+/* ---- Masthead ---------------------------------------------------------- */
+.masthead {
+  background: var(--white);
+  border-bottom: 1px solid var(--rule);
+}
+.masthead__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem;
+  padding-block: clamp(1.25rem, 3vw, 2rem);
+}
+.masthead__logo { height: 44px; width: auto; flex: 0 0 auto; }
+.masthead__titles { flex: 1 1 320px; min-width: 0; }
+.eyebrow {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8125rem;
+  color: var(--ink3);
+  margin: 0 0 0.25rem;
+}
+.masthead h1 {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  line-height: 1.15;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+.masthead__stamp {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+  color: var(--ink2);
+}
+.masthead__stamp .count {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* ---- Primary links (manual + register) --------------------------------- */
+.keylinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  padding-block: 1.25rem;
+}
+.keylink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: var(--tap-min);
+  padding: 0 1rem;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  border: 1.5px solid var(--rule);
+  background: var(--white);
+  color: var(--ink);
+}
+.keylink:hover, .keylink:focus-visible { background: var(--emeraldSoft); text-decoration: none; }
+.keylink--primary { background: var(--emerald); border-color: var(--emerald); color: var(--paper); }
+.keylink--primary:hover, .keylink--primary:focus-visible { background: var(--emeraldDeep); border-color: var(--emeraldDeep); color: var(--paper); }
+.keylink .ico { font-size: 1rem; line-height: 1; }
+
+/* ---- Governance note ---------------------------------------------------- */
+.govnote {
+  display: flex;
+  gap: 0.625rem;
+  align-items: flex-start;
+  background: var(--saffronSoft);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+  color: var(--ink2);
+}
+.govnote strong { color: var(--ink); }
+
+/* ---- Controls (search + status filters) -------------------------------- */
+.controls {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--paper);
+  padding-block: 0.875rem;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: center;
+}
+.search {
+  flex: 1 1 320px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--white);
+  border: 1.5px solid var(--rule);
+  border-radius: var(--radius-sm);
+  padding: 0 0.75rem;
+  min-height: var(--tap-min);
+}
+.search:focus-within { outline: 2px solid var(--emeraldDeep); outline-offset: 1px; }
+.search input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font: inherit;
+  color: var(--ink);
+  width: 100%;
+  min-height: calc(var(--tap-min) - 2px);
+}
+.search .ico { color: var(--ink3); flex: 0 0 auto; }
+
+.statusfilter { display: flex; flex-wrap: wrap; gap: 0.375rem; }
+.statusfilter .fbtn {
+  min-height: 36px;
+  padding: 0 0.75rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--rule);
+  background: var(--white);
+  color: var(--ink2);
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.statusfilter .fbtn[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+.statusfilter .fbtn:hover { border-color: var(--ink3); }
+
+.resultcount {
+  flex: 0 0 auto;
+  font-size: 0.8125rem;
+  color: var(--ink2);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Sections ----------------------------------------------------------- */
+main { padding-bottom: 4rem; }
+.section { margin-top: 2.25rem; }
+.section__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.625rem;
+  border-bottom: 2px solid var(--enoki);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.section__key {
+  font-family: var(--font-data);
+  font-weight: 600;
+  color: var(--emeraldDeep);
+  font-size: 0.9375rem;
+}
+.section h2 {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0;
+}
+.section__n { margin-left: auto; font-size: 0.8125rem; color: var(--ink3); font-variant-numeric: tabular-nums; }
+
+/* ---- Document table ----------------------------------------------------- */
+.doctable { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+.doctable caption { text-align: left; }
+.doctable thead th {
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink2);
+  background: var(--enoki);
+  padding: 0.5rem 0.75rem;
+  white-space: nowrap;
+}
+.doctable thead th:first-child { border-top-left-radius: var(--radius-sm); }
+.doctable thead th:last-child { border-top-right-radius: var(--radius-sm); }
+.doctable tbody td { padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.doctable tbody tr:hover { background: var(--emeraldSoft); }
+
+.cell-id { font-family: var(--font-data); font-variant-numeric: tabular-nums; white-space: nowrap; font-size: 0.875rem; color: var(--ink); }
+.cell-title { min-width: 16rem; }
+.cell-ver, .cell-date { font-family: var(--font-data); font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--ink2); font-size: 0.875rem; }
+.cell-links { white-space: nowrap; }
+.cell-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0 0.5rem;
+  margin-right: 0.25rem;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+.cell-links a:hover, .cell-links a:focus-visible { background: var(--emeraldSoft); border-color: var(--emerald); text-decoration: none; }
+
+/* ---- Status chips (icon + word, never colour alone) -------------------- */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+.chip .ico { font-size: 0.875rem; line-height: 1; }
+.chip--approved   { background: var(--emeraldSoft); color: var(--emeraldDeep); border-color: #BFD8D0; }
+.chip--review     { background: var(--saffronSoft); color: #6B5012;            border-color: #DCC892; }
+.chip--draft      { background: var(--garnetSoft);  color: var(--garnet);      border-color: #D8C2BC; }
+.chip--superseded { background: var(--enoki);       color: var(--ink2);        border-color: var(--oyster); }
+
+/* ---- Empty state -------------------------------------------------------- */
+.noresults {
+  display: none;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  color: var(--ink2);
+}
+.noresults.show { display: block; }
+
+/* ---- Footer ------------------------------------------------------------- */
+.foot {
+  border-top: 1px solid var(--rule);
+  padding-block: 1.5rem;
+  font-size: 0.8125rem;
+  color: var(--ink3);
+}
+.foot a { color: var(--ink2); }
+
+/* ---- Responsive: collapse table to cards < 720px ----------------------- */
+@media (max-width: 720px) {
+  .doctable thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .doctable, .doctable tbody, .doctable tr, .doctable td { display: block; width: 100%; }
+  .doctable tbody tr {
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-sm);
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    background: var(--white);
+  }
+  .doctable tbody td { border: 0; padding: 0.2rem 0; }
+  .cell-id { font-size: 1rem; }
+  .cell-links { margin-top: 0.4rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

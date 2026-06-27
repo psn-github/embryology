@@ -11,6 +11,7 @@
     "build:doc": "node scripts/render.mjs",
     "build:manual": "node scripts/manual.mjs",
     "build:register": "node scripts/register.mjs",
+    "build:index": "node scripts/index.mjs",
     "build:docx": "node scripts/docx.mjs",
     "watch": "node scripts/watch.mjs"
   },

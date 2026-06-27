@@ -15,10 +15,25 @@ See `PLAN.md` for the full design brief.
 ```bash
 npm install          # runtime deps; puppeteer (PDF) is a devDependency
 npm run lint         # validate front-matter + cross-references (pure Node, CI gate)
-npm run build        # all documents → dist/html + dist/pdf, regenerate register
+npm run build        # all documents → dist/html + dist/pdf, register + index
 npm run build:manual # assemble the bound manual ELB-MAN-001
 npm run build:register
+npm run build:index  # documentation front-door → dist/index.html
 ```
+
+### Documentation index (the front door)
+
+`npm run build:index` (also run as part of `npm run build`) emits
+**`dist/index.html`** — a single on-screen index of the whole controlled suite.
+It is **driven entirely from the register** (`loadAllDocs()`), grouped by the
+`manual.config.yml` sections, with a client-side filter/search, status chips
+(word + icon, never colour-only) and links to each document's HTML and PDF plus
+the bound manual and the register. Unlike the print PDFs (the monochrome
+**Document track**), the index uses the **Clinical-tools / Web track** — Inter
+Tight, neutral high-contrast, a single emerald accent — with colours pulled from
+the vendored brand tokens (`assets/brand/palette.json`). It uses relative links
+only, so it works offline from `file://` and unchanged behind an access-controlled
+host. Stylesheet: `styles/index.css` (separate from the print `styles/brand.css`).
 
 If Puppeteer/Chromium is not installed (e.g. a restricted CI/container), the
 build still writes branded **HTML** and the **register**, and clearly reports
@@ -48,11 +63,11 @@ device); the flag is for masters that must be pure black.
 ```
 content/   sops/ policies/ forms/ logs/ appendices/   ← authored Markdown (source of truth)
 templates/ sop.html form.html manual.html register.html page.html
-styles/    brand.css  fonts/        ← Oxford Medical v2.4 Document-track tokens + @page A4 rules
-assets/    brand/ (logos, placeholders)
-scripts/   validate · build · render · manual · register · docx · watch
+styles/    brand.css (print) · index.css (screen front-door) · fonts/
+assets/    brand/ (logos, palette.json tokens, placeholders)
+scripts/   validate · build · render · manual · register · index · docx · watch
 manual.config.yml                   ← manual metadata + ordered docId list
-dist/                               ← gitignored output (HTML, PDF, register.csv)
+dist/                               ← gitignored output (index.html, HTML, PDF, register.csv)
 ```
 
 ## Numbering scheme (`OMK-<TYPE>-<DEPT>-####`, PLAN v2 §3.1)
