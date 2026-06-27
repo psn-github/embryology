@@ -80,8 +80,26 @@ jobs:
             vps:/opt/oxmedkw/deploy/lab-docs/
           echo "✓ Published to https://oxmedkw.app/lab-docs/"
 
-      - name: Reminder — verify the access-control gate
+      - name: Verify the access-control gate (fails if anything is exposed)
         run: |
-          echo "Confirm an UNAUTHENTICATED request is blocked, e.g.:"
-          echo "  curl -so /dev/null -w '%{http_code}\\n' https://oxmedkw.app/lab-docs/pdf/OMK-FORM-EMB-0053.pdf"
-          echo "Expected: 401 or 403 (NOT 200). If 200, the gate is missing — see HOSTING.md."
+          # Probe EVERY file type. A regex nginx location can gate the .pdf but
+          # leak the .html/.css/.png — so the gate must use `location ^~
+          # /lab-docs/` (see HOSTING.md). Any 200 unauthenticated => exposed.
+          base="https://oxmedkw.app/lab-docs"
+          paths="/ /index.html /index.css /html/OMK-SOP-EMB-0002.html \
+                 /pdf/OMK-FORM-EMB-0053.pdf /register.csv \
+                 /assets/oxmed-01-horizontal.png"
+          fail=0
+          for p in $paths; do
+            code=$(curl -so /dev/null -w '%{http_code}' "$base$p" || echo "ERR")
+            echo "  $p -> $code"
+            case "$code" in
+              401|403) : ;;                       # gated — good
+              *) echo "    ✗ EXPOSED (expected 401/403)"; fail=1 ;;
+            esac
+          done
+          if [ "$fail" -ne 0 ]; then
+            echo "::error::Controlled documents are reachable unauthenticated. Fix the nginx gate (use 'location ^~ /lab-docs/') — see HOSTING.md."
+            exit 1
+          fi
+          echo "✓ All probed paths are gated (401/403)."
