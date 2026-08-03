@@ -16,7 +16,8 @@ const COLUMNS = [
   ["effectiveDate", "Effective"],
   ["nextReviewDate", "Next review"],
   ["approvedBy", "Approver"],
-  ["sourceDoc", "TFP source"],
+  // sourceDoc provenance is retained in each document's front-matter for the
+  // audit trail, but is not surfaced in the controlled register.
 ];
 
 function csvCell(v) {

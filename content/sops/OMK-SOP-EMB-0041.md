@@ -21,19 +21,13 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0041/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Oocyte Vitrification – Vitrolife</h2></td></tr></tbody></table>
 
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>ALL LABORATORY STAFF</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p></td><td><p>10/05/2020</p><p>01/10/2021</p><p>08/01/2023</p></td><td colspan="2"><p>Oil overlay added to dish (excluding Vitri 3)</p><p>Witnessing updated to include the use of three identifiers. Two droplets of Vitri 3 increased in size to 50µl in line with manufacturers guidelines</p><p>Section 6 extended to include additional KPI’s.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
-
 ## Purpose
-
 
 ## Scope
 
@@ -101,13 +95,11 @@ Ensure the heat sealer is closely situated and switched on.
 
 ### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B)
 
-
 Check the required Kuwait MoH forms have (or country specific equivalent) been completed providing consent to oocyte freezing.
 
 Oocyte vitrification requires a second witness to be used alongside RI witness.
 
 For vitrification of the patients own oocytes, check the patient’s full name, clinic number and D.O.B. on the G1+ Post Denudation dish and vitrification dishes matches that on the laboratory notes and RI witness system. Check the patient’s full name, clinic number, D.O.B. and date of vitrification on the Rapid I straws and visi/cassette match that on the laboratory notes and RI witness system. Each straw must be labelled with the number of oocytes contained within. Approve these checks on the RI witness system and both operator and witness must sign for these checks.
-
 
 ### 5.4 Preparation of Dishes
 
@@ -140,7 +132,6 @@ Vitrolife Rapid Vit Oocyte
 Label sufficient Rapid I’s for the number of oocytes to be vitrified.
 
 1-3 oocytes can be placed on each Rapid I.
-
 
 Enter the storage location(s) in IDEAs. Prepare a storage card if required.
 

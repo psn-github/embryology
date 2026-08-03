@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0024/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Intra-Cytoplasmic Sperm Injection – ICSI</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic, Group Director of Embryology</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p></td><td><p>05/08/2021</p><p>1/10/2021</p><p>19/10/2022</p></td><td colspan="2"><p>Witnessing steps expanded to include checks for split cases. Double witness required every time oocytes or sperm are added to the ICSI dishes. AOA dish preparation added and post AOA oocytes are washed in GTL.</p><p>Post ICSI, injected oocytes to be moved into ES+ GTL dish (an intermediary 40mm GTL dish may be used if helpful). If the ES+ dish is made day before oocyte collection, medium change required on Day 5. If ES+ dish made on day of oocyte collection, medium change required on Day 6 (if, culturing to day 7). ES+ GTL dish requires a minimum of 6 hours equilibration in a gassed incubator.</p><p>Witnessing updated to include use of three identifiers</p><p>Requirement to shake CultActive for 30 seconds prior to use added.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -111,9 +106,7 @@ Before beginning an ICSI procedure check the laboratory notes to ensure that ‘
 
 Check whether the patent has elected to have a IVF:ICSI split, if so ensure only the designated number of oocytes are inseminated by ICSI.
 
-
 ICSI insemination requires a second witness to be used alongside RI witness.
-
 
 Check the patient’s full name, clinic number and D.O.B. on the G1+ Post Denudation dish matches the ICSI dishes, laboratory notes and RI witness system.
 

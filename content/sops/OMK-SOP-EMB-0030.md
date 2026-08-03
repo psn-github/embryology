@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0030/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>PGT and Blastocyst Biopsy</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>06/10/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>25/03/2022</p></td><td colspan="2"><p>Consolidation and formatting throughout.</p><p>Removal of section 5.3 Kuwait MoH regulation</p><p>Removal of section 5.4 Clinical indications for PGT</p><p>5.2 PCR rack to have patient details (partner optional). bPCR tubes to be labelled with embryo number and patient initials.</p><p>5.3 Note that vitirification SOP non-conformance to be reported if &lt;C embryo biopsied and vitrified.</p><p>5.4 to check upcoming cases with IDEAs and preference for a nursing or clinical PGT co-ordinator.</p><p>5.6 Vitrification dish reference removed as covered in vitrification SOP. Update biopsy and tubing dish layout (PVP optional)</p><p>5.9 Assisted hatching section removed and mentioned in 5.4.</p><p>5.10 Laser opening size of 6-10µm replaced with 5-20µm. Removed statement that cryostraws must be labelled prior to biopsy. Included statement that embryo must be well separated throughout vitrification. Vitrification to be performed after biopsy or tubing.</p><p>5.11 Removed “tubing must be completed whilst in Vit solution 1”.</p><p>5.12 Referenced to laser manufacturer’s guidelines for recalibration. Added chilled rack, removed Eppendorf ice rack, added new tip or thorough rinsing should be used for each biopsy sample. Wash dish should not be placed directly on heated stage.</p><p>5.13 Thaw biopsy Refreeze blastocysts to be placed in a GTL ES+ dish same as other embryos for biopsy</p><p>5.15 Updated results including new mosaic reporting strategy and changed wording to not “advised”.</p><p>5.19 Updated Contact details</p><p>5.20 Removed (covered elsewhere, details in the reference literature)</p></td></tr><tr><td><p>3.0</p></td><td><p>29/07/2022</p></td><td colspan="2"><p>5.6 60mm dish replaced with flat bottomed dish. Prepare one biopsy and tubing dish per sample.</p><p>PVP drop size reduced from 15 to 10µl.</p><p>5.11 Preferential volume of 2.5-3µl of media added to tube.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -191,7 +186,7 @@ Assisted hatching can be performed on day 3, 4, 5, 6 or 7 as per laboratory pref
 
 ## 5.5 Witnessing
 
-For full details of PGT-A witnessing requirements please refer to Oxford Medical Kuwait Witnessing procedure (TFP1-SOP-EMB-0028). In summary the following witness steps are required during the biopsy and vitrification:
+For full details of PGT-A witnessing requirements please refer to Oxford Medical Kuwait Witnessing procedure. In summary the following witness steps are required during the biopsy and vitrification:
 
 -   Transfer of embryo from ES+GTL Dish to biopsy dish – three patient identifiers confirmed alongside RI witness. Second witness confirms correct embryo moved to biopsy dish.
 -   Transfer of biopsy to correct microcentrifuge tube – second witness confirms embryo number on biopsy dish with that on microcentrifuge tube.
@@ -285,7 +280,7 @@ Ensure the TE cells are completely detached from the blastocyst and gently relea
 
 Aspirate the biopsy pipette in a washing drop before proceeding with the next biopsy. Blastocysts can be returned to GTL/G2 if tubing/vitrification after all biopsies are completed.
 
-Use pre-prepared vitrification dishes in accordance with Oxford Medical Kuwait Blastocyst Vitrification – Vitrolife (TFP1-SOP-EMB-0016) procedure to vitrify each embryo post-biopsy/tubing.
+Use pre-prepared vitrification dishes in accordance with Oxford Medical Kuwait Blastocyst Vitrification – Vitrolife procedure to vitrify each embryo post-biopsy/tubing.
 
 -   -   Each straw must only contain one biopsied blastocyst.
     -   Straws must be labelled/witnessed with the patient’s full name, unit number, freeze date and **unique embryo number**.

@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0010/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Diagnostic Semen Analysis &amp; Post Vasectomy Analysis</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p><p>5.0</p></td><td><p>13/02/2020</p><p>20/05/2021</p><p>02/02/2022</p><p>09/02/2023</p></td><td colspan="2"><p>For pH test, semen must be added to the pH paper (pH paper not dipped in the sample)</p><p>Haemocytometer cover slip specification added</p><p>Updated with reference to WHO 2021 6<sup>th</sup> edition. Samples produced off site must be delivered to clinic within 50 minutes of production. Requirement to clean men’s room prior to use added.</p><p>Revised method for concentration assessment, counting squares instead of rows. Revised reference values added and acceptable difference tables updated for motility and concentration. Worked example added for motility calculations. Images of LeucoScreen Plus and vitality assessments added. Option of using 20ml Potassium Citrate mixture to equilibrate pH for retrograde analysis added.</p><p>Updated section 5.9. Removed method for ‘Sperminator’ CASA and replaced with SCA CASA method. Cellvision slides replaced with Leja slides for use with the SCA CASA system.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -650,8 +645,7 @@ Interpretation should consider guidance as set out in WHO 2021. The lower fifth 
 
 Interpretation should also take in to account the patient’s clinical history and previous results. A single semen sample may not be representative and therefore it may be beneficial to request a further analysis.
 
-For patients undergoing fertility treatment, treatment recommendations based on the sample should take into account reference values for the lower fifth percentile values as per WHO (2021) and recommendations made by referring to TFP1-POL-EMB-0001.
-
+For patients undergoing fertility treatment, treatment recommendations based on the sample should take into account reference values for the lower fifth percentile values as per WHO (2021) and recommendations made by referring to the Oxford Medical Kuwait Criteria for IVF or ICSI.
 
 **5.12 Post Vasectomy Analysis**
 

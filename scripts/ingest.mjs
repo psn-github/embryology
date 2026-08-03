@@ -66,9 +66,21 @@ const RULES = [
     mode: "replace",
     // Case-SENSITIVE for the TFP token: org references are uppercase "TFP";
     // lowercase "tfp" (e.g. in generated asset paths) must not be rewritten.
-    test: /\bTFP\b|The Fertility Partnership/,
+    // The negative lookahead spares cross-reference IDs ("TFP1-CON-EMB-0003"),
+    // which are handled by the tfp_xref rule below.
+    test: /\bTFP\b(?![-\d])|The Fertility Partnership/,
     replacement: "Oxford Medical Kuwait",
     note: "TFP organisation reference → Oxford Medical Kuwait (§8). Verify each occurrence is org-framing, not a source-ID.",
+  },
+  {
+    id: "tfp_xref",
+    mode: "flag",
+    // TFP internal cross-reference IDs (TFP1-CON-EMB-0003, TFP1-SOP-AND-0002…).
+    // These are NOT auto-rewritten: the TFP numbering does not map 1:1 to the
+    // OMK scheme and some referenced documents are out of scope for Kuwait, so
+    // remapping needs the human TFP→OMK crosswalk.
+    test: /TFP\d-[A-Z]/,
+    note: "TFP cross-reference ID — remap to the OMK equivalent using the TFP→OMK crosswalk, or drop the ID and keep the descriptive name. NEEDS SCOTT.",
   },
   {
     id: "coopersurgical",
@@ -95,14 +107,36 @@ function parseDocId(docId) {
   return { type: m[1], dept: m[2], seq: m[3] };
 }
 
+// A legacy TFP document-control furniture table that the render pipeline
+// regenerates (branded Oxford Medical) from front-matter — the "UNCONTROLLED"
+// banner and the "DOCUMENT DETAILS / AMMENDMENT HISTORY" author block (which
+// carried the TFP author and "(UK ONLY)"). Dropped wholesale on ingest.
+function isLegacyFurniture(line) {
+  if (!/<table/.test(line)) return false;
+  if (/PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED/i.test(line)) return true;
+  if (/DOCUMENT DETAILS/i.test(line) && /(AMMENDMENT|AUTHOR \(NAME)/i.test(line)) return true;
+  return false;
+}
+
 // Apply the §8 rules to the markdown body. Returns { body, report[] }.
 function applyRules(markdown, docId) {
+  // Pre-pass: drop the extracted TFP letterhead logo image. mammoth gives it
+  // the alt text "A blue and pink logo / Description automatically generated",
+  // and the alt may span a newline (matched by [^\]]*). The Oxford Medical logo
+  // is injected into the page header by the render pipeline, so the embedded
+  // one is both wrong-branded and redundant.
+  markdown = markdown.replace(/!\[[^\]]*logo[^\]]*\]\([^)]*\)/gi, "");
+
   const lines = markdown.split("\n");
   const out = [];
   const report = [];
   lines.forEach((line, idx) => {
     if (line.trim() === "") {
       out.push(line);
+      return;
+    }
+    if (isLegacyFurniture(line)) {
+      report.push({ line: idx + 1, rule: "legacy_furniture", action: "STRIPPED", note: "Legacy TFP document-control furniture (UNCONTROLLED banner / DOCUMENT DETAILS author + amendment table) — regenerated, Oxford Medical-branded, by the render pipeline (§8).", text: line.trim().slice(0, 200) });
       return;
     }
     let working = line;
@@ -132,7 +166,11 @@ function applyRules(markdown, docId) {
         break;
       } else if (rule.mode === "replace") {
         const before = working;
-        working = working.replace(rule.test, rule.replacement);
+        // Replace EVERY occurrence on the line, not just the first — table rows
+        // emitted by mammoth as a single line can carry the token many times.
+        const globalRe = new RegExp(rule.test.source, rule.test.flags.includes("g") ? rule.test.flags : rule.test.flags + "g");
+        working = working.replace(globalRe, rule.replacement);
+        if (working === before) continue;
         report.push({ line: idx + 1, rule: rule.id, action: "REPLACED", note: rule.note, text: `${before.trim()}  →  ${working.trim()}` });
       } else if (rule.mode === "flag") {
         report.push({ line: idx + 1, rule: rule.id, action: "FLAGGED", note: rule.note, text: line.trim() });

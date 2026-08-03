@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0012/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Sperm Freezing/Thawing for Patient’s Own Treatment</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>14/02/2020</p></td><td colspan="2"><p>Witnessing &amp; Sample production instructions amended</p></td></tr><tr><td><p>3.0</p><p>4.0</p><p>5.0</p><p>6.0</p></td><td><p>25/05/2021</p><p>01/10/2021</p><p>02/02/2022</p><p>24/02/2023</p></td><td colspan="2"><p>Witnessing checks expanded</p><p>Witnessing checks edited to include the use of 3 identifiers</p><p>Updated with reference to WHO 2021 edition including new reference values. Samples produced off site must be delivered to clinic within 50 minutes of production. Requirement to clean men’s room prior to use added. If intended Tx is ICSI and &lt;3 oocytes collected, denude oocyte(s) prior to thawing sperm to ensure something suitable for injection.</p><p>Option for patients who have a partner to complete the MT for consent to sperm storage.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -140,8 +135,7 @@ List of Consent Forms that must be completed prior to freezing in the UK:
 
 Kuwait MoH MT Consent (if patient **has a partner)**
 
-1.  Oxford Medical Kuwait Freezing and Storage of Gametes Consent (TFP1-CON-CLN-0009)
-
+1.  Oxford Medical Kuwait Freezing and Storage of Gametes Consent
 
 Check the required screens have been completed and what the results are. The storage system must clearly separate samples that are unscreened/quarantined, negative and positive for the infections listed below.
 
@@ -205,7 +199,7 @@ Samples where motile sperm (motility grades A-C) are observed in the initial/pos
 
 Samples with a concentration of <1M/ml should be concentrated prior to freezing via centrifugation at 0.3-0.8 r.c.f.
 
-SSR and retrograde samples must be processed prior to freezing and the prepared stock sample frozen. Refer to Oxford Medical Kuwait Sperm Preparation for Treatment (TFP1-SOP-AND-0002) for the preparation procedure.
+SSR and retrograde samples must be processed prior to freezing and the prepared stock sample frozen. Refer to Oxford Medical Kuwait Sperm Preparation for Treatment for the preparation procedure.
 
 SSR samples may need to be assessed in a ‘lake’ dish prior to freezing.
 
@@ -240,7 +234,6 @@ Assessments of anti-sperm antibodies, pH, morphology, viability and round cells 
 The initial parameters of the sample are used to determine number of straws to be frozen and suitability for freezing.
 
 Post-thaw, assess the motility of the sample.
-
 
 #### 5.10.1 Assessment of Sample Volume (Reference Value ≥1.4ml)
 
@@ -300,7 +293,7 @@ Place a droplet of neat semen onto pH paper/strip. Wait for the colour of the im
 
 #### 5.10.7 Assessment of Viability, if indicated (Reference Value ≥54%)
 
-SpermMobil can be used to initiate motility in viable non-motile sperm. The process for using SpermMobil is outlined in the Oxford Medical Kuwait ICSI SOP (TFP1-SOP-EMB-0007).
+SpermMobil can be used to initiate motility in viable non-motile sperm. The process for using SpermMobil is outlined in the Oxford Medical Kuwait ICSI SOP.
 
 Alternatively, the Hypo-Osmotic Swelling Test (HOS) may be used to distinguish between viable and non-viable non-motile sperm.
 
@@ -308,7 +301,7 @@ Alternatively, the Hypo-Osmotic Swelling Test (HOS) may be used to distinguish b
 
 An assessment of round cells in the sample can be performed in the same way as a concentration assessment as described above.
 
-If the concentration of round cells is >5M/ml, determine the number of leukocytes in the sample using Leucostain Plus (See Diagnostic Semen Analysis & Post Vasectomy Analysis SOP, TFP1-SOP-AND-0007).
+If the concentration of round cells is >5M/ml, determine the number of leukocytes in the sample using Leucostain Plus (See Diagnostic Semen Analysis & Post Vasectomy Analysis SOP).
 
 **5.11 Freezing Procedure**
 
@@ -334,7 +327,7 @@ After 30 minutes in vapour, transfer the straws into the designated storage loca
 
 Perform test thaw by thawing out test thaw straw to room temperature and assessing motility on the thawed sample.
 
-Poor samples may need to be assessed in a ‘lake dish’. The process for assessing samples in a lake is outlined in the Oxford Medical Kuwait ICSI SOP (TFP1-SOP-EMB-0007).
+Poor samples may need to be assessed in a ‘lake dish’. The process for assessing samples in a lake is outlined in the Oxford Medical Kuwait ICSI SOP.
 
 Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
@@ -366,7 +359,7 @@ Add an equivalent volume of equilibrated GIVF+ to the thawed sample dropwise, ti
 
 ## Assess the initial concentration and motility of the thawed sample.
 
-## The thawed sample can then be prepared for treatment using a method suitable for the sample’s concentration and motility. The process for sperm preparation is outlined in Oxford Medical Kuwait Sperm Preparation for Treatment (TFP1-SOP-AND-0002).
+## The thawed sample can then be prepared for treatment using a method suitable for the sample’s concentration and motility. The process for sperm preparation is outlined in Oxford Medical Kuwait Sperm Preparation for Treatment.
 
 ## Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 

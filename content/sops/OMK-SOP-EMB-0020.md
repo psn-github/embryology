@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0020/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Preparation of Culture Dishes</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>13/02/2020</p></td><td colspan="2"><p>EmbryoGlue expiry dates added</p></td></tr><tr><td><p>3.0</p><p>4.0</p></td><td><p>11/08/2021</p><p>01/10/2021</p></td><td colspan="2"><p>Injected oocytes move into ES+ GTL post injection. Intermediary 40mm GTL dish can be used to collect injected oocytes into during the procedure. ES+ GTL dish requires a minimum of 6 hours equilibration in a gassed incubator. Recommendations added on pipetting fully hatched blastocysts.</p><p>Labelling of dishes/tubes updated to include the use of 3 identifiers. Thaw dish can have 6-9 x 40µl droplets, depending on how many oocytes/embryos or blastocysts are being thawed.</p></td></tr><tr><td><p>5.0</p><p>6.0</p></td><td><p>14/02/2022</p><p>30/03/2022</p></td><td colspan="2"><p>Date of opening to be noted on the bottle. Any additions to the media e.g. heparin added, also to be noted on the bottle. Timing of dish/tube preparation section expanded to include flexibility to prepare dishes/tubes on Saturday for Monday if no laboratory staff on site on Sunday.</p><p>Thaw biopsy refreeze embryos to be placed into an ES+ GTL dish. Staff not to discard empty/unused dishes without first checking whether they are required for patient use.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
