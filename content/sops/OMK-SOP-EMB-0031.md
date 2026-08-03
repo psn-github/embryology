@@ -65,7 +65,7 @@ Are responsible for following the process laid out in this document, ensure they
 
 ## Background Knowledge
 
-All new biopsy practitioners must complete the Oxford Medical Kuwait Blastocyst Biopsy Training Workbook (TFP1-SCT-HR-0030).
+All new biopsy practitioners must complete the Oxford Medical Kuwait Blastocyst Biopsy Training Workbook.
 
 To acquire the knowledge base for blastocyst biopsy, the trainee must demonstrate awareness of the concepts concerning the biology of the embryo, the equipment and consumables used as well as technical and procedural choices to ensure the safety of the embryo throughout the procedure. This information can be presented to the trainee through graphical presentations summarising the literature, videos of example biopsies and observation of real time cases. The knowledge acquisition can be assessed through essays, verbal discussions or written examination. The biopsy trainee should be able to understand and interpret the knowledge with regards to common scenarios they are likely to face as biopsy practitioners.
 
@@ -84,13 +84,13 @@ Examples of knowledge competencies that must be acquired include:
 
 ## Consumables
 
-The trainee must have an understanding of the importance of sterility for the embryo and DNase free environment for the biopsy, and that gloves must be worn throughout the procedure to avoid contaminating the biopsy. The trainee should understand the choice of consumables used for biopsy as per the Oxford Medical Kuwait PGT and Blastocyst Biopsy SOP (TFP1-SOP-EMB-0023).
+The trainee must have an understanding of the importance of sterility for the embryo and DNase free environment for the biopsy, and that gloves must be worn throughout the procedure to avoid contaminating the biopsy. The trainee should understand the choice of consumables used for biopsy as per the Oxford Medical Kuwait PGT and Blastocyst Biopsy SOP.
 
 ## Dish Preparation
 
 When demonstrating competency in dish preparation for biopsy, the trainee must prepare at least 10 dishes under supervision (1 if ICSI dish preparation trained), meeting the following criteria:
 
--   Biopsy and tubing dishes to be made in line with Oxford Medical Kuwait PGT and Blastocyst Biopsy SOP (TFP1-SOP-EMB-0023).
+-   Biopsy and tubing dishes to be made in line with Oxford Medical Kuwait PGT and Blastocyst Biopsy SOP.
 -   media drops should be located centrally on the dish to ensure easy access by the angled microtools
 -   dishes must be numbered with the embryo number to ensure that embryos and biopsies are traceable
 -   when moving the dish between stations, the drops must not merge.
@@ -108,7 +108,7 @@ The trainee must demonstrate competency in using the equipment necessary for bio
 
 ## Blastocyst Material for Training
 
-Blastocysts not suitable for treatment may be used for biopsy training only when permission is given by the gamete providers via the appropriate Kuwait MoH consent forms. In addition, specific details of the type of training must also be given to the gamete providers using Oxford Medical Kuwait Unified Use of Embryos and Gametes in Training (TFP1-CON-CLN-0011) consent form. Both the Oxford Medical Kuwait and Kuwait MoH consents must be in place and checked prior to use of embryos in training.
+Blastocysts not suitable for treatment may be used for biopsy training only when permission is given by the gamete providers via the appropriate Kuwait MoH consent forms. In addition, specific details of the type of training must also be given to the gamete providers using Oxford Medical Kuwait Unified Use of Embryos and Gametes in Training consent form. Both the Oxford Medical Kuwait and Kuwait MoH consents must be in place and checked prior to use of embryos in training.
 
 The gamete providers consent to embryo storage must not be exceeded and as such the consent expiry date must remain within the patient management system and be managed as part of the ‘bring forward system’/or equivalent.
 
@@ -245,7 +245,7 @@ Trophectoderm biopsy is a technically demanding procedure which requires well tr
 -   Gardner DK and Schoolcraft WB. In vitro culture of human blastocysts. In: Jansen R, Mortimer D (eds). Toward Reproductive Certainty: Fertility and Genetics Beyond. Carnforth, UK: Parthenon Publishing, 1999, 378– 388.
 -   Kort JD, Lathi RB, Brookfield K, Baker VL, Zhao Q, Behr BR. Aneuploidy rates and blastocyst formation after biopsy of morulae and early blastocysts on day 5. J Assist Reprod Genet. 2015 Jun;32(6):925-30.
 -   Scott KL, Hong KH, Scott RT Jr. [Selecting the optimal time to perform biopsy for preimplantation genetic testing.](http:/www.ncbi.nlm.nih.gov/pubmed/23993663) Fertil Steril. 2013 Sep;100(3):608-14
--   TFP1-SOP-EMB-0023: All embryologists working towards becoming blastocyst biopsy practitioners must read and understand the blastocyst biopsy SOP.
+-   Oxford Medical Kuwait PGT and Blastocyst Biopsy SOP: All embryologists working towards becoming blastocyst biopsy practitioners must read and understand the blastocyst biopsy SOP.
 
 ## Standards/Key Performance/Quality Indicators
 

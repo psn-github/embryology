@@ -645,7 +645,7 @@ Interpretation should consider guidance as set out in WHO 2021. The lower fifth 
 
 Interpretation should also take in to account the patient’s clinical history and previous results. A single semen sample may not be representative and therefore it may be beneficial to request a further analysis.
 
-For patients undergoing fertility treatment, treatment recommendations based on the sample should take into account reference values for the lower fifth percentile values as per WHO (2021) and recommendations made by referring to TFP1-POL-EMB-0001.
+For patients undergoing fertility treatment, treatment recommendations based on the sample should take into account reference values for the lower fifth percentile values as per WHO (2021) and recommendations made by referring to the Oxford Medical Kuwait Criteria for IVF or ICSI.
 
 **5.12 Post Vasectomy Analysis**
 

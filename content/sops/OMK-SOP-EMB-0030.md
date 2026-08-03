@@ -186,7 +186,7 @@ Assisted hatching can be performed on day 3, 4, 5, 6 or 7 as per laboratory pref
 
 ## 5.5 Witnessing
 
-For full details of PGT-A witnessing requirements please refer to Oxford Medical Kuwait Witnessing procedure (TFP1-SOP-EMB-0028). In summary the following witness steps are required during the biopsy and vitrification:
+For full details of PGT-A witnessing requirements please refer to Oxford Medical Kuwait Witnessing procedure. In summary the following witness steps are required during the biopsy and vitrification:
 
 -   Transfer of embryo from ES+GTL Dish to biopsy dish – three patient identifiers confirmed alongside RI witness. Second witness confirms correct embryo moved to biopsy dish.
 -   Transfer of biopsy to correct microcentrifuge tube – second witness confirms embryo number on biopsy dish with that on microcentrifuge tube.
@@ -280,7 +280,7 @@ Ensure the TE cells are completely detached from the blastocyst and gently relea
 
 Aspirate the biopsy pipette in a washing drop before proceeding with the next biopsy. Blastocysts can be returned to GTL/G2 if tubing/vitrification after all biopsies are completed.
 
-Use pre-prepared vitrification dishes in accordance with Oxford Medical Kuwait Blastocyst Vitrification – Vitrolife (TFP1-SOP-EMB-0016) procedure to vitrify each embryo post-biopsy/tubing.
+Use pre-prepared vitrification dishes in accordance with Oxford Medical Kuwait Blastocyst Vitrification – Vitrolife procedure to vitrify each embryo post-biopsy/tubing.
 
 -   -   Each straw must only contain one biopsied blastocyst.
     -   Straws must be labelled/witnessed with the patient’s full name, unit number, freeze date and **unique embryo number**.

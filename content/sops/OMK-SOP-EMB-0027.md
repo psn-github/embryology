@@ -91,7 +91,7 @@ Table 1: Timing of embryo grading observations and which features should be asse
 
 <table><tbody><tr><td></td><td><p><strong>Time Lapse Patients</strong></p><p><strong>TBC</strong></p></td><td><p><strong>Standard Culture</strong></p></td></tr><tr><td><p><strong>Day 2</strong></p><p><strong></strong></p></td><td><p><strong>Cell No. + Grade</strong></p><p>Note the presence of vacuoles/granularity/reverse cleavage/direct cleavage/Multi Nucleated Cells</p></td><td><p><strong>No Observation</strong> unless high risk of failed cleavage/cleavage stage embryo transfer planned</p></td></tr><tr><td><p><strong>Day 3</strong></p></td><td><p><strong>Cell No. + Grade</strong></p><p>Note the presence of vacuoles/granularity/reverse cleavage/direct cleavage/Multi Nucleated Cells</p></td><td><p><strong>Cell No. + Cohort Quality</strong></p></td></tr><tr><td><p><strong>Day 4</strong></p></td><td><p>No Observation Required</p></td><td><p>No Observation Required</p></td></tr><tr><td><p><strong>Day 5 / 6</strong></p></td><td><p><strong>Stage/Grade</strong></p><p><strong>KID Score</strong></p><p>Note the presence of Excluded cells /Degenerate cells/vacuoles/granularity/’strings’</p></td><td><p><strong>Stage/Grade</strong></p><p>Note the presence of Excluded cells /Degenerate cells/vacuoles/granularity/’strings’</p></td></tr></tbody></table>
 
-Detailed information describing the grading of embryos cultured in time lapse can be found in the Oxford Medical Kuwait Time Lapse SOP (TFP1-SOP-EMB-0022).
+Detailed information describing the grading of embryos cultured in time lapse can be found in the Oxford Medical Kuwait Time Lapse SOP.
 
 ### 5.4 Embryo Grading Procedure
 

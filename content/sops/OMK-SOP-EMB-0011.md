@@ -183,7 +183,7 @@ The initial parameters of the sample are used to determine the most suitable met
 
 Post preparation, note the volume of the final stock solution and assess concentration and motility.
 
-The initial and post preparation parameters are used to determine whether IVF or ICSI is the most suitable treatment type. See TFP1-POL-EM-0001 Oxford Medical Kuwait Criteria for IVF or ICSI.
+The initial and post preparation parameters are used to determine whether IVF or ICSI is the most suitable treatment type. See the Oxford Medical Kuwait Criteria for IVF or ICSI.
 
 Gloves must be worn when handling human semen.
 
@@ -263,7 +263,7 @@ Following the 1st wash, remove the supernatant. Add 2mls of GIVF+ and mix thorou
 
 Following the 2nd wash, remove the supernatant and resuspend the pellet in GIVF+. For IUI/IVF resuspend in 0.5-1ml. For ICSI samples resuspend in 0.1-1.0ml (depending on the concentration) of GIVF+. This is the final stock solution.
 
-Assess the concentration and motility of the final stock solution as described above. Determine the samples suitability for IVF or ICSI using the Oxford Medical Kuwait Criteria for IVF or ICSI (TFP1-POL-EMB-0001).
+Assess the concentration and motility of the final stock solution as described above. Determine the samples suitability for IVF or ICSI using the Oxford Medical Kuwait Criteria for IVF or ICSI.
 
 Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
@@ -329,7 +329,7 @@ Following incubation, remove the supernatant and transfer to the Wash/Stock Tube
 
 Following the 2nd wash, remove the supernatant and resuspend the pellet in GIVF+. For IUI/IVF resuspend in 0.5-1ml.
 
-Assess the concentration and motility of the final stock solution as described above. Determine the samples suitability for IVF or ICSI using the Oxford Medical Kuwait Criteria for IVF & ICSI(TFP1-POL-EMB-0001).
+Assess the concentration and motility of the final stock solution as described above. Determine the samples suitability for IVF or ICSI using the Oxford Medical Kuwait Criteria for IVF & ICSI.
 
 Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
@@ -367,7 +367,7 @@ Maceration can be performed by placing a cell strainer over a centre well dish c
 
 Once all the tissue has been processed, collect the fluid and transfer to 1-2 conical tubes. Centrifuge at 0.3-0.8 r.c.f. for 5 minutes.
 
-If the sample is for freezing, follow the Sperm Freezing/Thawing for Patients Own Treatment SOP (TFP1-SOP-AND-3).
+If the sample is for freezing, follow the Sperm Freezing/Thawing for Patients Own Treatment SOP.
 
 If the sample is for immediate treatment, prepare following the ‘High Speed Wash Only’ or ‘Wash Only’ method described above.
 

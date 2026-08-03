@@ -102,7 +102,7 @@ Any test tube warmers to be used must be subject to an independent temperature c
 
 ### 5.3 Witnessing Checks (Full Name, D.O.B and Clinic Number)
 
-All patients must complete and sign the Oxford Medical Kuwait Unified Embryo Transfer Consent (TFP1-CON-EMB-0003). This captures in writing how many embryos the patient is having transferred.
+All patients must complete and sign the Oxford Medical Kuwait Unified Embryo Transfer Consent. This captures in writing how many embryos the patient is having transferred.
 
 1\. Movement of the Embryo(s) from the Culture Dish to the Embryo Transfer Dish
 
@@ -173,7 +173,7 @@ All patients electing to have two or three embryos transferred must be made awar
 
 All clinics must keep an auditable record/log of all patients who have a TET or who meet eSET and elect to have a DET.
 
-At embryo transfer the patient must sign for the actual number of embryos that are being replaced. This is captured on the Oxford Medical Kuwait Unified Embryo Transfer Consent form (TFP1-CON-EMB-0003).
+At embryo transfer the patient must sign for the actual number of embryos that are being replaced. This is captured on the Oxford Medical Kuwait Unified Embryo Transfer Consent form.
 
 In the event that the patient wishes to transfer multiple embryos when they originally consented to one in the original Oxford Medical Kuwait IVF/ICSI or FET treatment consent form, this is possible providing the patient and their partner (if applicable) both agree and the patient signs for this, as described above.
 
