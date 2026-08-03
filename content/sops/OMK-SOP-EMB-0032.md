@@ -21,11 +21,9 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![A blue and pink logo
-Description automatically generated](assets/figures/OMK-SOP-EMB-0032/fig-1.png)
 
 Partner name
 
@@ -80,9 +78,6 @@ Tx Number
 <table><tbody><tr><td colspan="2"><p><strong>Embryo Cryopreservation Summary</strong></p></td><td><p>Other Embryos in storage?</p></td><td><p>Yes / No</p><p>Location: Number:</p></td></tr><tr><td><p>Split Dewars Needed?</p></td><td><p>Yes / No</p></td><td rowspan="2"><p>Cryotank Type</p></td><td rowspan="2"><p>Screened / Unscreened</p><p>Hep B / Hep C / HIV</p></td></tr><tr><td><p></p></td><td><p>Egg /Sperm/Embryos Code:</p></td></tr><tr><td><p>No Years Consent:</p></td><td></td><td colspan="2" rowspan="2"><p>Comments:</p></td></tr><tr><td><p>Vitrification media</p><p>Cryo Device</p></td><td><p>Vitrolife /………………………. Exp. Date:</p><p>Rapid I /…………………………</p></td></tr></tbody></table>
 
 <table><tbody><tr><td colspan="11"><p><strong>Embryo Cryopreservation</strong></p></td></tr><tr><td colspan="2"><p><strong>Freezing witnessing </strong>(Dishes, Rapid I, Lab notes, Tx cycle ID, RI)</p></td><td colspan="5"><p><strong>Witnessing for Freeze 1</strong></p><p>Date: Time:</p><p>Operator: Witness:</p></td><td colspan="4"><p><strong>Witnessing for Freeze 2</strong></p><p>Date: Time:</p><p>Operator: Witness:</p></td></tr><tr><td><p>Embryo ID</p></td><td><p>Grade</p></td><td colspan="2"><p>IDA score</p></td><td><p>Rapid I colour</p></td><td><p>Day of freeze</p></td><td><p>Date of Freeze</p></td><td><p>Biopsy Wit.</p><p>Biopsy Dish</p></td><td><p>Biopsy Wit.</p><p>Tubing</p></td><td><p>Location</p></td><td><p>Thaw Date</p></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td></td><td></td><td></td><td><p>/</p></td><td><p>/</p></td><td></td><td></td></tr><tr><td colspan="3" rowspan="2"><p><strong>Cryotank</strong></p><p><strong>Witnessing</strong></p><p>(Straws/ visi, lab</p><p>notes, dewar</p><p>location)</p></td><td colspan="4"><p><strong>Witnessing for Freeze 1.</strong></p><p>Operator:</p><p>Witness:</p></td><td colspan="4"><p><strong>Witnessing for Freeze 2.</strong></p><p>Operator:</p><p>Witness:</p></td></tr><tr><td colspan="4"><p>Operator:</p><p>Witness:</p></td><td colspan="4"><p>Operator:</p><p>Witness:</p></td></tr></tbody></table>
-
-![A blue and pink logo
-Description automatically generated](assets/figures/OMK-SOP-EMB-0032/fig-2.png)
 
 <table><tbody><tr><td colspan="8"><p><strong>End of Cycle Discard and Checks</strong></p></td></tr><tr><td colspan="4"><p><strong>Dish Discard Witness</strong> (Culture Dish, lab notes, RI, Check culture/ ET/ Re-Freezing complete)</p></td><td colspan="4"><p>Date: Operator:</p><p>Time: Witness:</p></td></tr><tr><td><p> to Training</p></td><td><p>Yes/ No</p></td><td><p>Witnessing Completed?</p></td><td><p>Yes/No</p></td><td><p>Ideas Cryostore Updated</p></td><td><p>Yes/No</p></td><td><p>Prism Submitted</p></td><td><p>Yes/No</p></td></tr><tr><td><p>Comments:</p></td><td colspan="7"></td></tr></tbody></table>
 

@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0040/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Blastocyst Vitrification - Vitrolife</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic, Group Director of Embryology</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>10/05/2020</p></td><td colspan="2"><p>Oil overlay added (excluding Vitri 3)</p></td></tr><tr><td><p>3.0</p><p>4.0</p><p>5.0</p></td><td><p>20/05/2021</p><p>02/10/2021</p><p>29/07/2022</p></td><td colspan="2"><p>Additional details added about how to collapse blastocysts. Additional witnessing checks added for split cycles.</p><p>Witnessing checks updated to include the use of three identifiers</p><p>Direct cleavage/reverse cleavage embryos that form blasts A-C can be vitrified. Pipette range adjusted to include a 200-310µl pipette for use in Vitri 1 and Vitri2</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -112,7 +107,6 @@ Check the required Kuwait MoH forms (or country specific equivalent) have been c
 Blastocyst vitrification requires a second witness to be used alongside RI witness.
 
 Check the patient’s full name, clinic number and D.O.B. on the GTL culture dish matches the vitrification dish, laboratory notes and RI witness system. In addition, check the patient’s full name, clinic number, D.O.B. and date of vitrification on the Rapid I straws and visi/cassette match that on the laboratory notes and RI witness system. Each straw must be labelled with the number of blastocysts and the grade of the blastocyst/well number. Approve these checks on the RI witness system and both operator and witness must sign for these checks.
-
 
 ### 5.4 Preparation of Dishes
 

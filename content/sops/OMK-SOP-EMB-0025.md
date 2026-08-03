@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0025/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Fertilisation Check</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p><p>3.0</p><p>4.0</p></td><td><p>05/08/2021</p><p>01/10/2021</p><p>04/04/2022</p></td><td colspan="2"><p>TL culture is now standard across the Group and as such is now referenced in the SOP as the core culture method.</p><p>Need to ensure the view of any oocytes within ES+ dish is not obscured if the fertilization check is to be deferred.</p><p>Need to keep partner: sperm zygotes separate highlighted. Need to keep IVF:ICSI zygotes separate highlighted.</p><p>Witnessing updated to include 3 identifiers as standard</p><p>Requirement to culture unfertilised oocytes following IVF (for re-check following low/failed fertilization) in wells containing sperm, removed. Can be cultured in any well (but avoid well 1) where there will be significant GMOPS+ carry over. Management of micro PN’s defined. Size range for pipettes for fertilization check expanded.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -99,7 +94,6 @@ Ensure the RI heated stage and inverted microscopes are switched on and at the c
 ### 5.3 Witnessing Checks (Full Name, Clinic Number and D.O.B.)
 
 Prior to commencing the fertilisation check determine whether all the oocytes have been inseminated via IVF or ICSI or a combination of both. **If both have been performed, IVF and ICSI inseminated oocytes must be cultured separately and clearly identified.**
-
 
 Witnessing for fertilisation check can be performed alongside RI witness.
 

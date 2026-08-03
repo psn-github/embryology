@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0029/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Embryo Transfer</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic, Group Director Embryology</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>26/02/2020</p></td><td colspan="2"><p>ET witnessing checks expanded</p></td></tr><tr><td><p>3.0</p></td><td><p>11/05/2021</p></td><td colspan="2"><p>Mixed transfer section expanded. Confirmation of number for ET must be documented in writing at point of ET.</p></td></tr><tr><td><p>4.0</p><p>5.0</p></td><td><p>30/07/2021</p><p>02/10/2021</p></td><td colspan="2"><p>Requirement to complete Oxford Medical Kuwait Unified Embryo Transfer Consent form prior to ET added. Witnessing procedure for ET segregated into separate steps for easier interpretation. Additional note added regarding potential for an oil covered embryo transfer dish to be used in certain circumstances. Reference for nurse performing embryo transfer added.</p><p>Witnessing updated to include the use of three identifiers at each step. Document reference number for the TFP Unified Embryo Transfer Consent added</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -191,8 +186,6 @@ If the patient’s partner does not attend for the embryo transfer appointment a
 Mixed IVF:ICSI embryo transfers can only take place in up to 2% of a clinics embryo transfers.
 
 Mixed transfers consisting of embryos created with frozen eggs and embryos created with fresh eggs can only take place in up to 2% of a clinics embryo transfers.
-
-
 
 It is prohibited to perform transfer of biopsied and non-biopsied embryos in the same cycle.
 

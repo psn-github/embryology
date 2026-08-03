@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0026/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Oxford Medical Kuwait Time Lapse Imaging for ES/ES+/ES8</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Anthony Price, UK Embryology Lead</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>ALL LABORATORY STAFF</strong></p></td></tr><tr><td colspan="4"><p><strong>AMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>12/05/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>25/10/2021</p></td><td colspan="2"><p><strong>Title:</strong> Updated to include ES8</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Registering new treatment cycles:</strong> section removed as superseded by the IDEAS – EmbryoViewer interface.</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Logging fresh embryo transfers:</strong> Requirement for logging date of embryo transfer removed.</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Logging frozen embryo transfers</strong>: Requirement for logging date of embryo transfer section removed - superseded by the IDEAS / EmbryoViewer interface.</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Logging Treatment Outcome (Optional)</strong>: section removed - superseded by the IDEAS / EmbryoViewer interface.</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>Table 3 - Atypical cell division event summary:</strong> Failed cleavage definition updated to reverse cleavage type 2; reverse cleavage definition updated to reverse cleavage type 1</p></td></tr><tr><td></td><td></td><td colspan="2"><p><strong>IDEAS – EmbryoViewer Interface:</strong> Section added</p></td></tr><tr><td><p>3.0</p></td><td><p>20/06/2022</p></td><td colspan="2"><p><strong>Accessing iDAScore Data:</strong> Section added</p><p>Blastocysts that have shown a pattern of reverse cleavage or direct cleavage are suitable for freezing/biopsy should they reach a grade A-C.</p></td></tr></tbody></table>
 
 ## Purpose
 

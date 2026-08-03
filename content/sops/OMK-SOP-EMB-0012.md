@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0012/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Sperm Freezing/Thawing for Patient’s Own Treatment</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>14/02/2020</p></td><td colspan="2"><p>Witnessing &amp; Sample production instructions amended</p></td></tr><tr><td><p>3.0</p><p>4.0</p><p>5.0</p><p>6.0</p></td><td><p>25/05/2021</p><p>01/10/2021</p><p>02/02/2022</p><p>24/02/2023</p></td><td colspan="2"><p>Witnessing checks expanded</p><p>Witnessing checks edited to include the use of 3 identifiers</p><p>Updated with reference to WHO 2021 edition including new reference values. Samples produced off site must be delivered to clinic within 50 minutes of production. Requirement to clean men’s room prior to use added. If intended Tx is ICSI and &lt;3 oocytes collected, denude oocyte(s) prior to thawing sperm to ensure something suitable for injection.</p><p>Option for patients who have a partner to complete the MT for consent to sperm storage.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -142,7 +137,6 @@ Kuwait MoH MT Consent (if patient **has a partner)**
 
 1.  Oxford Medical Kuwait Freezing and Storage of Gametes Consent (TFP1-CON-CLN-0009)
 
-
 Check the required screens have been completed and what the results are. The storage system must clearly separate samples that are unscreened/quarantined, negative and positive for the infections listed below.
 
 The following viral screens must have been completed within 3 months of freezing:
@@ -240,7 +234,6 @@ Assessments of anti-sperm antibodies, pH, morphology, viability and round cells 
 The initial parameters of the sample are used to determine number of straws to be frozen and suitability for freezing.
 
 Post-thaw, assess the motility of the sample.
-
 
 #### 5.10.1 Assessment of Sample Volume (Reference Value ≥1.4ml)
 

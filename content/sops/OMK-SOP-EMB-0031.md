@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0031/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Blastocyst Biopsy Training</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p>Lyndsey Zujovic (Group Director of Embryology)</p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (ALL)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>ALL LABORATORY STAFF</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>11/11/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>02/02/2022</p></td><td colspan="2"><p>Re-branded. Dish set up brought in-line with biopsy SOP.</p><p>7. Dish set up only required once if ICSI trained.</p><p>14. Removal of requirement to hatch or collapse blast before biopsy. Removal of expulsion of media inside PVS to facilitate collapse. Added if laser malfunction; biopsy may be performed by practitioner experienced in hatching blastocysts if trophectoderm is hemorrhaging at a distance from the ICM.</p><p>18. Position of blast vs biopsy not restricted to top and bottom (respectively). PBS changed to buffer to incorporate CooperGenomics “buffer” solution. Minimum number of tubed samples to send for testing reduced from 25 to 20. Criteria for amplification and contamination remains.</p><p>19. Trainees must successfully biopsy a minimum of 30 (reduced from 50) blastocysts with recorded survival after at last 4 hours (reduced from overnight). Criteria for survival remains at 95%. Removed need for minimum three cases to be split, left to supervisor discretion.</p><p>20. Removed miscarriage and birth rate KPIs. Removed that all biopsies should be filmed.</p><p>Removed from Training Table; Traceability/witnessing reduced from 15 to 10. Ability to count trophoctoderm cells reduced from 20 to 10. Cell biopsy at 3 o’clock, cell biopsy at 12 o’clock, flicking biopsy as laser and flick biopsy technique preferable regardless of positioning. Biopsy of early blastocysts removed as not recommended.</p><p>Hatching competence marked as optional.</p><p>Number of biopsies at different stage of blast development updated.</p></td></tr><tr><td><p>3.0</p><p>4.0</p></td><td><p>25/08/2022</p><p>30/11/2022</p></td><td colspan="2"><p>Requirement for trainee to have awareness of the mandatory requirements in relation to embryo testing/sex selection as set out by the Kuwait MoH added</p><p>Requirement for gametes providers to be given information about the type of training and sign Oxford Medical Kuwait and Kuwait MoH consents added. Consents to be checked prior to use. Requirement to ensure storage does not exceed the time specified in the patients consents added. Training record removed and a new standalone document created.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -113,7 +108,7 @@ The trainee must demonstrate competency in using the equipment necessary for bio
 
 ## Blastocyst Material for Training
 
-Blastocysts not suitable for treatment may be used for biopsy training only when permission is given by the gamete providers via the appropriate Kuwait MoH consent forms. In addition, specific details of the type of training must also be given to the gamete providers using Oxford Medical Kuwait Unified Use of Embryos and Gametes in Training (TFP1-CON-CLN-0011) consent form. Both the TFP and Kuwait MoH consents must be in place and checked prior to use of embryos in training.
+Blastocysts not suitable for treatment may be used for biopsy training only when permission is given by the gamete providers via the appropriate Kuwait MoH consent forms. In addition, specific details of the type of training must also be given to the gamete providers using Oxford Medical Kuwait Unified Use of Embryos and Gametes in Training (TFP1-CON-CLN-0011) consent form. Both the Oxford Medical Kuwait and Kuwait MoH consents must be in place and checked prior to use of embryos in training.
 
 The gamete providers consent to embryo storage must not be exceeded and as such the consent expiry date must remain within the patient management system and be managed as part of the ‘bring forward system’/or equivalent.
 

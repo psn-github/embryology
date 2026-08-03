@@ -21,16 +21,11 @@ changeHistory:
   - version: "1.0"
     date: 2026-07-01
     author: ""
-    summary: "Initial issue; adapted from TFP SOP for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
+    summary: "Initial issue; adapted for Oxford Medical Kuwait (single-site, MoH, autologous-only)."
 ---
 
-![](assets/figures/OMK-SOP-EMB-0011/fig-1.png)
 
 <table><tbody><tr><td><h1>STANDARD OPERATING PROCEDURE</h1></td></tr><tr><td><h2>Sperm Preparation for Treatment</h2></td></tr></tbody></table>
-
-<table><tbody><tr><td><p><strong>PRINTED COPIES OF THIS DOCUMENT ARE UNCONTROLLED</strong></p><p><strong>PLEASE REFER TO the controlled register FOR THE LATEST VERSION</strong></p></td></tr></tbody></table>
-
-<table><tbody><tr><td colspan="4"><p><strong>DOCUMENT DETAILS</strong></p></td></tr><tr><td colspan="3"><p><strong>AUTHOR (NAME &amp; JOB ROLE):</strong></p></td><td><p><strong>Lyndsey Zujovic, Group Director of Embryology</strong></p></td></tr><tr><td colspan="3"><p><strong>DOCUMENT APPLICABLE TO:</strong></p></td><td><p><strong>Oxford Medical Kuwait (UK ONLY)</strong></p></td></tr><tr><td colspan="3"><p><strong>DISTRIBUTION GROUP:</strong></p></td><td><p><strong>All Laboratory Staff</strong></p></td></tr><tr><td colspan="4"><p><strong>AMMENDMENT HISTORY</strong></p></td></tr><tr><td><p><strong>REVISION</strong></p></td><td><p><strong>ACTIVE DATE</strong></p></td><td colspan="2"><p><strong>CHANGES MADE</strong></p></td></tr><tr><td><p>1.0</p></td><td><p>28/01/2020</p></td><td colspan="2"><p>Initial release.</p></td></tr><tr><td><p>2.0</p></td><td><p>13/02/2020</p></td><td colspan="2"><p>Insemination calculations edited. Volumes of GIVF needed for preparation clarified.</p></td></tr><tr><td><p>3.0</p><p>4.0</p><p>5.0</p><p>6.0</p></td><td><p>20/05/2021</p><p>01/10/2021</p><p>02/02/2022</p><p>06/04/2022</p></td><td colspan="2"><p>Sample Production &amp; Witnessing checks expanded</p><p>Witnessing updated, requirement for 3 identifiers</p><p>Men’s room to be cleaned prior to use. Stock suspension to be equilibrated for 30-120 minutes prior to insemination. Updated with WHO 2021 6<sup>th</sup> Edition reference values. Option of using 20ml Potassium Citrate mixture to equilibrate pH prior to retrograde analysis.</p><p>Checks that need to take place prior to thawing/using  sperm listed in a more specific manner. Each patient must complete a Oxford Medical Kuwait  form (TFP1-CON-AND-0005) prior to each cycle in which  sperm is used. Steps listed must be second witnessed. Additional KPI added for all patients using  sperm to have completed a TFP  form (TFP1-CON-AND-0005) and all office checks to have been completed.</p></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td colspan="2"></td></tr></tbody></table>
 
 ## Purpose
 
@@ -130,15 +125,11 @@ Samples that are incorrectly labelled, unlabelled or whereby there is doubt as t
 
 Inside the flowhood, alongside a second witness check the full name, D.O.B. and clinic number on the sample pot, test tubes for preparation and the laboratory notes match that on the RI Witness system. The sample pot and all tubes containing sperm must be tagged and labelled with the patient’s full name, D.O.B. and clinic number. In addition, the tubes containing sperm must also be labelled with the partner’s full name, D.O.B. and clinic number.
 
-
-
 -   Noting the next treatment cycle ID (Tx) number
 
 1.  Alongside a second witness, the laboratory team must then check the following during laboratory notes preparation/thawing of the sperm:
 
 -   Record all checks above in the laboratory notes or within a progress note
-
-
 
 Any sperm that remains following thawing, must be returned to the cryobank alongside a second witness.
 
@@ -294,9 +285,7 @@ Assess the concentration and motility of the final stock solution as described a
 
 Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
-
 **_1st Wash – 2nd Wash - Stock_**
-
 
 Transfer the semen sample to the Wash/Stock tube containing 2mls of GIVF+. Mix thoroughly. Centrifuge at 0.3 r.c.f. for 5 minutes (1st wash).
 
@@ -344,7 +333,6 @@ Assess the concentration and motility of the final stock solution as described a
 
 Clear the flowhood of any used consumables. Use Oosafe spray ± sterile water to clean the flowhood.
 
-
 Before beginning the thawing process perform local checks to ensure that the thaw is being conducted on the correct date, the correct sample is being thawed and oocytes have been successfully retrieved for IVF/ICSI patients.
 
 Determine the number of straws/ampoules to thaw. If more than one ejaculate has been frozen, identify the correct ejaculate to be thawed.
@@ -354,9 +342,6 @@ Sperm thawing requires a second witness to be used.
 **For patient samples**, alongside a second witness, check the patient’s full name, clinic number, D.O.B and freeze date on the Visi/Cassette, ampoules/straws matches that in the laboratory notes.
 
 In addition, again alongside a second witness, check the test tubes for preparation are labelled with the patient and partner’s (if applicable) full name, clinic number and D.O.B. and this information matches that in the laboratory notes and RI Witness.
-
-
-
 
 Allow to warm to room temperature.
 
@@ -439,7 +424,6 @@ Insemination Volume: 75/10.92 = 6.87µl
 ## Standards/Key Performance/Quality Indicators
 
 % Sperm Motility (A+B’s) Post Preparation IVF/IUI ≥90%
-
 
 ## Monitoring
 

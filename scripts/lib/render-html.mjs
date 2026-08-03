@@ -63,7 +63,8 @@ function metadataTable(d) {
     ["Reviewed by", d.reviewedBy || "—"],
     ["Approved by", d.approvedBy],
     ["Supersedes", d.supersedes || "—"],
-    ["TFP source", d.sourceDoc || "—"],
+    // Source provenance is retained in front-matter (sourceDoc) for the audit
+    // trail, but is not printed on the controlled-document face.
     ["Witness system", d.witnessSystem || "—"],
     ["Guideline references", Array.isArray(d.guidelineRefs) ? d.guidelineRefs.join("; ") : (d.guidelineRefs || "—")],
     ["Related documents", Array.isArray(d.relatedDocuments) ? d.relatedDocuments.join(", ") : (d.relatedDocuments || "—")],
