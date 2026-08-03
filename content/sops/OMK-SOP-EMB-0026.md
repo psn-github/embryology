@@ -306,4 +306,4 @@ Notes:
 
 ## Monitoring
 
-A Oxford Medical Kuwait Laboratory Manager is responsible for auditing this SOP at least once annually. All clinics must participate in the TFP EQA Scheme for embryo grading.
+An Oxford Medical Kuwait Laboratory Manager is responsible for auditing this SOP at least once annually. The laboratory must participate in an external quality assessment (EQA) scheme for embryo grading.
