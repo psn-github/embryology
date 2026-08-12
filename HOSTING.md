@@ -30,7 +30,17 @@ not: a known URL such as
 downloadable without logging in**. The client-side redirect cannot stop it.
 
 **Add a server-side gate on the `/lab-docs/` location before the first deploy.**
-Two options (pick one):
+Two options (pick one).
+
+> **Use `location ^~ /lab-docs/`, not a plain `location /lab-docs/`.** The
+> clinical-tools nginx config contains a **regex** `location` block for static
+> assets (`.html`, `.css`, `.png`, …), and in nginx a regex location takes
+> priority over a plain prefix location — so plain `location /lab-docs/ { … }`
+> is **bypassed for those extensions**, serving the HTML/CSS/asset files with no
+> auth (the `.pdf`/`.csv` still get gated, which makes the hole easy to miss).
+> The `^~` modifier makes the prefix block win over any regex location, so
+> **every** file under `/lab-docs/` is gated. This was hit in practice — verify
+> an HTML path, not just a PDF (see below).
 
 ### Option A — HTTP Basic auth on the route (recommended, self-contained)
 
@@ -39,11 +49,13 @@ On the VPS (edit the live nginx config directly — never rsync the repo's
 
 ```nginx
 # Controlled embryology documentation — server-side gated.
-location /lab-docs/ {
+# ^~ so the gate also covers .html/.css/.png (regex locations otherwise win).
+location ^~ /lab-docs/ {
     auth_basic           "Oxford Medical — Embryology Lab Documentation";
     auth_basic_user_file /etc/nginx/lab-docs.htpasswd;
     autoindex            off;
-    try_files $uri $uri/ =404;
+    # serve index.html for the bare /lab-docs/ dir (autoindex off else 403s it)
+    try_files $uri $uri/index.html =404;
 }
 ```
 
@@ -59,11 +71,11 @@ nginx -t && systemctl reload nginx
 ### Option B — IP allowlist on the route (clinic network only)
 
 ```nginx
-location /lab-docs/ {
+location ^~ /lab-docs/ {
     allow 1.2.3.4;        # clinic public IP
     allow 5.6.7.8;        # remote practitioner(s)
     deny  all;
-    try_files $uri $uri/ =404;
+    try_files $uri $uri/index.html =404;
 }
 ```
 
@@ -73,13 +85,18 @@ the clinic network. They can be combined for defence in depth.)
 ## Verify the gate (do this BEFORE telling anyone the URL)
 
 ```bash
-# Must be 401 (Option A) or 403 (Option B) — NOT 200:
-curl -so /dev/null -w '%{http_code}\n' https://oxmedkw.app/lab-docs/pdf/OMK-FORM-EMB-0053.pdf
-# Same for the index and an HTML doc:
-curl -so /dev/null -w '%{http_code}\n' https://oxmedkw.app/lab-docs/
+# ALL must be 401 (Option A) or 403 (Option B) — NOT 200.
+# Check EVERY file type — a regex location can gate the .pdf but leak the .html:
+for p in / index.css html/OMK-SOP-EMB-0002.html pdf/OMK-FORM-EMB-0053.pdf \
+         register.csv assets/oxmed-01-horizontal.png; do
+  printf '%-44s %s\n' "$p" \
+    "$(curl -so /dev/null -w '%{http_code}' "https://oxmedkw.app/lab-docs/$p")"
+done
 ```
 
-If any returns `200` unauthenticated, **stop** — the documents are exposed.
+If **any** returns `200` unauthenticated, **stop** — the documents are exposed
+(this is exactly the `^~` gotcha above; the `.html`/`.css`/`.png` paths are the
+ones that leak while the `.pdf` looks fine).
 
 ## Publishing
 
